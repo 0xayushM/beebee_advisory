@@ -20,9 +20,10 @@ export default function Home() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}>
       <Navbar />
-      <Hero />
+      <div className="">
+        <Hero />
       <TrustBar />
-      <SocialProof />
+      {/* <SocialProof /> */}
       <TrustedBy />
       <ServicesOverview />
       <BeforeAfter />
@@ -36,6 +37,7 @@ export default function Home() {
       <FAQ />
       <FinalCTA />
       <Footer />
+      </div>
     </div>
   );
 }

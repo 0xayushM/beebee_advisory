@@ -1,3 +1,7 @@
+'use client';
+
+import CountUp from './CountUp';
+
 export function FinalCTA() {
   return (
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24 text-white" style={{ backgroundColor: '#0a0a0a' }}>
@@ -6,10 +10,10 @@ export function FinalCTA() {
           ⏰ LIMITED SPOTS AVAILABLE THIS MONTH
         </div>
         <h2 className="text-4xl md:text-5xl lg:text-6xl mb-6" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
-          GET YOUR FIRST MONTH-END CLOSE IN <span style={{ color: 'var(--primary-gold)' }}>5 DAYS</span>
+          GET YOUR FIRST MONTH-END CLOSE IN <span style={{ color: 'var(--primary-gold)' }}><CountUp from={0} to={5} duration={2} className="inline" /> DAYS</span>
         </h2>
         <p className="text-lg mb-8 opacity-90" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>
-          Join 50+ high-growth companies who've eliminated financial chaos. Book a free consultation to see if we're a fit—no pressure, no commitment.
+          Join <CountUp from={0} to={50} duration={2} className="inline" />+ high-growth companies who've eliminated financial chaos. Book a free consultation to see if we're a fit—no pressure, no commitment.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
           <a href="/contact" className="px-10 py-4 text-black hover:opacity-90 transition-opacity font-bold text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', backgroundColor: 'var(--primary-gold)' }}>

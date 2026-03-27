@@ -1,3 +1,7 @@
+'use client';
+
+import CountUp from './CountUp';
+
 export function WorldMap() {
   return (
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24">
@@ -27,7 +31,7 @@ export function WorldMap() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-6xl md:text-7xl font-bold mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-                    50+
+                    <CountUp from={0} to={50} duration={2} className="inline" />+
                   </div>
                   <p className="text-xl" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>
                     Countries Served
@@ -46,7 +50,7 @@ export function WorldMap() {
               United States, Canada, Brazil
             </p>
             <div className="text-3xl font-bold" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-              150+
+              <CountUp from={0} to={150} duration={2} separator="," className="inline" />+
             </div>
             <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
               Active Clients
@@ -60,7 +64,7 @@ export function WorldMap() {
               UK, Germany, Switzerland
             </p>
             <div className="text-3xl font-bold" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-              80+
+              <CountUp from={0} to={80} duration={2} className="inline" />+
             </div>
             <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
               Active Clients
@@ -74,7 +78,7 @@ export function WorldMap() {
               Singapore, Australia, Japan
             </p>
             <div className="text-3xl font-bold" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-              60+
+              <CountUp from={0} to={60} duration={2} className="inline" />+
             </div>
             <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
               Active Clients

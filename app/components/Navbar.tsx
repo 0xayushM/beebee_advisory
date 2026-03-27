@@ -8,8 +8,8 @@ export function Navbar() {
 
   return (
     <>
-      <header className="px-6 py-6 md:px-12 lg:px-20">
-        <nav className="flex items-center justify-between">
+      <header className="fixed top-0 left-0 right-0 z-50 px-6 py-6 md:px-12 lg:px-20 backdrop-blur-md" style={{ backgroundColor: 'rgba(var(--background-rgb), 0.8)', borderBottom: '1px solid var(--border-color)' }}>
+        <nav className="flex items-center justify-between max-w-screen-2xl mx-auto">
           <div className="text-base font-bold tracking-wide" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', letterSpacing: '0.1em' }}>
             <a href="/">BEEBEE ADVISORY</a>
           </div>

@@ -1,3 +1,7 @@
+'use client';
+
+import CountUp from './CountUp';
+
 export function SocialProof() {
   return (
     <section className="px-6 py-16 md:px-12 lg:px-20">
@@ -23,7 +27,7 @@ export function SocialProof() {
               </div>
             </div>
             <p className="text-sm mb-4 leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
-              "Reduced our close time from 21 days to 5 days. The team is incredibly responsive and proactive."
+              "Reduced our close time from <CountUp from={0} to={21} duration={2} className="inline" /> days to <CountUp from={0} to={5} duration={2} className="inline" /> days. The team is incredibly responsive and proactive."
             </p>
             <div style={{ color: 'var(--primary-gold)' }}>★★★★★</div>
           </div>

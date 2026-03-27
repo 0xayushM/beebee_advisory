@@ -40,16 +40,16 @@ export function TrustedBy() {
   return (
     <section className="px-6 py-12 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--light-gray)' }}>
       <div className="max-w-7xl mx-auto">
-        <p className="text-xs uppercase tracking-wider mb-8 text-center" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)', letterSpacing: '0.1em' }}>
-          TRUSTED BY INNOVATIVE LEADERS ACROSS THE INDUSTRY
-        </p>
+        <h2 className="text-3xl md:text-4xl mb-4 md:mb-16 text-center" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            TRUSTED BY <span className="text-[var(--primary-gold)]">INNOVATIVE LEADERS</span> ACROSS THE INDUSTRY
+        </h2>
         <div className="">
           <LogoLoop
             logos={partnerLogos}
             speed={50}
             direction="left"
             logoHeight={40}
-            gap={60}
+            gap={100}
             pauseOnHover={true}
             scaleOnHover={true}
             fadeOut={true}
