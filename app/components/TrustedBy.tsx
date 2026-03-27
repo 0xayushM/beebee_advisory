@@ -38,16 +38,30 @@ const partnerLogos = [
 
 export function TrustedBy() {
   return (
-    <section className="px-6 py-12 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--light-gray)' }}>
+    <section className="px-6 py-12 md:py-24 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--light-gray)' }}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl mb-4 md:mb-16 text-center" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-16 lg:mb-24 text-center" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
             TRUSTED BY <span className="text-[var(--primary-gold)]">INNOVATIVE LEADERS</span> ACROSS THE INDUSTRY
         </h2>
-        <div className="">
+        <div className="mb-16">
           <LogoLoop
             logos={partnerLogos}
             speed={50}
             direction="left"
+            logoHeight={40}
+            gap={100}
+            pauseOnHover={true}
+            scaleOnHover={true}
+            fadeOut={true}
+            fadeOutColor="var(--background)"
+            ariaLabel="Partner companies"
+          />
+        </div>
+        <div className="">
+          <LogoLoop
+            logos={partnerLogos}
+            speed={50}
+            direction="right"
             logoHeight={40}
             gap={100}
             pauseOnHover={true}

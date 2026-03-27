@@ -1,53 +1,74 @@
 'use client';
 
-import CountUp from './CountUp';
+import { StatCard } from './StatCard';
 
 export function TrustBar() {
   return (
-    <section className="px-6 py-8 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--card-bg)', borderTop: '1px solid var(--border-color)', borderBottom: '1px solid var(--border-color)' }}>
+    <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24" style={{ backgroundColor: 'var(--card-bg)' }}>
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-              $<CountUp from={0} to={50} duration={2} className="inline" />M+
-            </div>
-            <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
-              Capital Raised by Clients
-            </p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <StatCard
+            value="$50M+"
+            numericValue={50}
+            prefix="$"
+            suffix="M+"
+            description="Capital Raised by Clients"
+            icon={
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/>
+                <path d="M12 18V6"/>
+              </svg>
+            }
+            variant="primary"
+            delay={0}
+          />
           
-          <div className="hidden md:block w-px h-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
+          <StatCard
+            value="98%"
+            numericValue={98}
+            suffix="%"
+            description="Client Retention Rate"
+            icon={
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+            }
+            variant="secondary"
+            delay={0.2}
+          />
           
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-              <CountUp from={0} to={98} duration={2} className="inline" />%
-            </div>
-            <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
-              Client Retention Rate
-            </p>
-          </div>
+          <StatCard
+            value="<5 Days"
+            numericValue={5}
+            prefix="<"
+            suffix=" Days"
+            description="Month-End Close"
+            icon={
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            }
+            variant="secondary"
+            delay={0.4}
+          />
           
-          <div className="hidden md:block w-px h-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
-          
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-              <CountUp from={0} to={5} duration={2} className="inline" /> DAYS
-            </div>
-            <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
-              Month-End Close
-            </p>
-          </div>
-          
-          <div className="hidden md:block w-px h-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
-          
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-              &lt;<CountUp from={0} to={4} duration={2} className="inline" /> HRS
-            </div>
-            <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
-              Response Time
-            </p>
-          </div>
+          <StatCard
+            value="<4 Hrs"
+            numericValue={4}
+            prefix="<"
+            suffix=" Hrs"
+            description="Response Time"
+            icon={
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            }
+            variant="secondary"
+            delay={0.6}
+          />
         </div>
       </div>
     </section>
