@@ -12,24 +12,23 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>COMPANY</h4>
             <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
-              <li><a href="#" className="hover:opacity-70">About Us</a></li>
-              <li><a href="#" className="hover:opacity-70">Careers</a></li>
-              <li><a href="#" className="hover:opacity-70">Press</a></li>
+              <li><a href="/about" className="hover:opacity-70">About</a></li>
+              <li><a href="/approach" className="hover:opacity-70">Approach</a></li>
+              <li><a href="/insights" className="hover:opacity-70">Insights</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>SERVICES</h4>
             <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
-              <li><a href="#" className="hover:opacity-70">Financial Advisory</a></li>
-              <li><a href="#" className="hover:opacity-70">Compliance</a></li>
-              <li><a href="#" className="hover:opacity-70">Strategic Planning</a></li>
+              <li><a href="/services" className="hover:opacity-70">Services</a></li>
+              <li><a href="/pricing" className="hover:opacity-70">Pricing</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>CONTACT</h4>
             <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
-              <li>info@beebeeadvisory.com</li>
-              <li>+1 (555) 123-4567</li>
+              <li><a href="/contact" className="hover:opacity-70">Contact Us</a></li>
+              <li><a href="mailto:info@beebeeadvisory.com" className="hover:opacity-70">info@beebeeadvisory.com</a></li>
             </ul>
           </div>
         </div>
