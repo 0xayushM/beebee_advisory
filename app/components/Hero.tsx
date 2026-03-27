@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import CountUp from './CountUp';
 
 export function Hero() {
@@ -51,20 +52,8 @@ export function Hero() {
             </div>
           </div> */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <a 
-              href="/contact" 
-              className="px-8 py-4 text-sm font-bold hover:opacity-90 transition-opacity text-center" 
-              style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', backgroundColor: 'var(--primary-gold)', color: '#000', letterSpacing: '0.05em' }}
-            >
-              BOOK A FREE CALL →
-            </a>
-            <a 
-              href="/pricing" 
-              className="px-8 py-4 text-sm font-bold border hover:bg-opacity-10 transition-colors text-center" 
-              style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', borderColor: 'var(--border-color)', letterSpacing: '0.05em' }}
-            >
-              SEE PRICING
-            </a>
+            <PrimaryButton href="/contact" text="BOOK A FREE CALL →" />
+            <SecondaryButton href="/pricing" text="SEE PRICING" />
           </div>
           <p className="text-xs mt-4" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-muted)' }}>
             ✓ No contracts • Cancel anytime • Setup in 5 days
@@ -72,5 +61,82 @@ export function Hero() {
         </div>
       </div>
     </section>
+  );
+}
+
+function PrimaryButton({ href, text }: { href: string; text: string }) {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <a 
+      href={href}
+      className="relative inline-block px-10 py-4 text-sm font-medium rounded-lg overflow-hidden"
+      style={{ 
+        fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif',
+        backgroundColor: 'var(--primary-gold)',
+        color: 'var(--text-primary)',
+        border: '1px solid var(--primary-gold)',
+      }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Slider fill effect */}
+      <span
+        className="absolute inset-0 rounded-lg transition-transform duration-500 ease-out"
+        style={{
+          backgroundColor: '#000',
+          transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
+          border: '1px solid var(--primary-gold)'
+        }}
+      />
+      
+      {/* Button text */}
+      <span 
+        className="relative z-10 transition-colors duration-300"
+        style={{
+          color: isHovered ? 'var(--primary-gold)' : '#000',
+        }}
+      >
+        {text}
+      </span>
+    </a>
+  );
+}
+
+function SecondaryButton({ href, text }: { href: string; text: string }) {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <a 
+      href={href}
+      className="relative inline-block px-10 py-4 text-sm font-medium rounded-lg overflow-hidden"
+      style={{ 
+        fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif',
+        backgroundColor: 'var(--card-bg)',
+        color: 'var(--text-primary)',
+        border: '1px solid var(--primary-gold)',
+      }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Slider fill effect */}
+      <span
+        className="absolute inset-0 transition-transform duration-500 ease-out"
+        style={{
+          backgroundColor: 'var(--primary-gold)',
+          transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
+        }}
+      />
+      
+      {/* Button text */}
+      <span 
+        className="relative z-10 transition-colors duration-300"
+        style={{
+          color: isHovered ? '#000' : 'var(--text-primary)',
+        }}
+      >
+        {text}
+      </span>
+    </a>
   );
 }
