@@ -25,18 +25,14 @@ export function Navbar() {
           
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <ThemeToggle />
-            <a href="/contact" className="px-5 py-2 text-xs border hover:bg-opacity-80 transition-colors" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', borderColor: 'var(--border-gray)', letterSpacing: '0.05em' }}>
-              CONTACT US
-            </a>
-            <a href="/contact" className="px-5 py-2 text-xs text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', backgroundColor: 'var(--primary-gold)', letterSpacing: '0.05em' }}>
-              SCHEDULE A CALL
-            </a>
+            {/* <ThemeToggle /> */}
+            <NavPrimaryButton href="/contact" text="SCHEDULE A CALL" />
+            <NavSecondaryButton href="/contact" text="CONTACT US" />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="w-10 h-10 flex flex-col items-center justify-center gap-1.5"
@@ -119,25 +115,89 @@ export function Navbar() {
           </div>
 
           <div className="flex flex-col gap-4 pt-8 border-t" style={{ borderColor: 'var(--border-gray)' }}>
-            <a 
-              href="/contact" 
-              onClick={() => setIsMenuOpen(false)}
-              className="w-full py-4 text-center text-sm border hover:bg-opacity-80 transition-colors" 
-              style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', borderColor: 'var(--border-gray)', letterSpacing: '0.05em' }}
-            >
-              CONTACT US
-            </a>
-            <a 
-              href="/contact" 
-              onClick={() => setIsMenuOpen(false)}
-              className="w-full py-4 text-center text-sm text-black hover:opacity-90 transition-opacity" 
-              style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', backgroundColor: 'var(--primary-gold)', letterSpacing: '0.05em' }}
-            >
-              SCHEDULE A CALL
-            </a>
+            <NavSecondaryButton href="/contact" text="CONTACT US" onClick={() => setIsMenuOpen(false)} fullWidth />
+            <NavPrimaryButton href="/contact" text="SCHEDULE A CALL" onClick={() => setIsMenuOpen(false)} fullWidth />
           </div>
         </div>
       </div>
     </>
+  );
+}
+
+function NavSecondaryButton({ href, text, onClick, fullWidth }: { href: string; text: string; onClick?: () => void; fullWidth?: boolean }) {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <a 
+      href={href}
+      onClick={onClick}
+      className={`relative inline-block px-5 py-2 text-xs text-center overflow-hidden ${fullWidth ? 'w-full py-4 text-sm' : ''}`}
+      style={{ 
+        fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif',
+        backgroundColor: 'transparent',
+        border: '2px solid var(--border-gray)',
+        letterSpacing: '0.05em',
+      }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Slider fill effect */}
+      <span
+        className="absolute inset-0 transition-transform duration-500 ease-out"
+        style={{
+          backgroundColor: 'var(--primary-gold)',
+          transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
+        }}
+      />
+      
+      {/* Button text */}
+      <span 
+        className="relative z-10 transition-colors duration-300"
+        style={{
+          color: isHovered ? '#000' : 'var(--text-primary)',
+        }}
+      >
+        {text}
+      </span>
+    </a>
+  );
+}
+
+function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; text: string; onClick?: () => void; fullWidth?: boolean }) {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <a 
+      href={href}
+      onClick={onClick}
+      className={`relative inline-block px-5 py-2 text-xs text-center overflow-hidden ${fullWidth ? 'w-full py-4 text-sm' : ''}`}
+      style={{ 
+        fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif',
+        backgroundColor: 'var(--primary-gold)',
+        color: '#000',
+        letterSpacing: '0.05em',
+      }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Slider fill effect */}
+      <span
+        className="absolute inset-0 transition-transform duration-500 ease-out"
+        style={{
+          backgroundColor: '#000',
+          transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
+        }}
+      />
+      
+      {/* Button text */}
+      <span 
+        className="relative z-10 transition-colors duration-300"
+        style={{
+          color: isHovered ? 'var(--primary-gold)' : '#000',
+        }}
+      >
+        {text}
+      </span>
+    </a>
   );
 }

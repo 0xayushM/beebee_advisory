@@ -125,3 +125,29 @@ body {
   padding: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+@keyframes fadeSlide {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeSlide {
+  animation: fadeSlide 0.5s forwards;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-cardIn {
+  animation: cardIn 0.5s forwards;
+}

@@ -3,6 +3,9 @@
 import { useState, useRef } from 'react';
 import { useInView } from 'motion/react';
 import CountUp from './CountUp';
+import dynamic from 'next/dynamic';
+
+const Grainient = dynamic(() => import('./Granient'), { ssr: false });
 
 interface StatCardProps {
   value: string;
@@ -37,10 +40,6 @@ export function StatCard({
       className="relative overflow-hidden rounded-3xl p-8 transition-all duration-300"
       style={{
         backgroundColor: isPrimary ? 'var(--card-bg-alt)' : 'var(--card-bg)',
-        backgroundImage: isPrimary
-          ? 'linear-gradient(rgba(201,169,97,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(201,169,97,0.05) 1px, transparent 1px)'
-          : 'none',
-        backgroundSize: isPrimary ? '30px 30px' : 'auto',
         minHeight: isPrimary ? '450px' : '350px',
         border: isPrimary ? '1px solid rgba(201,169,97,0.2)' : '1px solid var(--border-color)',
         opacity: isInView ? 1 : 0,
@@ -50,6 +49,22 @@ export function StatCard({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
+      {/* Grainient Background */}
+      <div className="absolute inset-0 opacity-50">
+        <Grainient
+          color1={isPrimary ? "#1a1a1a" : "#C9A961"}
+          color2={isPrimary ? "#1a1a1a" : "#B8941F"}
+          color3={isPrimary ? "#B8941F" : "#B8941F"}
+          timeSpeed={0.15}
+          warpStrength={0.5}
+          warpFrequency={3.0}
+          grainAmount={0.15}
+          contrast={1.2}
+          saturation={isPrimary ? 1.0 : 0.8}
+          zoom={1.2}
+        />
+      </div>
+
       {/* Circular fill effect on hover */}
       <div
         className="absolute rounded-full transition-all duration-700 ease-out"
@@ -61,11 +76,12 @@ export function StatCard({
           backgroundColor: 'var(--primary-gold)',
           transform: 'translate(0, 0)',
           opacity: isHovered ? 1 : 0,
+          zIndex: 1,
         }}
       />
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col">
+      <div className="relative z-20 h-full flex flex-col">
         {/* Icon */}
         <div
           className="mb-auto transition-colors duration-300"
@@ -118,10 +134,10 @@ export function StatCard({
             color: isPrimary
               ? isHovered
                 ? '#000000'
-                : 'var(--text-secondary)'
+                : 'var(--primary-gold)'
               : isHovered
               ? '#000000'
-              : 'var(--text-secondary)',
+              : 'var(--text-primary)',
             maxWidth: '280px',
           }}
         >
