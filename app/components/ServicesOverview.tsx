@@ -15,8 +15,8 @@ export function ServicesOverview() {
             </span>
           </div>
           <div className="flex items-end justify-between gap-6 flex-wrap">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl leading-none" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '800', letterSpacing: '0.03em' }}>
-              EXPERT FINANCE TEAM<br />FOR <span style={{ color: 'var(--primary-gold)' }}>HIGH-GROWTH</span> BUSINESSES
+            <h2 className="text-3xl md:text-4xl lg:text-5xl leading-none" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.03em' }}>
+              EXPERT FINANCE TEAM<br />FOR <span className='italic' style={{ color: 'var(--primary-gold)' }}>HIGH-GROWTH</span> BUSINESSES
             </h2>
             <p className="max-w-[340px] text-sm font-light opacity-40 leading-relaxed pb-1 helvetica-neue">
               We don't just handle your numbers — we architect the financial infrastructure your company needs to scale with confidence.

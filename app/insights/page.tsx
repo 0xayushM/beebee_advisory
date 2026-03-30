@@ -126,8 +126,7 @@ export default function InsightsPage() {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="flex-1 px-4 py-2 text-sm border border-gray-300 rounded"
-                  className="helvetica-neue"
+                  className="flex-1 px-4 py-2 text-sm border border-gray-300 rounded helvetica-neue"
                 />
                 <button className="px-4 py-2 text-sm text-white helvetica-neue">
                   JOIN
