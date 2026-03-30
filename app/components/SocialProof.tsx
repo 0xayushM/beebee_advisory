@@ -7,10 +7,10 @@ export function SocialProof() {
     <section className="px-6 py-16 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+          <h2 className="text-3xl md:text-4xl mb-4 dm-sans">
             TRUSTED BY FAST-GROWING COMPANIES
           </h2>
-          <p className="text-base" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+          <p className="text-base helvetica-neue">
             From seed-stage startups to Series B companies
           </p>
         </div>
@@ -22,11 +22,11 @@ export function SocialProof() {
                 🚀
               </div>
               <div>
-                <div className="font-bold" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>TechCorp</div>
-                <div className="text-xs" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>Series A SaaS</div>
+                <div className="font-bold helvetica-neue">TechCorp</div>
+                <div className="text-xs helvetica-neue">Series A SaaS</div>
               </div>
             </div>
-            <p className="text-sm mb-4 leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+            <p className="text-sm mb-4 leading-relaxed helvetica-neue">
               "Reduced our close time from <CountUp from={0} to={21} duration={2} className="inline" /> days to <CountUp from={0} to={5} duration={2} className="inline" /> days. The team is incredibly responsive and proactive."
             </p>
             <div style={{ color: 'var(--primary-gold)' }}>★★★★★</div>
@@ -38,11 +38,11 @@ export function SocialProof() {
                 💼
               </div>
               <div>
-                <div className="font-bold" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>GrowthLabs</div>
-                <div className="text-xs" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>E-commerce</div>
+                <div className="font-bold helvetica-neue">GrowthLabs</div>
+                <div className="text-xs helvetica-neue">E-commerce</div>
               </div>
             </div>
-            <p className="text-sm mb-4 leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+            <p className="text-sm mb-4 leading-relaxed helvetica-neue">
               "Finally have real-time visibility into our cash position. Made fundraising conversations so much easier."
             </p>
             <div style={{ color: 'var(--primary-gold)' }}>★★★★★</div>
@@ -54,11 +54,11 @@ export function SocialProof() {
                 📈
               </div>
               <div>
-                <div className="font-bold" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>DataFlow</div>
-                <div className="text-xs" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>AI/ML Platform</div>
+                <div className="font-bold helvetica-neue">DataFlow</div>
+                <div className="text-xs helvetica-neue">AI/ML Platform</div>
               </div>
             </div>
-            <p className="text-sm mb-4 leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+            <p className="text-sm mb-4 leading-relaxed helvetica-neue">
               "Best decision we made. Our CFO can finally focus on strategy instead of chasing down receipts."
             </p>
             <div style={{ color: 'var(--primary-gold)' }}>★★★★★</div>

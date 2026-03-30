@@ -44,10 +44,10 @@ export function FAQ() {
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mb-6" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+          <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
             FREQUENTLY ASKED QUESTIONS
           </h2>
-          <p className="text-base leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+          <p className="text-base leading-relaxed helvetica-neue">
             Everything you need to know about working with Beebee Advisory.
           </p>
         </div>
@@ -63,7 +63,7 @@ export function FAQ() {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left hover:opacity-80 transition-opacity"
               >
-                <span className="text-lg font-bold pr-4" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>
+                <span className="text-lg font-bold pr-4 helvetica-neue">
                   {faq.question}
                 </span>
                 <span 
@@ -85,7 +85,7 @@ export function FAQ() {
                 }}
               >
                 <div className="px-6 pb-5 pt-2">
-                  <p className="text-base leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+                  <p className="text-base leading-relaxed helvetica-neue">
                     {faq.answer}
                   </p>
                 </div>
@@ -95,7 +95,7 @@ export function FAQ() {
         </div>
 
         <div className="mt-12 text-center p-8 rounded-lg" style={{ backgroundColor: 'var(--light-gray)' }}>
-          <p className="text-base mb-4" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>
+          <p className="text-base mb-4 helvetica-neue">
             Still have questions?
           </p>
           <a 

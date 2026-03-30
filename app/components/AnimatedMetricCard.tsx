@@ -74,7 +74,7 @@ export function AnimatedMetricCard({
       <div 
         className="text-3xl md:text-4xl font-bold mb-2" 
         style={{ 
-          fontFamily: 'Anton, sans-serif', 
+          fontFamily: 'DM Sans, sans-serif', 
           fontWeight: '400', 
           color: color,
           opacity: isInView ? 1 : 0,

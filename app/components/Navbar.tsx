@@ -2,37 +2,47 @@
 
 import { useState } from 'react';
 import { ThemeToggle } from './ThemeToggle';
+import { useTheme } from './ThemeProvider';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { theme } = useTheme();
+  const logoSrc = theme === 'light' ? '/logo_light.png' : '/logo.png';
 
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-50 px-6 py-6 md:px-12 lg:px-20 backdrop-blur-md" style={{ backgroundColor: 'rgba(var(--background-rgb), 0.8)', borderBottom: '1px solid var(--border-color)' }}>
         <nav className="flex items-center justify-between max-w-screen-2xl mx-auto">
-          <div className="text-base font-bold tracking-wide" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', letterSpacing: '0.1em' }}>
-            <a href="/">BEEBEE ADVISORY</a>
+          <div>
+            <a href="/">
+              <img
+                src={logoSrc}
+                alt="Beebee Advisory"
+                className="block h-10 w-auto max-w-[220px] object-contain"
+                draggable={false}
+              />
+            </a>
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 text-xs" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', letterSpacing: '0.05em' }}>
-            <a href="/services" className="hover:opacity-70 transition-opacity">SERVICES</a>
-            <a href="/pricing" className="hover:opacity-70 transition-opacity">PRICING</a>
-            <a href="/approach" className="hover:opacity-70 transition-opacity">APPROACH</a>
-            <a href="/about" className="hover:opacity-70 transition-opacity">ABOUT</a>
-            <a href="/insights" className="hover:opacity-70 transition-opacity">INSIGHTS</a>
+          <div className="hidden md:flex items-center gap-8 text-xs dm-sans">
+            <a href="/services" className="hover:text-[var(--primary-gold)] transition-colors">SERVICES</a>
+            <a href="/pricing" className="hover:text-[var(--primary-gold)] transition-colors">PRICING</a>
+            <a href="/approach" className="hover:text-[var(--primary-gold)] transition-colors">APPROACH</a>
+            <a href="/about" className="hover:text-[var(--primary-gold)] transition-colors">ABOUT</a>
+            <a href="/insights" className="hover:text-[var(--primary-gold)] transition-colors">INSIGHTS</a>
           </div>
           
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            {/* <ThemeToggle /> */}
             <NavPrimaryButton href="/contact" text="SCHEDULE A CALL" />
             <NavSecondaryButton href="/contact" text="CONTACT US" />
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-4">
-            {/* <ThemeToggle /> */}
+            <ThemeToggle />
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="w-10 h-10 flex flex-col items-center justify-center gap-1.5"
@@ -70,8 +80,15 @@ export function Navbar() {
         style={{ backgroundColor: 'var(--background)' }}
       >
         <div className="px-6 py-6 flex items-center justify-between">
-          <div className="text-base font-bold tracking-wide" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', letterSpacing: '0.1em' }}>
-            <a href="/" onClick={() => setIsMenuOpen(false)}>BEEBEE ADVISORY</a>
+          <div>
+            <a href="/" onClick={() => setIsMenuOpen(false)}>
+              <img
+                src={logoSrc}
+                alt="Beebee Advisory"
+                className="block h-10 w-auto max-w-[220px] object-contain"
+                draggable={false}
+              />
+            </a>
           </div>
           <div className="flex items-center gap-4">
             <ThemeToggle />
@@ -106,7 +123,7 @@ export function Navbar() {
         </div>
 
         <div className="px-6 py-12 flex flex-col gap-8">
-          <div className="flex flex-col gap-6 text-2xl" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+          <div className="flex flex-col gap-6 text-xl dm-sans">
             <a href="/services" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">SERVICES</a>
             <a href="/pricing" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">PRICING</a>
             <a href="/approach" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">APPROACH</a>
@@ -131,12 +148,12 @@ function NavSecondaryButton({ href, text, onClick, fullWidth }: { href: string; 
     <a 
       href={href}
       onClick={onClick}
-      className={`relative inline-block px-5 py-2 text-xs text-center overflow-hidden ${fullWidth ? 'w-full py-4 text-sm' : ''}`}
-      style={{ 
-        fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif',
-        backgroundColor: 'transparent',
-        border: '2px solid var(--border-gray)',
-        letterSpacing: '0.05em',
+      className="relative inline-block px-4 py-2 text-xs font-medium rounded-lg overflow-hidden"
+      style={{
+        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        backgroundColor: 'var(--card-bg)',
+        color: 'var(--text-primary)',
+        border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -170,12 +187,12 @@ function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; te
     <a 
       href={href}
       onClick={onClick}
-      className={`relative inline-block px-5 py-2 text-xs text-center overflow-hidden ${fullWidth ? 'w-full py-4 text-sm' : ''}`}
-      style={{ 
-        fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif',
+      className="relative inline-block px-4 py-2 text-xs font-medium rounded-lg overflow-hidden"
+      style={{
+        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--primary-gold)',
-        color: '#000',
-        letterSpacing: '0.05em',
+        color: 'var(--text-primary)',
+        border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

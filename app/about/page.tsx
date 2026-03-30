@@ -8,13 +8,13 @@ export default function AboutPage() {
 
       <section className="px-6 py-12 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <p className="text-xs mb-4 uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--primary-gold)' }}>
+          <p className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
             THE ARCHITECTS OF YOUR SUCCESS
           </p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12 dm-sans">
             DEFINING<br />THE NEW<br />STANDARD.
           </h1>
-          <p className="text-base max-w-2xl leading-relaxed mb-8" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+          <p className="text-base max-w-2xl leading-relaxed mb-8 helvetica-neue">
             We're not just another financial advisory firm. We're the architects of a new paradigm in financial excellence. Our approach combines deep technical expertise with strategic vision to deliver transformative results.
           </p>
         </div>
@@ -31,7 +31,7 @@ export default function AboutPage() {
                 className="object-cover"
               />
               <div className="absolute bottom-6 left-6 text-white">
-                <p className="text-xs mb-1" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>EST. 2024</p>
+                <p className="text-xs mb-1 helvetica-neue">EST. 2024</p>
               </div>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden">
@@ -45,7 +45,7 @@ export default function AboutPage() {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-4xl md:text-5xl mb-8" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            <h2 className="text-4xl md:text-5xl mb-8 dm-sans">
               THE PRINCIPAL<br />ARCHITECTS
             </h2>
             
@@ -59,8 +59,8 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>GAURAV DALAL</h3>
-                    <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>CHIEF STRATEGIST</p>
+                    <h3 className="text-2xl mb-1 dm-sans">GAURAV DALAL</h3>
+                    <p className="text-xs uppercase tracking-wider helvetica-neue">CHIEF STRATEGIST</p>
                   </div>
                 </div>
               </div>
@@ -74,8 +74,8 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>HARISH DABAS</h3>
-                    <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>MANAGING PARTNER</p>
+                    <h3 className="text-2xl mb-1 dm-sans">HARISH DABAS</h3>
+                    <p className="text-xs uppercase tracking-wider helvetica-neue">MANAGING PARTNER</p>
                   </div>
                 </div>
               </div>
@@ -89,8 +89,8 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>NAVEEN DALAL</h3>
-                    <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>SENIOR ADVISOR</p>
+                    <h3 className="text-2xl mb-1 dm-sans">NAVEEN DALAL</h3>
+                    <p className="text-xs uppercase tracking-wider helvetica-neue">SENIOR ADVISOR</p>
                   </div>
                 </div>
               </div>
@@ -104,8 +104,8 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>SANDEEP NAINWAL</h3>
-                    <p className="text-xs uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>OPERATIONS DIRECTOR</p>
+                    <h3 className="text-2xl mb-1 dm-sans">SANDEEP NAINWAL</h3>
+                    <p className="text-xs uppercase tracking-wider helvetica-neue">OPERATIONS DIRECTOR</p>
                   </div>
                 </div>
               </div>
@@ -114,16 +114,16 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 gap-12 mb-20">
             <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--primary-gold)', color: '#000' }}>
-              <p className="text-xs mb-4 uppercase tracking-wider" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>OUR PHILOSOPHY</p>
-              <h3 className="text-3xl mb-6" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+              <p className="text-xs mb-4 uppercase tracking-wider helvetica-neue">OUR PHILOSOPHY</p>
+              <h3 className="text-3xl mb-6 dm-sans">
                 PRECISION IS THE<br />NEW STANDARD IN<br />WEALTH CREATION
               </h3>
             </div>
 
             <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--light-gray)' }}>
-              <h3 className="text-4xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>$4.2B+</h3>
-              <p className="text-sm uppercase tracking-wider mb-4" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>ASSETS UNDER<br />ADVISORY</p>
-              <div className="flex gap-4 text-xs" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>
+              <h3 className="text-4xl mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>$4.2B+</h3>
+              <p className="text-sm uppercase tracking-wider mb-4 helvetica-neue">ASSETS UNDER<br />ADVISORY</p>
+              <div className="flex gap-4 text-xs helvetica-neue">
                 <span className="px-3 py-1 border rounded" style={{ borderColor: 'var(--border-gray)' }}>FINANCE</span>
                 <span className="px-3 py-1 border rounded" style={{ borderColor: 'var(--border-gray)' }}>ADVISORY</span>
                 <span className="px-3 py-1 border rounded" style={{ borderColor: 'var(--border-gray)' }}>STRATEGY</span>
@@ -132,28 +132,28 @@ export default function AboutPage() {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-4xl md:text-5xl mb-12" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            <h2 className="text-4xl md:text-5xl mb-12 dm-sans">
               GLOBAL<br />FOOTPRINT
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <h4 className="text-xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>NORTH AMERICA</h4>
-                <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+                <h4 className="text-xl mb-4 dm-sans">NORTH AMERICA</h4>
+                <ul className="space-y-2 text-sm helvetica-neue">
                   <li>• San Francisco</li>
                   <li>• New York</li>
                   <li>• Toronto</li>
                 </ul>
               </div>
               <div>
-                <h4 className="text-xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>EUROPE</h4>
-                <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+                <h4 className="text-xl mb-4 dm-sans">EUROPE</h4>
+                <ul className="space-y-2 text-sm helvetica-neue">
                   <li>• London</li>
                   <li>• Amsterdam</li>
                 </ul>
               </div>
               <div>
-                <h4 className="text-xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>LOCATE US</h4>
-                <button className="px-6 py-2 text-xs border hover:bg-white/10 transition-colors" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', borderColor: 'var(--border-gray)' }}>
+                <h4 className="text-xl mb-4 dm-sans">LOCATE US</h4>
+                <button className="px-6 py-2 text-xs border hover:bg-white/10 transition-colors helvetica-neue">
                   VIEW MAP
                 </button>
               </div>
@@ -161,19 +161,19 @@ export default function AboutPage() {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-4xl md:text-5xl mb-8" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            <h2 className="text-4xl md:text-5xl mb-8 dm-sans">
               UNCOMPROMISING CLARITY
             </h2>
-            <p className="text-base max-w-3xl leading-relaxed mb-12" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+            <p className="text-base max-w-3xl leading-relaxed mb-12 helvetica-neue">
               In a world of complexity, we bring clarity. Our approach is built on transparency, precision, and a relentless commitment to your success. We don't just manage numbers—we architect your financial future.
             </p>
           </div>
 
           <div className="p-12 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
-            <h2 className="text-4xl md:text-5xl mb-6" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
               ELITE STEWARDSHIP
             </h2>
-            <p className="text-base max-w-2xl mx-auto leading-relaxed mb-8" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+            <p className="text-base max-w-2xl mx-auto leading-relaxed mb-8 helvetica-neue">
               Every client is not just a portfolio—they're a partnership. We bring decades of expertise, cutting-edge analytics, and a human touch to deliver results that transcend expectations.
             </p>
           </div>
@@ -184,26 +184,26 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>BEEBEE ADVISORY</h3>
+              <h3 className="text-xl mb-4 dm-sans">BEEBEE ADVISORY</h3>
             </div>
             <div>
-              <h4 className="text-sm mb-4 uppercase" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>LINKS</h4>
-              <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+              <h4 className="text-sm mb-4 uppercase helvetica-neue">LINKS</h4>
+              <ul className="space-y-2 text-sm helvetica-neue">
                 <li><a href="#" className="hover:opacity-70">Privacy Policy</a></li>
                 <li><a href="#" className="hover:opacity-70">Terms of Service</a></li>
                 <li><a href="#" className="hover:opacity-70">Cookie Policy</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-sm mb-4 uppercase" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>COMPANY</h4>
-              <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+              <h4 className="text-sm mb-4 uppercase helvetica-neue">COMPANY</h4>
+              <ul className="space-y-2 text-sm helvetica-neue">
                 <li><a href="#" className="hover:opacity-70">Careers</a></li>
                 <li><a href="#" className="hover:opacity-70">Contact</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-sm mb-4 uppercase" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif' }}>CONNECT</h4>
-              <ul className="space-y-2 text-sm" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-gray)' }}>
+              <h4 className="text-sm mb-4 uppercase helvetica-neue">CONNECT</h4>
+              <ul className="space-y-2 text-sm helvetica-neue">
                 <li><a href="#" className="hover:opacity-70">LinkedIn</a></li>
                 <li><a href="#" className="hover:opacity-70">Instagram</a></li>
               </ul>

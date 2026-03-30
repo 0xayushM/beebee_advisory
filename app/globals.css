@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Anton';
-  src: url('/fonts/anton.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 1000;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 1000;
+  font-style: italic;
   font-display: swap;
 }
 
@@ -32,6 +40,34 @@
   font-display: swap;
 }
 
+.helvetica-neue {
+  font-family: 'HelveticaNeue', sans-serif;
+}
+
+.helvetica-neue-bold {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: 700;
+}
+
+.helvetica-neue-light {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: 300;
+}
+
+.dm-sans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.dm-sans-bold {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+.dm-sans-light {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+}
+
 /* ============================================
    DARK MODE COLOR PALETTE
    ============================================ */
@@ -42,7 +78,7 @@
   --foreground: #ffffff;
   
   /* Card & Component backgrounds */
-  --card-bg: #1a1a1a;
+  --card-bg: #0a0a0a;
   --card-bg-alt: #000000;
   --section-bg: #0a0a0a;
   --section-bg-dark: #000000;
@@ -102,7 +138,7 @@
   --background: #0a0a0a;
   --background-rgb: 10, 10, 10;
   --foreground: #ffffff;
-  --card-bg: #1a1a1a;
+  --card-bg: #0a0a0a;
   --card-bg-alt: #000000;
   --section-bg: #0a0a0a;
   --section-bg-dark: #000000;

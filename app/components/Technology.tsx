@@ -51,10 +51,10 @@ export function Technology() {
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mb-6" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+          <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
             TECHNOLOGY & INTEGRATIONS
           </h2>
-          <p className="text-base max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+          <p className="text-base max-w-3xl mx-auto leading-relaxed helvetica-neue">
             We leverage industry-leading platforms to deliver seamless financial operations and real-time insights.
           </p>
         </div>
@@ -91,30 +91,30 @@ export function Technology() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
             <div className="text-4xl mb-4">🔄</div>
-            <h3 className="text-xl mb-3" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            <h3 className="text-xl mb-3 dm-sans">
               SEAMLESS INTEGRATION
             </h3>
-            <p className="text-sm leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+            <p className="text-sm leading-relaxed helvetica-neue">
               Connect with your existing tools and workflows for a unified financial ecosystem.
             </p>
           </div>
 
           <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
             <div className="text-4xl mb-4">🔒</div>
-            <h3 className="text-xl mb-3" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            <h3 className="text-xl mb-3 dm-sans">
               BANK-LEVEL SECURITY
             </h3>
-            <p className="text-sm leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+            <p className="text-sm leading-relaxed helvetica-neue">
               Enterprise-grade encryption and compliance with SOC 2, GDPR, and industry standards.
             </p>
           </div>
 
           <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
             <div className="text-4xl mb-4">⚡</div>
-            <h3 className="text-xl mb-3" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400' }}>
+            <h3 className="text-xl mb-3 dm-sans">
               REAL-TIME SYNC
             </h3>
-            <p className="text-sm leading-relaxed" style={{ fontFamily: 'HelveticaNeue, Helvetica, Arial, sans-serif', color: 'var(--text-secondary)' }}>
+            <p className="text-sm leading-relaxed helvetica-neue">
               Automated data synchronization across all platforms for up-to-the-minute accuracy.
             </p>
           </div>

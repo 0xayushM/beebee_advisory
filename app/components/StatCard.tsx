@@ -105,7 +105,7 @@ export function StatCard({
             fontSize: isPrimary ? '50px' : '50px',
             lineHeight: '1',
             fontWeight: '400',
-            fontFamily: 'Anton, sans-serif',
+            fontFamily: 'DM Sans, sans-serif',
             color: isPrimary
               ? isHovered
                 ? '#000000'
