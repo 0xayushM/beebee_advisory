@@ -5,7 +5,7 @@ import CountUp from './CountUp';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen px-6 py-20 flex flex-col justify-center overflow-hidden">
+    <section className="relative min-h-screen px-6 flex flex-col justify-center overflow-hidden pt-12">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video
@@ -30,16 +30,15 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <div className='flex flex-row gap-2'>
-            <div className="inline-block px-4 py-2 mb-6 rounded-xl border-1 border-[var(--primary-gold)] text-xs font-light helvetica-neue uppercase">
+      <div className="relative z-10 max-w-7xl mx-8 md:mx-24 lg:mx-48 flex flex-col min-h-screen h-full justify-center items-start">
+          <div className='flex flex-wrap gap-2'>
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-xl border border-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
               Accounting
             </div>
-            <div className="inline-block px-4 py-2 mb-6 rounded-xl border-1 border-[var(--primary-gold)] text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-xl border border-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
               Analytics
             </div>
-            <div className="inline-block px-4 py-2 mb-6 rounded-xl border-1 border-[var(--primary-gold)] text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-xl border border-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
               Tax filing
             </div>
           </div>
@@ -58,28 +57,19 @@ export function Hero() {
               <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>
                 50+
               </div>
-              <div className="text-[11px] font-light opacity-35 mt-1 tracking-[0.06em] uppercase helvetica-neue">
+              <div className="text-[11px] font-light opacity-50 mt-1 tracking-[0.06em] uppercase helvetica-neue">
                 Active clients
-              </div>
-            </div>
-            <div>
-              <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>
-                5
-              </div>
-              <div className="text-[11px] font-light opacity-35 mt-1 tracking-[0.06em] uppercase helvetica-neue">
-                Day onboarding
               </div>
             </div>
             <div>
               <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>
                 4.9★
               </div>
-              <div className="text-[11px] font-light opacity-35 mt-1 tracking-[0.06em] uppercase helvetica-neue">
+              <div className="text-[11px] font-light opacity-50 mt-1 tracking-[0.06em] uppercase helvetica-neue">
                 Client rating
               </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
   );
@@ -91,7 +81,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
   return (
     <a
       href={href}
-      className="relative inline-block px-10 py-4 text-sm font-medium rounded-lg overflow-hidden"
+      className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
         fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--primary-gold)',
@@ -130,7 +120,7 @@ function SecondaryButton({ href, text }: { href: string; text: string }) {
   return (
     <a
       href={href}
-      className="relative inline-block px-10 py-4 text-sm font-medium rounded-lg overflow-hidden"
+      className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
         fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'transparent',
