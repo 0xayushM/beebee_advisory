@@ -5,7 +5,7 @@ import CountUp from './CountUp';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen px-4 flex flex-col justify-center overflow-hidden pt-12">
+    <section className="relative h-[90vh] px-4 flex flex-col justify-center overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video

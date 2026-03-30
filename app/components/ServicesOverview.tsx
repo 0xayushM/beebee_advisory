@@ -4,13 +4,13 @@ import { useState } from 'react';
 
 export function ServicesOverview() {
   return (
-    <section className="min-h-screen px-4 py-20 md:px-12 lg:px-24 md:py-32" style={{ backgroundColor: 'var(--background)' }}>
+    <section className="min-h-screen px-8 py-20 md:px-12 lg:px-24 md:py-32" style={{ backgroundColor: 'var(--background)' }}>
       <div className="max-w-8xl mx-auto">
         {/* Header */}
         <div className="mb-12">
           <div className="flex items-center gap-2.5 mb-4">
             <div className="w-7 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
-            <span className="text-[11px] font-medium tracking-tighter uppercase" style={{ color: 'var(--primary-gold)' }}>
+            <span className="text-[11px] font-medium tracking-[0.22rem] uppercase" style={{ color: 'var(--primary-gold)' }}>
               WHAT WE DO
             </span>
           </div>

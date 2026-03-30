@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}>
       <Navbar />
-      <div className="">
+      <div className="pt-20 md:pt-24">
         <Hero />
       <TrustBar />
       {/* <SocialProof /> */}

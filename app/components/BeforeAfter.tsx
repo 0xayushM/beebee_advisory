@@ -111,12 +111,12 @@ export function BeforeAfter() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="flex flex-col items-center gap-7">
+        {/* <div className="flex flex-col items-center gap-7">
           <CTAButton />
           <div className="text-[11px] font-light tracking-[0.06em] opacity-25 helvetica-neue">
             No contracts &nbsp;·&nbsp; Cancel anytime &nbsp;·&nbsp; Response within 4 hours
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
@@ -170,31 +170,33 @@ function CTAButton() {
   return (
     <a
       href="/contact"
-      className="relative inline-flex items-center gap-3 px-10 py-4 rounded overflow-hidden"
+      className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
-        backgroundColor: 'var(--primary-gold)',
-        color: 'var(--background)',
-        fontFamily: 'DM Sans, sans-serif',
-        fontSize: '15px',
-        letterSpacing: '0.14em',
-        transition: 'transform 0.2s'
+        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        backgroundColor: 'transparent',
+        color: 'var(--primary-gold)',
+        border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
+      {/* Slider fill effect */}
       <span
-        className="absolute inset-0 transition-transform duration-300"
+        className="absolute inset-0 transition-transform duration-500 ease-out"
         style={{
-          background: 'rgba(255,255,255,0.12)',
-          transform: isHovered ? 'translateX(0)' : 'translateX(-100%)'
+          backgroundColor: 'var(--primary-gold)',
+          transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
         }}
       />
-      <span className="relative z-10">START YOUR TRANSFORMATION</span>
-      <span 
-        className="relative z-10 text-base transition-transform duration-200"
-        style={{ transform: isHovered ? 'translateX(4px)' : 'translateX(0)' }}
+
+      {/* Button text */}
+      <span
+        className="relative z-10 transition-colors duration-300"
+        style={{
+          color: isHovered ? '#000' : 'var(--primary-gold)',
+        }}
       >
-        →
+        CONTACT US
       </span>
     </a>
   );
