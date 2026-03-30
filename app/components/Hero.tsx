@@ -5,7 +5,7 @@ import CountUp from './CountUp';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen px-6 flex flex-col justify-center overflow-hidden pt-12">
+    <section className="relative min-h-screen px-4 flex flex-col justify-center overflow-hidden pt-12">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video
@@ -30,7 +30,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-8 md:mx-24 lg:mx-48 flex flex-col min-h-screen h-full justify-center items-start">
+      <div className="relative z-10 max-w-7xl mx-4 md:mx-24 lg:mx-48 flex flex-col min-h-screen h-full justify-center items-start">
           <div className='flex flex-wrap gap-2'>
             <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-xl border border-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
               Accounting

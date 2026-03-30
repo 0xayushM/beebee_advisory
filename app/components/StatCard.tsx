@@ -37,10 +37,10 @@ export function StatCard({
   return (
     <div
       ref={ref}
-      className="relative overflow-hidden rounded-3xl p-8 transition-all duration-300"
+      className="relative overflow-hidden rounded-xl p-4 sm:rounded-2xl sm:p-8 transition-all duration-300"
       style={{
         backgroundColor: isPrimary ? 'var(--card-bg-alt)' : 'var(--card-bg)',
-        minHeight: isPrimary ? '450px' : '350px',
+        minHeight: isPrimary ? '220px' : '240px',
         border: isPrimary ? '1px solid rgba(201,169,97,0.2)' : '1px solid var(--border-color)',
         opacity: isInView ? 1 : 0,
         transform: isInView ? 'translateY(0)' : 'translateY(60px)',
@@ -84,7 +84,7 @@ export function StatCard({
       <div className="relative z-20 h-full flex flex-col">
         {/* Icon */}
         <div
-          className="mb-auto transition-colors duration-300"
+          className="mb-auto transition-colors duration-300 [&>svg]:h-8 [&>svg]:w-8 sm:[&>svg]:h-12 sm:[&>svg]:w-12"
           style={{
             color: isPrimary
               ? isHovered
@@ -100,11 +100,11 @@ export function StatCard({
 
         {/* Value */}
         <div
-          className="mb-4 transition-colors duration-300"
+          className="mb-2 tracking-tighter transition-colors duration-300"
           style={{
-            fontSize: isPrimary ? '50px' : '50px',
+            fontSize: '28px',
             lineHeight: '1',
-            fontWeight: '400',
+            fontWeight: '800',
             fontFamily: 'DM Sans, sans-serif',
             color: isPrimary
               ? isHovered
@@ -128,7 +128,7 @@ export function StatCard({
 
         {/* Description */}
         <p
-          className="text-lg transition-colors duration-300"
+          className="text-xs sm:text-base transition-colors duration-300"
           style={{
             fontFamily: 'system-ui, -apple-system, sans-serif',
             color: isPrimary
@@ -138,7 +138,7 @@ export function StatCard({
               : isHovered
               ? '#000000'
               : 'var(--text-primary)',
-            maxWidth: '280px',
+            maxWidth: '180px',
           }}
         >
           {description}

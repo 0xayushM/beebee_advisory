@@ -38,10 +38,10 @@ const partnerLogos = [
 
 export function TrustedBy() {
   return (
-    <section className="px-6 py-12 md:py-24 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--light-gray)' }}>
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl mb-8 md:mb-16 text-center dm-sans">
-          TRUSTED BY <span className="text-[var(--primary-gold)]">INNOVATIVE LEADERS</span> ACROSS THE INDUSTRY
+    <section className="px-4 py-4 md:py-12 md:px-12 lg:px-24" style={{ backgroundColor: 'var(--light-gray)' }}>
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-2xl md:text-4xl lg:text-5xl mb-16 lg:mb-24 text-center dm-sans">
+          TRUSTED BY <span className="text-[var(--primary-gold)] italic font-bold">INNOVATIVE LEADERS</span> ACROSS THE INDUSTRY
         </h2>
         
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
