@@ -126,9 +126,25 @@ export function QualityService() {
                 className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                 style={{ backgroundColor: 'rgba(201,168,76,.04)' }}
               />
+              <span
+                className="pointer-events-none absolute bottom-0 top-0 hidden md:block"
+                style={{
+                  left: '25%',
+                  width: '1px',
+                  backgroundColor: 'color-mix(in srgb, var(--text-primary) 6%, transparent)'
+                }}
+              />
+              <span
+                className="pointer-events-none absolute bottom-0 top-0 hidden md:block"
+                style={{
+                  left: '75%',
+                  width: '1px',
+                  backgroundColor: 'color-mix(in srgb, var(--text-primary) 6%, transparent)'
+                }}
+              />
 
               <div className="relative grid grid-cols-1 gap-0 md:grid-cols-8 md:items-start">
-                <div className="border-b px-6 py-7 col-span-2 md:border-b-0 md:border-r md:pr-5" style={{ borderColor: 'color-mix(in srgb, var(--text-primary) 6%, transparent)' }}>
+                <div className="border-b px-6 py-7 col-span-2 md:border-b-0 md:pr-5" style={{ borderColor: 'color-mix(in srgb, var(--text-primary) 6%, transparent)' }}>
                   <div className="block text-[10px] font-medium uppercase tracking-[0.18em] helvetica-neue" style={{ color: 'color-mix(in srgb, var(--text-primary) 28%, transparent)' }}>
                     {plan.number} {plan.tier}
                   </div>
@@ -165,7 +181,7 @@ export function QualityService() {
                   </div>
                 </div>
 
-                <div className="border-t col-span-2 px-0 py-7 text-left md:border-t-0 md:border-l md:px-6 md:text-left" style={{ borderColor: 'color-mix(in srgb, var(--text-primary) 6%, transparent)' }}>
+                <div className="border-t col-span-2 px-0 py-7 text-left md:border-t-0 md:px-6 md:text-left" style={{ borderColor: 'color-mix(in srgb, var(--text-primary) 6%, transparent)' }}>
                   <div className="text-[11px] italic helvetica-neue-light" style={{ color: 'color-mix(in srgb, var(--text-primary) 25%, transparent)' }}>
                     {plan.description}
                   </div>
