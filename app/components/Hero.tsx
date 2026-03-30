@@ -32,13 +32,13 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-4 md:mx-24 lg:mx-48 flex flex-col min-h-screen h-full justify-center items-start">
           <div className='flex flex-wrap gap-2'>
-            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-xl border border-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] border-[var(--primary-gold)] text-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
               Accounting
             </div>
-            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-xl border border-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] border-[var(--primary-gold)] text-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
               Analytics
             </div>
-            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-xl border border-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] border-[var(--primary-gold)] text-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
               Tax filing
             </div>
           </div>
@@ -85,7 +85,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
       style={{
         fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--primary-gold)',
-        color: 'var(--text-primary)',
+        color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -124,7 +124,7 @@ function SecondaryButton({ href, text }: { href: string; text: string }) {
       style={{
         fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'transparent',
-        color: 'var(--text-primary)',
+        color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -143,7 +143,7 @@ function SecondaryButton({ href, text }: { href: string; text: string }) {
       <span
         className="relative z-10 transition-colors duration-300"
         style={{
-          color: isHovered ? '#000' : 'var(--text-primary)',
+          color: isHovered ? '#000' : 'var(--primary-gold)',
         }}
       >
         {text}

@@ -152,7 +152,7 @@ function NavSecondaryButton({ href, text, onClick, fullWidth }: { href: string; 
       style={{
         fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--card-bg)',
-        color: 'var(--text-primary)',
+        color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -171,7 +171,7 @@ function NavSecondaryButton({ href, text, onClick, fullWidth }: { href: string; 
       <span 
         className="relative z-10 transition-colors duration-300"
         style={{
-          color: isHovered ? '#000' : 'var(--text-primary)',
+          color: isHovered ? '#000' : 'var(--primary-gold)',
         }}
       >
         {text}
@@ -191,7 +191,7 @@ function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; te
       style={{
         fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--primary-gold)',
-        color: 'var(--text-primary)',
+        color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
