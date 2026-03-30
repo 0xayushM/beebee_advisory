@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export function BeforeAfter() {
   return (
-    <section className="px-6 py-20 md:px-12 lg:px-20 md:py-32" style={{ backgroundColor: 'var(--background)', color: 'var(--text-primary)' }}>
+    <section className="px-8 py-8 md:py-12 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--background)', color: 'var(--text-primary)' }}>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -16,7 +16,7 @@ export function BeforeAfter() {
             <div className="w-8 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl mb-5 leading-none dm-sans">
-            THE <span style={{ color: 'var(--primary-gold)' }}>TRANSFORMATION</span>
+            THE <span className="italic font-bold text-[var(--primary-gold)]">TRANSFORMATION</span>
           </h2>
         </div>
 
