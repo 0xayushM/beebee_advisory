@@ -9,7 +9,7 @@ export function FinalCTA() {
         <div className="inline-block px-4 py-2 mb-6 rounded-full text-xs font-bold helvetica-neue">
           ⏰ LIMITED SPOTS AVAILABLE THIS MONTH
         </div>
-        <h2 className="text-4xl md:text-5xl lg:text-6xl mb-6 dm-sans">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl mb-6 anton">
           GET YOUR FIRST MONTH-END CLOSE IN <span style={{ color: 'var(--primary-gold)' }}><CountUp from={0} to={5} duration={2} className="inline" /> DAYS</span>
         </h2>
         <p className="text-lg mb-8 opacity-90 helvetica-neue">

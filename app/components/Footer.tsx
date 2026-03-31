@@ -4,7 +4,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="font-bold mb-4 dm-sans">BEEBEE ADVISORY</h3>
+            <h3 className="font-bold mb-4 anton">BEEBEE ADVISORY</h3>
             <p className="text-sm helvetica-neue">
               Precision finance for high-growth companies across the globe.
             </p>

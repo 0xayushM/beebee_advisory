@@ -20,7 +20,7 @@ export default function InsightsPage() {
               <div className="inline-block px-3 py-1 text-xs mb-4 helvetica-neue">
                 MARKET STRATEGY 2025
               </div>
-              <h1 className="text-5xl md:text-6xl mb-4 dm-sans">
+              <h1 className="text-5xl md:text-6xl mb-4 anton">
                 NAVIGATING THE NEW<br />
                 <span style={{ color: 'var(--primary-gold)' }}>WEALTH FRONTIER</span>
               </h1>
@@ -36,7 +36,7 @@ export default function InsightsPage() {
       <section className="px-6 py-16 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-12">
-            <h2 className="text-4xl md:text-5xl dm-sans">
+            <h2 className="text-4xl md:text-5xl anton">
               THE INTELLIGENCE FEED
             </h2>
             <div className="flex gap-2">
@@ -59,7 +59,7 @@ export default function InsightsPage() {
                 <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
                   RECENT INSIGHTS
                 </div>
-                <h3 className="text-3xl mb-4 dm-sans">
+                <h3 className="text-3xl mb-4 anton">
                   GENERATIONAL LEGACY IN THE<br />DIGITAL ERA
                 </h3>
                 <p className="text-sm mb-6 leading-relaxed helvetica-neue">
@@ -86,7 +86,7 @@ export default function InsightsPage() {
                 <div className="text-xs mb-2 uppercase tracking-wider helvetica-neue">
                   STRATEGY
                 </div>
-                <h4 className="text-2xl dm-sans">
+                <h4 className="text-2xl anton">
                   THE PIVOT TO BOUTIQUE COMMERCIAL<br />REAL ESTATE
                 </h4>
               </div>
@@ -106,7 +106,7 @@ export default function InsightsPage() {
                 <div className="text-xs mb-2 uppercase tracking-wider helvetica-neue">
                   INSIGHTS
                 </div>
-                <h4 className="text-xl dm-sans">
+                <h4 className="text-xl anton">
                   TECH GIANTS VS.<br />EMERGING AI
                 </h4>
               </div>
@@ -116,7 +116,7 @@ export default function InsightsPage() {
               <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
                 FEATURED
               </div>
-              <h4 className="text-2xl mb-4 dm-sans">
+              <h4 className="text-2xl mb-4 anton">
                 SUBSCRIBE TO OUR<br />QUARTERLY BRIEF
               </h4>
               <p className="text-sm mb-6 leading-relaxed helvetica-neue">
@@ -146,7 +146,7 @@ export default function InsightsPage() {
                 <div className="text-xs mb-2 uppercase tracking-wider helvetica-neue">
                   ANALYSIS
                 </div>
-                <h4 className="text-xl dm-sans">
+                <h4 className="text-xl anton">
                   MILLENNIAL TRENDS 2.0
                 </h4>
               </div>
@@ -158,7 +158,7 @@ export default function InsightsPage() {
               <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
                 ARTICLE
               </div>
-              <h4 className="text-2xl mb-4 dm-sans">
+              <h4 className="text-2xl mb-4 anton">
                 MILLENNIAL TRENDS 2.0
               </h4>
               <p className="text-sm mb-6 leading-relaxed helvetica-neue">
@@ -173,7 +173,7 @@ export default function InsightsPage() {
               <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
                 RESEARCH
               </div>
-              <h4 className="text-2xl mb-4 dm-sans">
+              <h4 className="text-2xl mb-4 anton">
                 GLOBAL MOBILITY TRENDS
               </h4>
               <p className="text-sm mb-6 leading-relaxed helvetica-neue">
@@ -188,7 +188,7 @@ export default function InsightsPage() {
               <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
                 WHITEPAPER
               </div>
-              <h4 className="text-2xl mb-4 dm-sans">
+              <h4 className="text-2xl mb-4 anton">
                 THE RETURN AND RISK IMPACT
               </h4>
               <p className="text-sm mb-6 leading-relaxed helvetica-neue">
@@ -205,7 +205,7 @@ export default function InsightsPage() {
       <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)', color: 'var(--text-primary)' }}>
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-6xl mb-8">💬</div>
-          <blockquote className="text-3xl md:text-4xl mb-8 leading-tight dm-sans">
+          <blockquote className="text-3xl md:text-4xl mb-8 leading-tight anton">
             "IN A WORLD OF CONSTANT NOISE, WE FIND THE STRUCTURAL<br />SIGNAL THAT PRESERVES YOUR FUTURE."
           </blockquote>
           <p className="text-sm uppercase tracking-wider helvetica-neue">
@@ -218,7 +218,7 @@ export default function InsightsPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold mb-4 dm-sans">BEEBEE ADVISORY</h3>
+              <h3 className="font-bold mb-4 anton">BEEBEE ADVISORY</h3>
               <p className="text-sm helvetica-neue">
                 The signal that cuts through the noise. Join our community of forward-thinking wealth architects.
               </p>

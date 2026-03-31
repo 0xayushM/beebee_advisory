@@ -11,7 +11,7 @@ export default function AboutPage() {
           <p className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
             THE ARCHITECTS OF YOUR SUCCESS
           </p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12 dm-sans">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12 anton">
             DEFINING<br />THE NEW<br />STANDARD.
           </h1>
           <p className="text-base max-w-2xl leading-relaxed mb-8 helvetica-neue">
@@ -45,7 +45,7 @@ export default function AboutPage() {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-4xl md:text-5xl mb-8 dm-sans">
+            <h2 className="text-4xl md:text-5xl mb-8 anton">
               THE PRINCIPAL<br />ARCHITECTS
             </h2>
             
@@ -59,7 +59,7 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 dm-sans">GAURAV DALAL</h3>
+                    <h3 className="text-2xl mb-1 anton">GAURAV DALAL</h3>
                     <p className="text-xs uppercase tracking-wider helvetica-neue">CHIEF STRATEGIST</p>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 dm-sans">HARISH DABAS</h3>
+                    <h3 className="text-2xl mb-1 anton">HARISH DABAS</h3>
                     <p className="text-xs uppercase tracking-wider helvetica-neue">MANAGING PARTNER</p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 dm-sans">NAVEEN DALAL</h3>
+                    <h3 className="text-2xl mb-1 anton">NAVEEN DALAL</h3>
                     <p className="text-xs uppercase tracking-wider helvetica-neue">SENIOR ADVISOR</p>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function AboutPage() {
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 dm-sans">SANDEEP NAINWAL</h3>
+                    <h3 className="text-2xl mb-1 anton">SANDEEP NAINWAL</h3>
                     <p className="text-xs uppercase tracking-wider helvetica-neue">OPERATIONS DIRECTOR</p>
                   </div>
                 </div>
@@ -115,13 +115,13 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 mb-20">
             <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--primary-gold)', color: '#000' }}>
               <p className="text-xs mb-4 uppercase tracking-wider helvetica-neue">OUR PHILOSOPHY</p>
-              <h3 className="text-3xl mb-6 dm-sans">
+              <h3 className="text-3xl mb-6 anton">
                 PRECISION IS THE<br />NEW STANDARD IN<br />WEALTH CREATION
               </h3>
             </div>
 
             <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--light-gray)' }}>
-              <h3 className="text-4xl mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>$4.2B+</h3>
+              <h3 className="text-4xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>$4.2B+</h3>
               <p className="text-sm uppercase tracking-wider mb-4 helvetica-neue">ASSETS UNDER<br />ADVISORY</p>
               <div className="flex gap-4 text-xs helvetica-neue">
                 <span className="px-3 py-1 border rounded" style={{ borderColor: 'var(--border-gray)' }}>FINANCE</span>
@@ -132,12 +132,12 @@ export default function AboutPage() {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-4xl md:text-5xl mb-12 dm-sans">
+            <h2 className="text-4xl md:text-5xl mb-12 anton">
               GLOBAL<br />FOOTPRINT
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <h4 className="text-xl mb-4 dm-sans">NORTH AMERICA</h4>
+                <h4 className="text-xl mb-4 anton">NORTH AMERICA</h4>
                 <ul className="space-y-2 text-sm helvetica-neue">
                   <li>• San Francisco</li>
                   <li>• New York</li>
@@ -145,14 +145,14 @@ export default function AboutPage() {
                 </ul>
               </div>
               <div>
-                <h4 className="text-xl mb-4 dm-sans">EUROPE</h4>
+                <h4 className="text-xl mb-4 anton">EUROPE</h4>
                 <ul className="space-y-2 text-sm helvetica-neue">
                   <li>• London</li>
                   <li>• Amsterdam</li>
                 </ul>
               </div>
               <div>
-                <h4 className="text-xl mb-4 dm-sans">LOCATE US</h4>
+                <h4 className="text-xl mb-4 anton">LOCATE US</h4>
                 <button className="px-6 py-2 text-xs border hover:bg-white/10 transition-colors helvetica-neue">
                   VIEW MAP
                 </button>
@@ -161,7 +161,7 @@ export default function AboutPage() {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-4xl md:text-5xl mb-8 dm-sans">
+            <h2 className="text-4xl md:text-5xl mb-8 anton">
               UNCOMPROMISING CLARITY
             </h2>
             <p className="text-base max-w-3xl leading-relaxed mb-12 helvetica-neue">
@@ -170,7 +170,7 @@ export default function AboutPage() {
           </div>
 
           <div className="p-12 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
-            <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
+            <h2 className="text-4xl md:text-5xl mb-6 anton">
               ELITE STEWARDSHIP
             </h2>
             <p className="text-base max-w-2xl mx-auto leading-relaxed mb-8 helvetica-neue">
@@ -184,7 +184,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl mb-4 dm-sans">BEEBEE ADVISORY</h3>
+              <h3 className="text-xl mb-4 anton">BEEBEE ADVISORY</h3>
             </div>
             <div>
               <h4 className="text-sm mb-4 uppercase helvetica-neue">LINKS</h4>

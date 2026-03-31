@@ -15,7 +15,7 @@ export function BeforeAfter() {
             </span>
             <div className="w-8 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-5 leading-none dm-sans">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-5 leading-none anton">
             THE <span className="italic font-bold text-[var(--primary-gold)]">TRANSFORMATION</span>
           </h2>
         </div>
@@ -23,7 +23,7 @@ export function BeforeAfter() {
         {/* Cards */}
         <div className="grid md:grid-cols-2 gap-0 relative mb-16">
           {/* VS Badge */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full flex items-center justify-center text-sm font-bold tracking-[0.18em]" style={{ backgroundColor: 'var(--primary-gold)', color: '#0a0a0a', fontFamily: 'DM Sans, sans-serif' }}>
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full flex items-center justify-center text-sm font-bold tracking-[0.18em]" style={{ backgroundColor: 'var(--primary-gold)', color: '#0a0a0a', fontFamily: 'Anton, sans-serif' }}>
             VS
           </div>
 
@@ -33,7 +33,7 @@ export function BeforeAfter() {
             <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 60% 40% at 20% 10%, rgba(220,60,60,0.08) 0%, transparent 70%)' }} />
             
             {/* Watermark */}
-            <div className="absolute bottom-[-20px] right-5 text-[180px] leading-none opacity-[0.025] pointer-events-none select-none" style={{ fontFamily: 'DM Sans, sans-serif', color: '#e05050' }}>
+            <div className="absolute bottom-[-20px] right-5 text-[180px] leading-none opacity-[0.025] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif', color: '#e05050' }}>
               B
             </div>
 
@@ -43,7 +43,7 @@ export function BeforeAfter() {
                   ✕
                 </div>
                 <div>
-                  <div className="text-[22px] tracking-[0.1em]" style={{ fontFamily: 'DM Sans, sans-serif', color: '#e05050' }}>
+                  <div className="text-[22px] tracking-[0.1em]" style={{ fontFamily: 'Anton, sans-serif', color: '#e05050' }}>
                     BEFORE BEEBEE
                   </div>
                   <div className="text-[11px] font-light tracking-[0.1em] uppercase opacity-30 mt-0.5 helvetica-neue">
@@ -74,7 +74,7 @@ export function BeforeAfter() {
             <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 60% 40% at 80% 10%, rgba(201,168,76,0.08) 0%, transparent 70%)' }} />
             
             {/* Watermark */}
-            <div className="absolute bottom-[-20px] left-5 text-[180px] leading-none opacity-[0.025] pointer-events-none select-none" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>
+            <div className="absolute bottom-[-20px] left-5 text-[180px] leading-none opacity-[0.025] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif', color: 'var(--primary-gold)' }}>
               A
             </div>
 
@@ -84,7 +84,7 @@ export function BeforeAfter() {
                   ✓
                 </div>
                 <div>
-                  <div className="text-[22px] tracking-[0.1em]" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>
+                  <div className="text-[22px] tracking-[0.1em]" style={{ fontFamily: 'Anton, sans-serif', color: 'var(--primary-gold)' }}>
                     AFTER BEEBEE
                   </div>
                   <div className="text-[11px] font-light tracking-[0.1em] uppercase opacity-30 mt-0.5 helvetica-neue">
@@ -172,7 +172,7 @@ function CTAButton() {
       href="/contact"
       className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'transparent',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',

@@ -51,7 +51,7 @@ export function Technology() {
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
+          <h2 className="text-4xl md:text-5xl mb-6 anton">
             TECHNOLOGY & INTEGRATIONS
           </h2>
           <p className="text-base max-w-3xl mx-auto leading-relaxed helvetica-neue">
@@ -91,7 +91,7 @@ export function Technology() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
             <div className="text-4xl mb-4">🔄</div>
-            <h3 className="text-xl mb-3 dm-sans">
+            <h3 className="text-xl mb-3 anton">
               SEAMLESS INTEGRATION
             </h3>
             <p className="text-sm leading-relaxed helvetica-neue">
@@ -101,7 +101,7 @@ export function Technology() {
 
           <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
             <div className="text-4xl mb-4">🔒</div>
-            <h3 className="text-xl mb-3 dm-sans">
+            <h3 className="text-xl mb-3 anton">
               BANK-LEVEL SECURITY
             </h3>
             <p className="text-sm leading-relaxed helvetica-neue">
@@ -111,7 +111,7 @@ export function Technology() {
 
           <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
             <div className="text-4xl mb-4">⚡</div>
-            <h3 className="text-xl mb-3 dm-sans">
+            <h3 className="text-xl mb-3 anton">
               REAL-TIME SYNC
             </h3>
             <p className="text-sm leading-relaxed helvetica-neue">

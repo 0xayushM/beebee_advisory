@@ -2,25 +2,21 @@
 
 import { i } from 'motion/react-client';
 import Grainient from './Granient';
-import { useTheme } from './ThemeProvider';
 
 export function ValueProposition() {
-  const { theme } = useTheme();
-  const isLight = theme === 'light';
-
   return (
     <section className="relative overflow-hidden px-8 py-12 md:px-12 lg:px-20 md:py-24" style={{ backgroundColor: 'var(--value-proposition-bg)' }}>
       <div className="absolute inset-0">
         <Grainient
-          color1={!isLight ? "#1a1a1a" : "#C9A961"}
-          color2={!isLight ? "#B8941F" : "#B8941F"}
-          color3={!isLight ? "#1a1a1a" : "#B8941F"}
+          color1="#C9A961"
+          color2="#B8941F"
+          color3="#B8941F"
           timeSpeed={0.15}
           warpStrength={0.45}
           warpFrequency={3}
           grainAmount={0.12}
-          contrast={isLight ? 1.02 : 1.1}
-          saturation={isLight ? 0.75 : 0.9}
+          contrast={1.02}
+          saturation={0.75}
           zoom={1.1}
         />
       </div>
@@ -28,7 +24,7 @@ export function ValueProposition() {
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-black">
-            <h2 className="text-3xl text-[var(--text-primary)] md:text-4xl mb-6 dm-sans">
+            <h2 className="text-3xl text-[var(--text-primary)] md:text-4xl mb-6 anton">
               <span className="font-bold italic">ACCOUNTANTS</span> WHO PROACTIVELY MANAGE YOUR CASH AND GROWTH
             </h2>
             <p className="text-base text-[var(--text-primary)] leading-relaxed mb-6 helvetica-neue">

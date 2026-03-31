@@ -65,7 +65,7 @@ export function WorldMap() {
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24" style={{ backgroundColor: 'var(--section-bg)' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
+          <h2 className="text-4xl md:text-5xl mb-6 anton">
             WE WORK WITH CLIENTS WORLDWIDE
           </h2>
           <p className="text-base max-w-3xl mx-auto leading-relaxed helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -120,11 +120,11 @@ export function WorldMap() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center p-8 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
             <div className="text-4xl mb-4">🌎</div>
-            <h3 className="text-2xl mb-3 dm-sans">AMERICAS</h3>
+            <h3 className="text-2xl mb-3 anton">AMERICAS</h3>
             <p className="text-sm mb-4 helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
               United States, Canada, Brazil
             </p>
-            <div className="text-3xl font-bold dm-sans" style={{ color: 'var(--primary-gold)' }}>
+            <div className="text-3xl font-bold anton" style={{ color: 'var(--primary-gold)' }}>
               <CountUp from={0} to={150} duration={2} separator="," className="inline" />+
             </div>
             <p className="text-xs uppercase tracking-wider helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -134,11 +134,11 @@ export function WorldMap() {
 
           <div className="text-center p-8 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
             <div className="text-4xl mb-4">🌍</div>
-            <h3 className="text-2xl mb-3 dm-sans">EUROPE</h3>
+            <h3 className="text-2xl mb-3 anton">EUROPE</h3>
             <p className="text-sm mb-4 helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
               UK, Germany, Switzerland
             </p>
-            <div className="text-3xl font-bold dm-sans" style={{ color: 'var(--primary-gold)' }}>
+            <div className="text-3xl font-bold anton" style={{ color: 'var(--primary-gold)' }}>
               <CountUp from={0} to={80} duration={2} className="inline" />+
             </div>
             <p className="text-xs uppercase tracking-wider helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -148,11 +148,11 @@ export function WorldMap() {
 
           <div className="text-center p-8 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
             <div className="text-4xl mb-4">🌏</div>
-            <h3 className="text-2xl mb-3 dm-sans">ASIA-PACIFIC</h3>
+            <h3 className="text-2xl mb-3 anton">ASIA-PACIFIC</h3>
             <p className="text-sm mb-4 helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
               Singapore, Australia, Japan
             </p>
-            <div className="text-3xl font-bold dm-sans" style={{ color: 'var(--primary-gold)' }}>
+            <div className="text-3xl font-bold anton" style={{ color: 'var(--primary-gold)' }}>
               <CountUp from={0} to={60} duration={2} className="inline" />+
             </div>
             <p className="text-xs uppercase tracking-wider helvetica-neue" style={{ color: 'var(--text-secondary)' }}>

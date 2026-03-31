@@ -7,7 +7,7 @@ export function IntegrationEcosystem() {
             <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--card-bg)' }}>
               🏦
             </div>
-            <h4 className="text-lg mb-2 dm-sans">BANKING HUBS</h4>
+            <h4 className="text-lg mb-2 anton">BANKING HUBS</h4>
             <p className="text-xs helvetica-neue">Integrated Custody & Clearing</p>
           </div>
 
@@ -15,7 +15,7 @@ export function IntegrationEcosystem() {
             <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--card-bg)' }}>
               ⚖️
             </div>
-            <h4 className="text-lg mb-2 dm-sans">LEGAL COUNSEL</h4>
+            <h4 className="text-lg mb-2 anton">LEGAL COUNSEL</h4>
             <p className="text-xs helvetica-neue">Strategic Partnerships</p>
           </div>
 
@@ -23,7 +23,7 @@ export function IntegrationEcosystem() {
             <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--card-bg)' }}>
               📊
             </div>
-            <h4 className="text-lg mb-2 dm-sans">ACCOUNTING</h4>
+            <h4 className="text-lg mb-2 anton">ACCOUNTING</h4>
             <p className="text-xs helvetica-neue">Real-Time Sync</p>
           </div>
 
@@ -31,13 +31,13 @@ export function IntegrationEcosystem() {
             <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--card-bg)' }}>
               📈
             </div>
-            <h4 className="text-lg mb-2 dm-sans">OPERATIONS</h4>
+            <h4 className="text-lg mb-2 anton">OPERATIONS</h4>
             <p className="text-xs helvetica-neue">Workflow Integration</p>
           </div>
         </div>
 
         <div className="max-w-5xl mx-auto text-center" style={{ backgroundColor: 'var(--section-bg)', padding: '4rem 2rem', borderRadius: '0.5rem' }}>
-          <h2 className="text-5xl md:text-6xl mb-6" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--text-primary)' }}>
+          <h2 className="text-5xl md:text-6xl mb-6" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--text-primary)' }}>
             READY TO REDESIGN YOUR<br />FINANCIAL ARCHITECTURE?
           </h2>
           <p className="text-base mb-8 max-w-2xl mx-auto leading-relaxed helvetica-neue">

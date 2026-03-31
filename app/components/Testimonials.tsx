@@ -3,7 +3,7 @@ export function Testimonials() {
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24" style={{ backgroundColor: 'var(--light-gray)' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
+          <h2 className="text-4xl md:text-5xl mb-6 anton">
             WHAT OUR CLIENTS SAY ABOUT US
           </h2>
           <p className="text-base max-w-3xl mx-auto leading-relaxed helvetica-neue">
@@ -76,7 +76,7 @@ export function Testimonials() {
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-8 p-6 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
+              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
                 4.9/5
               </div>
               <p className="text-xs helvetica-neue">
@@ -85,7 +85,7 @@ export function Testimonials() {
             </div>
             <div className="w-px h-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
+              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
                 200+
               </div>
               <p className="text-xs helvetica-neue">
@@ -94,7 +94,7 @@ export function Testimonials() {
             </div>
             <div className="w-px h-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
+              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
                 98%
               </div>
               <p className="text-xs helvetica-neue">

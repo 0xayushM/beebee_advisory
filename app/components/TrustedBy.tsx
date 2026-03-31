@@ -69,7 +69,7 @@ export function TrustedBy() {
   return (
     <section className="px-4 py-4 md:py-12 md:px-12 lg:px-24" style={{ backgroundColor: 'var(--light-gray)' }}>
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-4xl lg:text-5xl mb-16 lg:mb-24 text-center dm-sans">
+        <h2 className="text-2xl md:text-4xl lg:text-5xl mb-16 lg:mb-24 text-center anton">
           TRUSTED BY <span className="text-[var(--primary-gold)] italic font-bold">INNOVATIVE LEADERS</span> ACROSS THE INDUSTRY
         </h2>
         

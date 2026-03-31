@@ -26,12 +26,12 @@ export default function Home() {
       {/* <SocialProof /> */}
       <TrustedBy />
       <ServicesOverview />
-      <BeforeAfter />
+      {/* <BeforeAfter /> */}
       <ValueProposition />
       <QualityService />
-      <ArchitecturalStandard />
-      <IntelligenceOverData />
-      <WorldMap />
+      {/* <ArchitecturalStandard /> */}
+      {/* <IntelligenceOverData /> */}
+      {/* <WorldMap /> */}
       <Testimonials />
       <Technology />
       <FAQ />

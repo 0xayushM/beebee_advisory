@@ -2,7 +2,7 @@ export function ArchitecturalStandard() {
   return (
     <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl mb-16 dm-sans">
+        <h2 className="text-4xl md:text-5xl mb-16 anton">
           THE ARCHITECTURAL STANDARD
         </h2>
         
@@ -11,7 +11,7 @@ export function ArchitecturalStandard() {
             <div className="inline-block px-4 py-1 text-black text-xs mb-6 uppercase tracking-wider helvetica-neue">
               GLOBAL COVERAGE
             </div>
-            <h3 className="text-3xl md:text-4xl mb-6 dm-sans">
+            <h3 className="text-3xl md:text-4xl mb-6 anton">
               US / UK / CANADA REACH
             </h3>
             <p className="leading-relaxed mb-8 helvetica-neue">
@@ -24,7 +24,7 @@ export function ArchitecturalStandard() {
                   <circle cx="50" cy="50" r="40" fill="currentColor" />
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-2 dm-sans">RICH EXPERIENCE</h4>
+              <h4 className="text-xl font-bold mb-2 anton">RICH EXPERIENCE</h4>
               <p className="text-sm helvetica-neue">
                 Decades of combined expertise in finance, compliance, and strategic advisory across multiple industries and market conditions.
               </p>
@@ -32,7 +32,7 @@ export function ArchitecturalStandard() {
           </div>
 
           <div className="text-black p-12 rounded-lg" style={{ backgroundColor: 'var(--primary-gold)' }}>
-            <div className="text-6xl md:text-7xl font-bold mb-4 dm-sans">30+</div>
+            <div className="text-6xl md:text-7xl font-bold mb-4 anton">30+</div>
             <div className="text-xl mb-2 uppercase tracking-wide helvetica-neue">PROJECTS</div>
             <div className="text-sm opacity-90 mb-8 helvetica-neue">SUCCESSFULLY COMPLETED</div>
             <p className="text-sm leading-relaxed opacity-90 helvetica-neue">

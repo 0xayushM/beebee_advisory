@@ -7,7 +7,7 @@ export default function PricingPage() {
 
       <section className="px-6 py-20 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto text-center mb-16">
-          <h1 className="text-6xl md:text-7xl leading-none mb-6 dm-sans">
+          <h1 className="text-6xl md:text-7xl leading-none mb-6 anton">
             ARCHITECTED<br />
             <span style={{ color: 'var(--primary-gold)' }}>CAPITAL</span> GROWTH
           </h1>
@@ -22,14 +22,14 @@ export default function PricingPage() {
             <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
               FOUNDATIONAL
             </div>
-            <h3 className="text-3xl mb-6 dm-sans">
+            <h3 className="text-3xl mb-6 anton">
               CORE ACCESS
             </h3>
             <p className="text-sm mb-6 leading-relaxed helvetica-neue">
               Essential financial infrastructure for emerging businesses seeking clarity.
             </p>
             <div className="mb-8">
-              <span className="text-4xl font-bold" style={{ fontFamily: 'DM Sans, sans-serif' }}>$2,500</span>
+              <span className="text-4xl font-bold" style={{ fontFamily: 'Anton, sans-serif' }}>$2,500</span>
               <span className="text-sm helvetica-neue">/mo</span>
             </div>
             <ul className="space-y-3 mb-8 text-sm helvetica-neue">
@@ -59,14 +59,14 @@ export default function PricingPage() {
             <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
               COMPREHENSIVE
             </div>
-            <h3 className="text-3xl mb-6 dm-sans">
+            <h3 className="text-3xl mb-6 anton">
               CUSTOM SCALE
             </h3>
             <p className="text-sm mb-6 leading-relaxed helvetica-neue">
               Bespoke financial architecture engineered for high-growth companies.
             </p>
             <div className="mb-8">
-              <span className="text-4xl font-bold" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>$7,900</span>
+              <span className="text-4xl font-bold" style={{ fontFamily: 'Anton, sans-serif', color: 'var(--primary-gold)' }}>$7,900</span>
               <span className="text-sm helvetica-neue">/mo</span>
             </div>
             <ul className="space-y-3 mb-8 text-sm helvetica-neue">
@@ -97,14 +97,14 @@ export default function PricingPage() {
             <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
               ENTERPRISE
             </div>
-            <h3 className="text-3xl mb-6 dm-sans">
+            <h3 className="text-3xl mb-6 anton">
               INSTITUTIONAL
             </h3>
             <p className="text-sm mb-6 leading-relaxed helvetica-neue">
               White-glove service for established enterprises and family offices.
             </p>
             <div className="mb-8">
-              <span className="text-4xl font-bold" style={{ fontFamily: 'DM Sans, sans-serif' }}>CONTACT</span>
+              <span className="text-4xl font-bold" style={{ fontFamily: 'Anton, sans-serif' }}>CONTACT</span>
             </div>
             <ul className="space-y-3 mb-8 text-sm helvetica-neue">
               <li className="flex items-start gap-2">
@@ -127,7 +127,7 @@ export default function PricingPage() {
         </div>
 
         <div className="max-w-7xl mx-auto mb-20">
-          <h2 className="text-4xl md:text-5xl mb-12 dm-sans">
+          <h2 className="text-4xl md:text-5xl mb-12 anton">
             FUNCTIONAL CAPABILITY MATRIX
           </h2>
           <p className="text-base mb-12 max-w-3xl helvetica-neue">
@@ -197,7 +197,7 @@ export default function PricingPage() {
 
       <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: '#2b2b2b' }}>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl mb-6 text-white dm-sans">
+          <h2 className="text-4xl md:text-5xl mb-6 text-white anton">
             READY TO BUILD YOUR <span style={{ color: 'var(--primary-gold)' }}>LEGACY<br />ARCHITECTURE</span>?
           </h2>
           <p className="text-base mb-8 text-gray-300 helvetica-neue">
@@ -218,7 +218,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold mb-4 dm-sans">BEEBEE ADVISORY</h3>
+              <h3 className="font-bold mb-4 anton">BEEBEE ADVISORY</h3>
               <p className="text-sm helvetica-neue">
                 Defining the new standard through strategic capital growth.
               </p>

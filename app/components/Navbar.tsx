@@ -1,13 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { ThemeToggle } from './ThemeToggle';
-import { useTheme } from './ThemeProvider';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { theme } = useTheme();
-  const logoSrc = theme === 'light' ? '/logo_light.png' : '/logo.png';
+  const logoSrc = '/logo_light.png';
 
   return (
     <>
@@ -25,7 +22,7 @@ export function Navbar() {
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 text-xs dm-sans">
+          <div className="hidden md:flex items-center gap-8 text-base anton">
             <a href="/services" className="hover:text-[var(--primary-gold)] transition-colors">SERVICES</a>
             <a href="/pricing" className="hover:text-[var(--primary-gold)] transition-colors">PRICING</a>
             <a href="/approach" className="hover:text-[var(--primary-gold)] transition-colors">APPROACH</a>
@@ -37,12 +34,10 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-4">
             <NavPrimaryButton href="/contact" text="SCHEDULE A CALL" />
             <NavSecondaryButton href="/contact" text="CONTACT US" />
-            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-4">
-            <ThemeToggle />
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="w-10 h-10 flex flex-col items-center justify-center gap-1.5"
@@ -91,7 +86,6 @@ export function Navbar() {
             </a>
           </div>
           <div className="flex items-center gap-4">
-            <ThemeToggle />
             <button
               onClick={() => setIsMenuOpen(false)}
               className="w-10 h-10 flex flex-col items-center justify-center gap-1.5"
@@ -123,7 +117,7 @@ export function Navbar() {
         </div>
 
         <div className="px-6 py-12 flex flex-col gap-8">
-          <div className="flex flex-col gap-6 text-xl dm-sans">
+          <div className="flex flex-col gap-6 text-xl anton">
             <a href="/services" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">SERVICES</a>
             <a href="/pricing" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">PRICING</a>
             <a href="/approach" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">APPROACH</a>
@@ -148,9 +142,9 @@ function NavSecondaryButton({ href, text, onClick, fullWidth }: { href: string; 
     <a 
       href={href}
       onClick={onClick}
-      className="relative inline-block px-4 py-2 text-xs font-medium rounded-lg overflow-hidden"
+      className="relative inline-block px-4 py-2 text-base font-medium rounded-lg overflow-hidden"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--card-bg)',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
@@ -187,9 +181,9 @@ function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; te
     <a 
       href={href}
       onClick={onClick}
-      className="relative inline-block px-4 py-2 text-xs font-medium rounded-lg overflow-hidden"
+      className="relative inline-block px-4 py-2 text-base font-medium rounded-lg overflow-hidden"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--primary-gold)',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',

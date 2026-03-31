@@ -13,7 +13,7 @@ export default function Contact() {
             <p className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
               GET IN TOUCH
             </p>
-            <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-8 dm-sans">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-8 anton">
               LET'S BUILD<br />TOGETHER
             </h1>
             <p className="text-base max-w-3xl leading-relaxed helvetica-neue">
@@ -133,7 +133,7 @@ export default function Contact() {
             <div className="space-y-8">
               <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
                 <div className="text-3xl mb-4">📧</div>
-                <h3 className="text-xl mb-2 dm-sans">EMAIL US</h3>
+                <h3 className="text-xl mb-2 anton">EMAIL US</h3>
                 <p className="text-sm mb-4 helvetica-neue">
                   For general inquiries and support
                 </p>
@@ -144,7 +144,7 @@ export default function Contact() {
 
               <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
                 <div className="text-3xl mb-4">📍</div>
-                <h3 className="text-xl mb-2 dm-sans">LOCATIONS</h3>
+                <h3 className="text-xl mb-2 anton">LOCATIONS</h3>
                 <p className="text-sm mb-4 helvetica-neue">
                   We operate across major markets
                 </p>
@@ -157,7 +157,7 @@ export default function Contact() {
 
               <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
                 <div className="text-3xl mb-4">⏰</div>
-                <h3 className="text-xl mb-2 dm-sans">BUSINESS HOURS</h3>
+                <h3 className="text-xl mb-2 anton">BUSINESS HOURS</h3>
                 <p className="text-sm mb-4 helvetica-neue">
                   Available to serve you
                 </p>
@@ -173,7 +173,7 @@ export default function Contact() {
 
       <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)', color: 'var(--text-primary)' }}>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
+          <h2 className="text-4xl md:text-5xl mb-6 anton">
             PREFER A DIRECT CALL?
           </h2>
           <p className="text-base mb-8 leading-relaxed helvetica-neue">
@@ -189,7 +189,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold mb-4 dm-sans">BEEBEE ADVISORY</h3>
+              <h3 className="font-bold mb-4 anton">BEEBEE ADVISORY</h3>
               <p className="text-sm helvetica-neue">
                 Precision finance for high-growth companies across the globe.
               </p>

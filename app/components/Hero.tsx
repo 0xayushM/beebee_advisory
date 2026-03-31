@@ -22,50 +22,47 @@ export function Hero() {
         </video>
         {/* Gradient Overlay */}
         <div
-          className="absolute inset-0"
-          style={{
-            background: 'linear-gradient(to right, rgba(var(--background-rgb),1) 0%, rgba(var(--background-rgb), 0.7) 50%, rgba(var(--background-rgb), 0.85) 100%)'
-          }}
+          className="absolute inset-0 bg-white"
         />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-4 md:mx-24 lg:mx-48 flex flex-col min-h-screen h-full justify-center items-start">
+      <div className="relative z-10 max-w-8xl mx-4 md:mx-24 flex flex-col min-h-screen h-full justify-center items-start">
           <div className='flex flex-wrap gap-2'>
-            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] border-[var(--primary-gold)] text-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] text-[10px] sm:text-xs font-medium helvetica-neue uppercase">
               Accounting
             </div>
-            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] border-[var(--primary-gold)] text-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] text-[10px] sm:text-xs font-medium helvetica-neue uppercase">
               Analytics
             </div>
-            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] border-[var(--primary-gold)] text-[var(--primary-gold)] text-[10px] sm:text-xs font-light helvetica-neue uppercase">
+            <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] text-[10px] sm:text-xs font-medium helvetica-neue uppercase">
               Tax filing
             </div>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-none mb-8" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '800', letterSpacing: '0.02em' }}>
-            BEEBEE <br /><span className='italic' style={{ color: 'var(--primary-gold)', fontWeight: '400' }}>ADVISORY</span>
+          <h1 className="text-4xl md:text-7xl lg:text-8xl max-w-3xl leading-none mb-8 anton tracking-tighter">
+            YOUR DEDICATED <br /><span style={{ color: 'var(--primary-gold)', fontWeight: '400' }}>FINANCE TEAM</span> FOR <br/> HIGH-GROWTH COMPANIES
           </h1>
           <p className="text-sm md:text-base mb-6 max-w-xl leading-relaxed helvetica-neue">
             Our dedicated finance team delivers real-time insights so you can make decisions with confidence - not guesswork.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 dm-sans">
+          <div className="flex flex-col sm:flex-row gap-4 anton">
             <PrimaryButton href="/contact" text="BOOK A FREE CALL →" />
             <SecondaryButton href="/pricing" text="SEE PRICING" />
           </div>
           <div className="flex items-center gap-9 mt-6">
             <div>
-              <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>
+              <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'Anton, sans-serif', color: 'var(--primary-gold)' }}>
                 50+
               </div>
-              <div className="text-[11px] font-light opacity-50 mt-1 tracking-[0.06em] uppercase helvetica-neue">
+              <div className="text-[11px] font-medium opacity-50 mt-1 tracking-[0.06em] uppercase helvetica-neue">
                 Active clients
               </div>
             </div>
             <div>
-              <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'DM Sans, sans-serif', color: 'var(--primary-gold)' }}>
+              <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'Anton, sans-serif', color: 'var(--primary-gold)' }}>
                 4.9★
               </div>
-              <div className="text-[11px] font-light opacity-50 mt-1 tracking-[0.06em] uppercase helvetica-neue">
+              <div className="text-[11px] font-medium opacity-50 mt-1 tracking-[0.06em] uppercase helvetica-neue">
                 Client rating
               </div>
             </div>
@@ -83,7 +80,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
       href={href}
       className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--primary-gold)',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
@@ -122,7 +119,7 @@ function SecondaryButton({ href, text }: { href: string; text: string }) {
       href={href}
       className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'transparent',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',

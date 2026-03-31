@@ -15,7 +15,7 @@ export function ServicesOverview() {
             </span>
           </div>
           <div className="flex items-center justify-between gap-6 flex-wrap">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl tracking-tighter leading-none" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.03em' }}>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl tracking-tighter leading-none" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.03em' }}>
               EXPERT FINANCE TEAM<br />FOR <span className='italic font-bold' style={{ color: 'var(--primary-gold)' }}>HIGH-GROWTH</span> BUSINESSES
             </h2>
             <div className="hidden md:flex items-center justify-center">
@@ -59,7 +59,7 @@ function ServiceCard1() {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="absolute inset-0 pointer-events-none transition-opacity duration-400" style={{ background: 'radial-gradient(ellipse 55% 45% at 20% 0%, rgba(201,168,76,0.07) 0%, transparent 70%)', opacity: isHovered ? 1 : 0 }} />
-      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'DM Sans, sans-serif' }}>01</div>
+      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif' }}>01</div>
 
       <div className="w-12 h-12 rounded-[10px] flex items-center justify-center mb-7 flex-shrink-0" style={{ backgroundColor: 'rgba(201,168,76,0.1)', border: '1px solid rgba(201,168,76,0.25)' }}>
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary-gold)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -72,7 +72,7 @@ function ServiceCard1() {
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
         <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>CORE SERVICE</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif' }}>BOOKKEEPING & ACCOUNTING</div>
+        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>BOOKKEEPING & ACCOUNTING</div>
         <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
           Monthly financial statements, complete reconciliation, and AP/AR management. Clean books, every single month.
         </div>
@@ -103,7 +103,7 @@ function ServiceCard2() {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="absolute inset-0 pointer-events-none transition-opacity duration-400" style={{ background: 'radial-gradient(ellipse 55% 45% at 20% 0%, rgba(201,168,76,0.07) 0%, transparent 70%)', opacity: isHovered ? 1 : 0 }} />
-      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'DM Sans, sans-serif' }}>02</div>
+      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif' }}>02</div>
 
       <div className="w-12 h-12 rounded-[10px] flex items-center justify-center mb-7 flex-shrink-0" style={{ backgroundColor: 'rgba(201,168,76,0.1)', border: '1px solid rgba(201,168,76,0.25)' }}>
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary-gold)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -116,7 +116,7 @@ function ServiceCard2() {
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
         <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>COMPLIANCE</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif' }}>PAYROLL SERVICES</div>
+        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>PAYROLL SERVICES</div>
         <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
           Full-service payroll processing, tax filing, and compliance management. Zero penalties, on time.
         </div>
@@ -145,7 +145,7 @@ function ServiceCard3() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.08] pointer-events-none select-none" style={{ fontFamily: 'DM Sans, sans-serif', color: '#0a0a0a' }}>03</div>
+      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.08] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif', color: '#0a0a0a' }}>03</div>
 
       <div className="w-12 h-12 rounded-[10px] flex items-center justify-center mb-7 flex-shrink-0" style={{ backgroundColor: 'rgba(0,0,0,0.15)', border: '1px solid rgba(0,0,0,0.2)' }}>
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0a0a0a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -156,7 +156,7 @@ function ServiceCard3() {
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
         <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'rgba(0,0,0,0.55)' }}>PREMIUM</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif', color: '#0a0a0a' }}>CFO SERVICES</div>
+        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif', color: '#0a0a0a' }}>CFO SERVICES</div>
         <div className="text-[13px] font-light leading-relaxed mb-4 helvetica-neue">
           Part-time or fractional CFO support. Fundraising prep, investor relations, and board-ready reporting — without the full-time cost.
         </div>
@@ -191,7 +191,7 @@ function ServiceCard4() {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="absolute inset-0 pointer-events-none transition-opacity duration-400" style={{ background: 'radial-gradient(ellipse 55% 45% at 20% 0%, rgba(201,168,76,0.07) 0%, transparent 70%)', opacity: isHovered ? 1 : 0 }} />
-      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'DM Sans, sans-serif' }}>04</div>
+      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif' }}>04</div>
 
       <div className="w-12 h-12 rounded-[10px] flex items-center justify-center mb-7 flex-shrink-0" style={{ backgroundColor: 'rgba(201,168,76,0.1)', border: '1px solid rgba(201,168,76,0.25)' }}>
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary-gold)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -202,7 +202,7 @@ function ServiceCard4() {
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
         <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>ADVISORY</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif' }}>FP&A & STRATEGIC ADVISORY</div>
+        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>FP&A & STRATEGIC ADVISORY</div>
         <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
           Dynamic financial models, 13-week cash flow forecasts, and scenario planning. Data that drives real decisions.
         </div>
@@ -233,7 +233,7 @@ function ServiceCard5() {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="absolute inset-0 pointer-events-none transition-opacity duration-400" style={{ background: 'radial-gradient(ellipse 55% 45% at 20% 0%, rgba(201,168,76,0.07) 0%, transparent 70%)', opacity: isHovered ? 1 : 0 }} />
-      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'DM Sans, sans-serif' }}>05</div>
+      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.04] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif' }}>05</div>
 
       <div className="w-12 h-12 rounded-[10px] flex items-center justify-center mb-7 flex-shrink-0" style={{ backgroundColor: 'rgba(201,168,76,0.1)', border: '1px solid rgba(201,168,76,0.25)' }}>
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary-gold)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -246,7 +246,7 @@ function ServiceCard5() {
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
         <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>TAX & COMPLIANCE</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif' }}>TAX STRATEGY & FILING</div>
+        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>TAX STRATEGY & FILING</div>
         <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
           Year-round tax planning, multi-jurisdictional compliance, and entity structuring to minimise your liability and eliminate surprises.
         </div>
@@ -267,7 +267,7 @@ function CTAButton() {
       href="/services"
       className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'transparent',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',

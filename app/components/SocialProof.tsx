@@ -7,7 +7,7 @@ export function SocialProof() {
     <section className="px-6 py-16 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl mb-4 dm-sans">
+          <h2 className="text-3xl md:text-4xl mb-4 anton">
             TRUSTED BY FAST-GROWING COMPANIES
           </h2>
           <p className="text-base helvetica-neue">

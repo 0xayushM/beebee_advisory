@@ -1,18 +1,10 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'DM Sans';
-  src: url('/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
-  font-weight: 100 1000;
+  font-family: 'Anton';
+  src: url('/fonts/anton.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'DM Sans';
-  src: url('/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf') format('truetype');
-  font-weight: 100 1000;
-  font-style: italic;
   font-display: swap;
 }
 
@@ -54,58 +46,15 @@
   font-weight: 300;
 }
 
-.dm-sans {
-  font-family: 'DM Sans', sans-serif;
-}
-
-.dm-sans-bold {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-}
-
-.dm-sans-light {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
+.anton {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
 }
 
 /* ============================================
-   DARK MODE COLOR PALETTE
+   LIGHT MODE COLOR PALETTE (DEFAULT)
    ============================================ */
-:root[data-theme="dark"] {
-  /* Main backgrounds */
-  --background: #0a0a0a;
-  --background-rgb: 10, 10, 10;
-  --foreground: #ffffff;
-  
-  /* Card & Component backgrounds */
-  --card-bg: #0a0a0a;
-  --card-bg-alt: #000000;
-  --section-bg: #0a0a0a;
-  --section-bg-dark: #000000;
-  
-  /* Text colors */
-  --text-primary: #ffffff;
-  --text-secondary: #999999;
-  --text-muted: #666666;
-  
-  /* Brand colors */
-  --primary-gold: #C9A961;
-  --accent-gold: #B8941F;
-  --value-proposition-bg: #C9A961;
-  
-  /* Borders & Dividers */
-  --border-color: #333333;
-  --border-light: #2a2a2a;
-  
-  /* Utility colors */
-  --hover-bg: #2a2a2a;
-  --active-bg: #1a1a1a;
-}
-
-/* ============================================
-   LIGHT MODE COLOR PALETTE
-   ============================================ */
-:root[data-theme="light"] {
+:root {
   /* Main backgrounds */
   --background: #f5f5f0;
   --background-rgb: 245, 245, 240;
@@ -123,7 +72,7 @@
   --text-muted: #999999;
   
   /* Brand colors */
-  --primary-gold: #B8941F;
+  --primary-gold: #EAB511;
   --accent-gold: #B8941F;
   --value-proposition-bg: #C9A961;
   
@@ -136,27 +85,8 @@
   --active-bg: #e8e8e8;
 }
 
-:root {
-  --background: #0a0a0a;
-  --background-rgb: 10, 10, 10;
-  --foreground: #ffffff;
-  --card-bg: #0a0a0a;
-  --card-bg-alt: #000000;
-  --section-bg: #0a0a0a;
-  --section-bg-dark: #000000;
-  --text-primary: #ffffff;
-  --text-secondary: #999999;
-  --text-muted: #666666;
-  --primary-gold: #C9A961;
-  --accent-gold: #B8941F;
-  --border-color: #333333;
-  --border-light: #2a2a2a;
-  --hover-bg: #2a2a2a;
-  --active-bg: #1a1a1a;
-}
-
 body {
-  background: var(--background);
+  background: white;
   color: var(--foreground);
   font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;

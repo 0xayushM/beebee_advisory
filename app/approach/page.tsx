@@ -10,7 +10,7 @@ export default function ApproachPage() {
           <p className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
             STRATEGY METHODOLOGY
           </p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12 dm-sans">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12 anton">
             OUR<br />APPROACH
           </h1>
           <p className="text-base max-w-3xl leading-relaxed mb-8 helvetica-neue">
@@ -25,7 +25,7 @@ export default function ApproachPage() {
             <div className="w-12 h-12 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: 'var(--primary-gold)' }}>
               <span className="text-2xl">01</span>
             </div>
-            <h3 className="text-3xl mb-6 dm-sans">
+            <h3 className="text-3xl mb-6 anton">
               DEEP CONSULT
             </h3>
             <p className="text-sm leading-relaxed mb-6 helvetica-neue">
@@ -38,12 +38,12 @@ export default function ApproachPage() {
           </div>
 
           <div className="bg-black text-white p-10 rounded-lg relative overflow-hidden">
-            <div className="absolute top-0 right-0 text-9xl opacity-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>02</div>
+            <div className="absolute top-0 right-0 text-9xl opacity-5" style={{ fontFamily: 'Anton, sans-serif' }}>02</div>
             <div className="relative z-10">
-              <div className="text-6xl mb-6" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
+              <div className="text-6xl mb-6" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
                 02
               </div>
-              <h3 className="text-3xl mb-6 dm-sans">
+              <h3 className="text-3xl mb-6 anton">
                 ANALYTICAL<br />REFINEMENT
               </h3>
               <div className="mb-6">
@@ -68,10 +68,10 @@ export default function ApproachPage() {
 
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 mb-16">
           <div className="p-10 rounded-lg border" style={{ backgroundColor: 'var(--card-bg)', borderColor: 'var(--border-gray)' }}>
-            <div className="text-6xl mb-6 dm-sans">
+            <div className="text-6xl mb-6 anton">
               03
             </div>
-            <h3 className="text-3xl mb-6 dm-sans">
+            <h3 className="text-3xl mb-6 anton">
               ARCHITECTURAL<br />ADVISORY
             </h3>
             <p className="text-sm leading-relaxed mb-6 helvetica-neue">
@@ -94,12 +94,12 @@ export default function ApproachPage() {
           </div>
 
           <div className="p-10 rounded-lg relative overflow-hidden" style={{ backgroundColor: 'var(--primary-gold)', color: '#000' }}>
-            <div className="absolute bottom-4 right-4 text-9xl opacity-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>04</div>
+            <div className="absolute bottom-4 right-4 text-9xl opacity-10" style={{ fontFamily: 'Anton, sans-serif' }}>04</div>
             <div className="relative z-10">
               <div className="w-12 h-12 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: 'var(--card-bg)' }}>
-                <span className="text-2xl" style={{ fontFamily: 'DM Sans, sans-serif' }}>✱</span>
+                <span className="text-2xl" style={{ fontFamily: 'Anton, sans-serif' }}>✱</span>
               </div>
-              <h3 className="text-3xl mb-6 dm-sans">
+              <h3 className="text-3xl mb-6 anton">
                 CONTINUOUS<br />OPTIMIZATION
               </h3>
               <p className="text-sm leading-relaxed mb-6 helvetica-neue">
@@ -112,7 +112,7 @@ export default function ApproachPage() {
 
       <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--card-bg)' }}>
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-12 dm-sans">
+          <h2 className="text-4xl md:text-5xl mb-12 anton">
             THE INTEGRATION<br />ECOSYSTEM
           </h2>
           <p className="text-base max-w-3xl mb-12 leading-relaxed helvetica-neue">
@@ -124,7 +124,7 @@ export default function ApproachPage() {
               <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--background)' }}>
                 🏦
               </div>
-              <h4 className="text-lg mb-2 dm-sans">BANKING HUBS</h4>
+              <h4 className="text-lg mb-2 anton">BANKING HUBS</h4>
               <p className="text-xs helvetica-neue">Integrated Custody & Clearing</p>
             </div>
 
@@ -132,7 +132,7 @@ export default function ApproachPage() {
               <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--background)' }}>
                 ⚖️
               </div>
-              <h4 className="text-lg mb-2 dm-sans">LEGAL COUNSEL</h4>
+              <h4 className="text-lg mb-2 anton">LEGAL COUNSEL</h4>
               <p className="text-xs helvetica-neue">Strategic Partnerships</p>
             </div>
 
@@ -140,7 +140,7 @@ export default function ApproachPage() {
               <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--background)' }}>
                 📊
               </div>
-              <h4 className="text-lg mb-2 dm-sans">ACCOUNTING</h4>
+              <h4 className="text-lg mb-2 anton">ACCOUNTING</h4>
               <p className="text-xs helvetica-neue">Real-Time Sync</p>
             </div>
 
@@ -148,7 +148,7 @@ export default function ApproachPage() {
               <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: 'var(--background)' }}>
                 📈
               </div>
-              <h4 className="text-lg mb-2 dm-sans">OPERATIONS</h4>
+              <h4 className="text-lg mb-2 anton">OPERATIONS</h4>
               <p className="text-xs helvetica-neue">Workflow Integration</p>
             </div>
           </div>
@@ -158,10 +158,10 @@ export default function ApproachPage() {
       <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: '#f9eed5' }}>
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center justify-between mb-12">
-            <h2 className="text-5xl md:text-6xl dm-sans">
+            <h2 className="text-5xl md:text-6xl anton">
               READY TO REDESIGN YOUR<br />FINANCIAL ARCHITECTURE?
             </h2>
-            <div className="text-9xl opacity-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>04</div>
+            <div className="text-9xl opacity-10" style={{ fontFamily: 'Anton, sans-serif' }}>04</div>
           </div>
           <p className="text-base mb-8 max-w-2xl leading-relaxed helvetica-neue">
             Start your journey with a no-obligation session.
@@ -176,7 +176,7 @@ export default function ApproachPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold mb-4 dm-sans">BEEBEE ADVISORY</h3>
+              <h3 className="font-bold mb-4 anton">BEEBEE ADVISORY</h3>
             </div>
             <div>
               <h4 className="text-sm mb-4 uppercase font-bold helvetica-neue">COMPANY</h4>

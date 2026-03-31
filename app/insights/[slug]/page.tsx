@@ -42,7 +42,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
             </span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight dm-sans" style={{ color: 'var(--text-primary)' }}>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight anton" style={{ color: 'var(--text-primary)' }}>
             {caseStudy.heroTitle}
           </h1>
           
@@ -58,7 +58,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {caseStudy.stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 dm-sans" style={{ color: 'var(--primary-gold)' }}>
+                <div className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 anton" style={{ color: 'var(--primary-gold)' }}>
                   {stat.value}
                 </div>
                 <div className="text-sm uppercase tracking-wider helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -79,7 +79,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                 <span className="h-px w-7 opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
                 The Problem
               </div>
-              <h2 className="text-3xl md:text-4xl mb-6 dm-sans" style={{ color: 'var(--text-primary)' }}>
+              <h2 className="text-3xl md:text-4xl mb-6 anton" style={{ color: 'var(--text-primary)' }}>
                 {caseStudy.challenge.title}
               </h2>
               <p className="text-base leading-relaxed helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -112,7 +112,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                 <span className="h-px w-7 opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
                 The Approach
               </div>
-              <h2 className="text-3xl md:text-4xl mb-6 dm-sans" style={{ color: 'var(--text-primary)' }}>
+              <h2 className="text-3xl md:text-4xl mb-6 anton" style={{ color: 'var(--text-primary)' }}>
                 {caseStudy.solution.title}
               </h2>
               <p className="text-base leading-relaxed helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -148,7 +148,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
               Impact
               <span className="h-px w-7 opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
             </div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 dm-sans" style={{ color: 'var(--text-primary)' }}>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 anton" style={{ color: 'var(--text-primary)' }}>
               {caseStudy.results.title}
             </h2>
             <p className="text-lg leading-relaxed max-w-3xl mx-auto helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -169,7 +169,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                 <div className="text-xs uppercase tracking-wider mb-3 helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
                   {metric.label}
                 </div>
-                <div className="text-4xl md:text-5xl font-bold mb-4 dm-sans" style={{ color: 'var(--primary-gold)' }}>
+                <div className="text-4xl md:text-5xl font-bold mb-4 anton" style={{ color: 'var(--primary-gold)' }}>
                   {metric.value}
                 </div>
                 <p className="text-sm leading-relaxed helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -190,7 +190,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
               </svg>
             </div>
-            <blockquote className="text-xl md:text-2xl leading-relaxed mb-8 dm-sans" style={{ color: 'var(--text-primary)' }}>
+            <blockquote className="text-xl md:text-2xl leading-relaxed mb-8 anton" style={{ color: 'var(--text-primary)' }}>
               "{caseStudy.testimonial.quote}"
             </blockquote>
             <div>
@@ -208,7 +208,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
       {/* CTA Section */}
       <section className="py-20 px-6 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 dm-sans" style={{ color: 'var(--text-primary)' }}>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 anton" style={{ color: 'var(--text-primary)' }}>
             Ready to Transform Your <span className="italic font-bold" style={{ color: 'var(--primary-gold)' }}>Financial Operations?</span>
           </h2>
           <p className="text-lg leading-relaxed mb-10 helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
@@ -216,7 +216,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           </p>
           <Link
             href="/contact"
-            className="inline-block px-10 py-4 rounded-lg text-sm font-medium uppercase tracking-wider transition-all dm-sans"
+            className="inline-block px-10 py-4 rounded-lg text-sm font-medium uppercase tracking-wider transition-all anton"
             style={{
               backgroundColor: 'var(--primary-gold)',
               color: '#000'

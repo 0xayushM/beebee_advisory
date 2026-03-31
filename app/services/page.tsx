@@ -8,7 +8,7 @@ export default function ServicesPage() {
 
       <section className="px-6 py-20 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12 dm-sans">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl leading-none mb-12 anton">
             PRECISION<br />
             <span style={{ color: 'var(--primary-gold)' }}>EVOLVED.</span>
           </h1>
@@ -44,7 +44,7 @@ export default function ServicesPage() {
               <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
                 CORE SERVICES
               </div>
-              <h2 className="text-4xl md:text-5xl mb-6 dm-sans">
+              <h2 className="text-4xl md:text-5xl mb-6 anton">
                 Accounting
               </h2>
               <p className="text-base leading-relaxed mb-6 helvetica-neue">
@@ -53,10 +53,10 @@ export default function ServicesPage() {
             </div>
 
             <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--card-bg-alt)', color: 'var(--text-primary)' }}>
-              <h3 className="text-2xl mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
+              <h3 className="text-2xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
                 THE CLARITY SUITE
               </h3>
-              <h4 className="text-4xl mb-6 dm-sans">
+              <h4 className="text-4xl mb-6 anton">
                 Strategic<br />Finance
               </h4>
               <p className="text-sm leading-relaxed helvetica-neue">
@@ -68,7 +68,7 @@ export default function ServicesPage() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 rounded-lg border" style={{ backgroundColor: 'var(--card-bg)', borderColor: 'var(--border-gray)' }}>
               <div className="text-3xl mb-4">📊</div>
-              <h4 className="text-lg mb-2 dm-sans">MONTHLY<br />CLOSE</h4>
+              <h4 className="text-lg mb-2 anton">MONTHLY<br />CLOSE</h4>
               <p className="text-sm helvetica-neue">
                 Streamlined month-end processes with detailed variance analysis.
               </p>
@@ -76,7 +76,7 @@ export default function ServicesPage() {
 
             <div className="p-6 rounded-lg border" style={{ backgroundColor: 'var(--card-bg)', borderColor: 'var(--border-gray)' }}>
               <div className="text-3xl mb-4">💰</div>
-              <h4 className="text-lg mb-2 dm-sans">CASH FLOW<br />MODELING</h4>
+              <h4 className="text-lg mb-2 anton">CASH FLOW<br />MODELING</h4>
               <p className="text-sm helvetica-neue">
                 13-week rolling forecasts to optimize liquidity management.
               </p>
@@ -84,7 +84,7 @@ export default function ServicesPage() {
 
             <div className="p-6 rounded-lg border" style={{ backgroundColor: 'var(--card-bg)', borderColor: 'var(--border-gray)' }}>
               <div className="text-3xl mb-4">📈</div>
-              <h4 className="text-lg mb-2 dm-sans">BOARD<br />REPORTING</h4>
+              <h4 className="text-lg mb-2 anton">BOARD<br />REPORTING</h4>
               <p className="text-sm helvetica-neue">
                 Executive-ready dashboards and KPI tracking.
               </p>
@@ -98,7 +98,7 @@ export default function ServicesPage() {
               <div className="text-xs mb-4 uppercase tracking-wider helvetica-neue">
                 TRUSTED EXPERTISE
               </div>
-              <h3 className="text-4xl mb-6 dm-sans">
+              <h3 className="text-4xl mb-6 anton">
                 FP&A
               </h3>
               <p className="text-base leading-relaxed mb-8 helvetica-neue">
@@ -106,11 +106,11 @@ export default function ServicesPage() {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <div className="text-3xl mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>0.02%</div>
+                  <div className="text-3xl mb-2" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>0.02%</div>
                   <p className="text-xs helvetica-neue">FORECAST VARIANCE</p>
                 </div>
                 <div>
-                  <div className="text-3xl mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>24H</div>
+                  <div className="text-3xl mb-2" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>24H</div>
                   <p className="text-xs helvetica-neue">SCENARIO TURNAROUND</p>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="text-5xl md:text-6xl mb-8 dm-sans">
+              <h2 className="text-5xl md:text-6xl mb-8 anton">
                 FROM LEDGER<br />
                 TO <span style={{ color: 'var(--primary-gold)' }}>LEGACY</span>
               </h2>
@@ -146,32 +146,32 @@ export default function ServicesPage() {
 
           <div className="grid md:grid-cols-4 gap-8">
             <div className="p-6 rounded-lg" style={{ backgroundColor: '#1a1a1a' }}>
-              <div className="text-4xl mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>01</div>
-              <h4 className="text-xl mb-3 dm-sans">ALIGNMENT</h4>
+              <div className="text-4xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>01</div>
+              <h4 className="text-xl mb-3 anton">ALIGNMENT</h4>
               <p className="text-sm helvetica-neue">
                 We embed ourselves in your operations, becoming an extension of your leadership team.
               </p>
             </div>
 
             <div className="p-6 rounded-lg" style={{ backgroundColor: '#1a1a1a' }}>
-              <div className="text-4xl mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>02</div>
-              <h4 className="text-xl mb-3 dm-sans">REFINEMENT</h4>
+              <div className="text-4xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>02</div>
+              <h4 className="text-xl mb-3 anton">REFINEMENT</h4>
               <p className="text-sm helvetica-neue">
                 Continuous improvement through data-driven insights and process optimization.
               </p>
             </div>
 
             <div className="p-6 rounded-lg" style={{ backgroundColor: '#1a1a1a' }}>
-              <div className="text-4xl mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>03</div>
-              <h4 className="text-xl mb-3 dm-sans">FORESIGHT</h4>
+              <div className="text-4xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>03</div>
+              <h4 className="text-xl mb-3 anton">FORESIGHT</h4>
               <p className="text-sm helvetica-neue">
                 Predictive analytics that anticipate market shifts and identify opportunities.
               </p>
             </div>
 
             <div className="p-6 rounded-lg" style={{ backgroundColor: '#1a1a1a' }}>
-              <div className="text-4xl mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>04</div>
-              <h4 className="text-xl mb-3 dm-sans">OPTIMIZATION</h4>
+              <div className="text-4xl mb-4" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>04</div>
+              <h4 className="text-xl mb-3 anton">OPTIMIZATION</h4>
               <p className="text-sm helvetica-neue">
                 Relentless pursuit of efficiency and value creation at every level.
               </p>
@@ -182,7 +182,7 @@ export default function ServicesPage() {
 
       <section className="px-6 py-20 md:px-12 lg:px-20">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-5xl md:text-6xl mb-8 dm-sans">
+          <h2 className="text-5xl md:text-6xl mb-8 anton">
             LET'S BUILD.
           </h2>
           <p className="text-base mb-12 max-w-2xl mx-auto leading-relaxed helvetica-neue">
@@ -203,7 +203,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold mb-4 dm-sans">BEEBEE ADVISORY</h3>
+              <h3 className="font-bold mb-4 anton">BEEBEE ADVISORY</h3>
               <p className="text-sm helvetica-neue">
                 Precision evolved through strategic excellence.
               </p>

@@ -85,7 +85,7 @@ export function QualityService() {
               <span className="h-px w-7 opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
               Transparent Pricing
             </div>
-            <h2 className="dm-sans text-3xl md:text-4xl lg:text-5xl leading-[0.95] tracking-[0.02em] text-[var(--text-primary)] md:text-[76px] uppercase">
+            <h2 className="anton text-3xl md:text-4xl lg:text-5xl leading-[0.95] tracking-[0.02em] text-[var(--text-primary)] md:text-[76px] uppercase">
               High Quality at
               <span className="block italic font-bold text-[var(--primary-gold)]">Low Price</span>
             </h2>
@@ -148,7 +148,7 @@ export function QualityService() {
                   <div className="block text-[10px] font-medium uppercase tracking-[0.18em] helvetica-neue" style={{ color: 'color-mix(in srgb, var(--text-primary) 28%, transparent)' }}>
                     {plan.number} {plan.tier}
                   </div>
-                  <div className="mt-1 block text-[30px] leading-none tracking-[0.04em] dm-sans text-[var(--text-primary)] md:text-[40px]">
+                  <div className="mt-1 block text-[30px] leading-none tracking-[0.04em] anton text-[var(--text-primary)] md:text-[40px]">
                     {plan.name}
                   </div>
                   {plan.featured ? (
@@ -223,7 +223,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
       href={href}
       className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'var(--primary-gold)',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
@@ -262,7 +262,7 @@ function SecondaryButton({ href, text }: { href: string; text: string }) {
       href={href}
       className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'DM Sans, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
         backgroundColor: 'transparent',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
