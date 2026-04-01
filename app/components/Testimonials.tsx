@@ -61,7 +61,7 @@ export function Testimonials() {
                   <div 
                     className="p-8 rounded-2xl h-full flex flex-col justify-between cursor-pointer transition-all duration-300"
                     style={{
-                      backgroundColor: '#2C3E3F',
+                      backgroundColor: '#1a1a1a',
                       transform: hoveredIndex === index ? 'translateY(-8px)' : 'translateY(0)',
                       boxShadow: hoveredIndex === index ? '0 12px 24px rgba(0,0,0,0.15)' : '0 4px 6px rgba(0,0,0,0.1)',
                     }}
