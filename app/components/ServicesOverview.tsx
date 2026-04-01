@@ -71,14 +71,10 @@ function ServiceCard1() {
       </div>
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
-        <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>CORE SERVICE</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>BOOKKEEPING & ACCOUNTING</div>
-        <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
+        <div className="text-sm font-bold tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>CORE SERVICE</div>
+        <div className="text-xl md:text-2xl tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>BOOKKEEPING & ACCOUNTING</div>
+        <div className="text-sm font-medium opacity-100 leading-relaxed mb-4 helvetica-neue">
           Monthly financial statements, complete reconciliation, and AP/AR management. Clean books, every single month.
-        </div>
-        <div className="inline-flex items-center gap-1.5 text-[11px] font-normal px-2.5 py-1.5 rounded-full w-fit" style={{ color: 'var(--primary-gold)', backgroundColor: 'rgba(201,168,76,0.08)', border: '1px solid rgba(201,168,76,0.2)' }}>
-          <span>→</span>
-          <span>Saves 8–12 hrs/month</span>
         </div>
       </div>
     </div>
@@ -115,14 +111,10 @@ function ServiceCard2() {
       </div>
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
-        <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>COMPLIANCE</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>PAYROLL SERVICES</div>
-        <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
+        <div className="text-sm font-bold tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>COMPLIANCE</div>
+        <div className="text-xl md:text-2xl tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>PAYROLL SERVICES</div>
+        <div className="text-sm font-medium opacity-100 leading-relaxed mb-4 helvetica-neue">
           Full-service payroll processing, tax filing, and compliance management. Zero penalties, on time.
-        </div>
-        <div className="inline-flex items-center gap-1.5 text-[11px] font-normal px-2.5 py-1.5 rounded-full w-fit" style={{ color: 'var(--primary-gold)', backgroundColor: 'rgba(201,168,76,0.08)', border: '1px solid rgba(201,168,76,0.2)' }}>
-          <span>→</span>
-          <span>100% on-time filing</span>
         </div>
       </div>
     </div>
@@ -155,18 +147,10 @@ function ServiceCard3() {
       </div>
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
-        <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'rgba(0,0,0,0.55)' }}>PREMIUM</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif', color: '#0a0a0a' }}>CFO SERVICES</div>
-        <div className="text-[13px] font-light leading-relaxed mb-4 helvetica-neue">
+        <div className="text-sm font-bold tracking-[0.16em] uppercase mb-2.5" style={{ color: 'rgba(0,0,0,0.55)' }}>PREMIUM</div>
+        <div className="text-xl md:text-2xl tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif', color: '#0a0a0a' }}>CFO SERVICES</div>
+        <div className="text-sm font-medium opacity-100 leading-relaxed mb-4 helvetica-neue">
           Part-time or fractional CFO support. Fundraising prep, investor relations, and board-ready reporting — without the full-time cost.
-        </div>
-        <div className="inline-flex items-center gap-1.5 text-[11px] font-normal px-2.5 py-1.5 rounded-full w-fit mb-6" style={{ color: '#0a0a0a', backgroundColor: 'rgba(0,0,0,0.12)', border: '1px solid rgba(0,0,0,0.15)' }}>
-          <span>→</span>
-          <span>Fundraising-ready in 5 days</span>
-        </div>
-        <div className="h-px mb-6" style={{ backgroundColor: 'rgba(255,255,255,0.06)' }} />
-        <div className="text-xs font-light leading-relaxed helvetica-neue">
-          Trusted by Series A–C companies across North America and Europe.
         </div>
       </div>
     </div>
@@ -201,14 +185,10 @@ function ServiceCard4() {
       </div>
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
-        <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>ADVISORY</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>FP&A & STRATEGIC ADVISORY</div>
-        <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
+        <div className="text-sm font-bold tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>ADVISORY</div>
+        <div className="text-xl md:text-2xl tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>FP&A & STRATEGIC ADVISORY</div>
+        <div className="text-sm font-medium opacity-100 leading-relaxed mb-4 helvetica-neue">
           Dynamic financial models, 13-week cash flow forecasts, and scenario planning. Data that drives real decisions.
-        </div>
-        <div className="inline-flex items-center gap-1.5 text-[11px] font-normal px-2.5 py-1.5 rounded-full w-fit" style={{ color: 'var(--primary-gold)', backgroundColor: 'rgba(201,168,76,0.08)', border: '1px solid rgba(201,168,76,0.2)' }}>
-          <span>→</span>
-          <span>0.02% forecast variance</span>
         </div>
       </div>
     </div>
@@ -245,14 +225,10 @@ function ServiceCard5() {
       </div>
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
-        <div className="text-[10px] font-medium tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>TAX & COMPLIANCE</div>
-        <div className="text-[22px] tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>TAX STRATEGY & FILING</div>
-        <div className="text-[13px] font-light opacity-45 leading-relaxed mb-4 helvetica-neue">
+        <div className="text-sm font-bold tracking-[0.16em] uppercase mb-2.5" style={{ color: 'var(--primary-gold)' }}>TAX & COMPLIANCE</div>
+        <div className="text-xl md:text-2xl tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif' }}>TAX STRATEGY & FILING</div>
+        <div className="text-sm font-medium opacity-100 leading-relaxed mb-4 helvetica-neue">
           Year-round tax planning, multi-jurisdictional compliance, and entity structuring to minimise your liability and eliminate surprises.
-        </div>
-        <div className="inline-flex items-center gap-1.5 text-[11px] font-normal px-2.5 py-1.5 rounded-full w-fit" style={{ color: 'var(--primary-gold)', backgroundColor: 'rgba(201,168,76,0.08)', border: '1px solid rgba(201,168,76,0.2)' }}>
-          <span>→</span>
-          <span>Zero late penalties</span>
         </div>
       </div>
     </div>
