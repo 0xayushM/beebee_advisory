@@ -72,37 +72,6 @@ export function Testimonials() {
             </p>
           </div>
         </div>
-
-        <div className="mt-12 text-center">
-          <div className="inline-flex items-center gap-8 p-6 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
-            <div className="text-center">
-              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-                4.9/5
-              </div>
-              <p className="text-xs helvetica-neue">
-                Average Rating
-              </p>
-            </div>
-            <div className="w-px h-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
-            <div className="text-center">
-              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-                200+
-              </div>
-              <p className="text-xs helvetica-neue">
-                Client Reviews
-              </p>
-            </div>
-            <div className="w-px h-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
-            <div className="text-center">
-              <div className="text-3xl font-bold mb-1" style={{ fontFamily: 'Anton, sans-serif', fontWeight: '400', color: 'var(--primary-gold)' }}>
-                98%
-              </div>
-              <p className="text-xs helvetica-neue">
-                Client Retention
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
