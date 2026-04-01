@@ -49,17 +49,17 @@ export default function AboutPage() {
               THE PRINCIPAL<br />ARCHITECTS
             </h2>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-2 gap-6">
               <div className="relative group">
                 <div className="relative h-96 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/images/team/GauravDalal.png"
-                    alt="Gaurav Dalal"
+                    src="/prateek.png"
+                    alt="Prateek Batra"
                     fill
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 anton">GAURAV DALAL</h3>
+                    <h3 className="text-2xl mb-1 anton">PRATEEK BATRA</h3>
                     <p className="text-xs uppercase tracking-wider helvetica-neue">CHIEF STRATEGIST</p>
                   </div>
                 </div>
@@ -68,44 +68,14 @@ export default function AboutPage() {
               <div className="relative group">
                 <div className="relative h-96 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/images/team/HarishDabas.png"
-                    alt="Harish Dabas"
+                    src="/raghav.png"
+                    alt="Raghav Bansal"
                     fill
                     className="object-cover grayscale"
                   />
                   <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 anton">HARISH DABAS</h3>
+                    <h3 className="text-2xl mb-1 anton">RAGHAV BANSAL</h3>
                     <p className="text-xs uppercase tracking-wider helvetica-neue">MANAGING PARTNER</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="relative group">
-                <div className="relative h-96 rounded-lg overflow-hidden mb-4">
-                  <Image
-                    src="/images/team/NaveenDalal.png"
-                    alt="Naveen Dalal"
-                    fill
-                    className="object-cover grayscale"
-                  />
-                  <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 anton">NAVEEN DALAL</h3>
-                    <p className="text-xs uppercase tracking-wider helvetica-neue">SENIOR ADVISOR</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="relative group">
-                <div className="relative h-96 rounded-lg overflow-hidden mb-4">
-                  <Image
-                    src="/images/team/SandeepNainwal.png"
-                    alt="Sandeep Nainwal"
-                    fill
-                    className="object-cover grayscale"
-                  />
-                  <div className="absolute bottom-6 left-6 text-white">
-                    <h3 className="text-2xl mb-1 anton">SANDEEP NAINWAL</h3>
-                    <p className="text-xs uppercase tracking-wider helvetica-neue">OPERATIONS DIRECTOR</p>
                   </div>
                 </div>
               </div>
