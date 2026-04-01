@@ -25,7 +25,7 @@ export function Testimonials() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24" style={{ backgroundColor: '#FAF7F0' }}>
+    <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: '#FAF7F0' }}>
       <div className="max-w-7xl mx-auto">
         {/* Header with View all button */}
         <div className="flex items-start justify-between mb-12">
@@ -37,7 +37,7 @@ export function Testimonials() {
               </p>
             </div>
             <h2 className="text-4xl md:text-5xl anton uppercase" style={{ color: '#000' }}>
-              What Our <span style={{ color: 'var(--primary-gold)' }}>Clients</span> Say About Us
+              What Our <span className='italic' style={{ color: 'var(--primary-gold)' }}>Clients</span><br/> Say About Us
             </h2>
           </div>
           <div className="hidden md:flex items-center justify-center mt-8">
@@ -74,7 +74,7 @@ export function Testimonials() {
                         <path d="M24 16C24 7.16344 31.1634 0 40 0V8C35.5817 8 32 11.5817 32 16H40V32H24V16Z" fill="#C9A961" />
                       </svg>
 
-                      <p className="text-white text-base leading-relaxed helvetica-neue">
+                      <p className="text-white text-sm md:text-base leading-relaxed helvetica-neue-light">
                         {testimonial.text}
                       </p>
                     </div>

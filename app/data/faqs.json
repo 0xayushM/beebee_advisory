@@ -1,0 +1,26 @@
+[
+  {
+    "question": "DO YOU REQUIRE LONG-TERM CONTRACTS?",
+    "answer": "No contracts required. We operate on a month-to-month basis. You can cancel anytime with 30 days notice. We earn your business every month through exceptional service."
+  },
+  {
+    "question": "HOW QUICKLY CAN YOU GET STARTED?",
+    "answer": "We can onboard your company in as little as 5 business days. Our team will handle all the heavy lifting — connecting to your systems, importing historical data, and setting up your dashboards. You'll have your first financial report within 2 weeks."
+  },
+  {
+    "question": "HOW DOES PRICING WORK?",
+    "answer": "Our pricing is transparent and based on your company's needs. We offer tiered plans starting from Startup to Enterprise level. Each plan includes core services with the option to add specialized services. No hidden fees, ever."
+  },
+  {
+    "question": "WHAT ACCOUNTING SOFTWARE DO YOU WORK WITH?",
+    "answer": "We work with all major platforms including QuickBooks, Xero, NetSuite, Sage, and more. If you're already using a system, we'll integrate with it. If you need to switch, we'll handle the migration at no extra cost."
+  },
+  {
+    "question": "IS MY FINANCIAL DATA SECURE?",
+    "answer": "Absolutely. We use bank-level encryption (256-bit SSL), are SOC 2 Type II certified, and comply with GDPR. Your data is stored on secure servers with regular backups and multi-factor authentication required for all access."
+  },
+  {
+    "question": "DO YOU HANDLE TAX FILING?",
+    "answer": "Yes. We handle all business tax preparation and filing (federal, state, and local). We also provide year-round tax planning to minimize your liability and ensure compliance."
+  }
+]

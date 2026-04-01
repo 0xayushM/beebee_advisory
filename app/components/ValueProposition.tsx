@@ -8,9 +8,9 @@ export function ValueProposition() {
     <section className="relative overflow-hidden px-8 py-12 md:px-12 lg:px-20 md:py-24" style={{ backgroundColor: 'var(--value-proposition-bg)' }}>
       <div className="absolute inset-0">
         <Grainient
-          color1="#C9A961"
-          color2="#B8941F"
-          color3="#B8941F"
+          color1="#3d3d3d"
+          color2="#98750b"
+          color3="#0e0e0e"
           timeSpeed={0.15}
           warpStrength={0.45}
           warpFrequency={3}
@@ -24,13 +24,15 @@ export function ValueProposition() {
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-black">
-            <h2 className="text-3xl text-[var(--text-primary)] md:text-4xl mb-6 anton">
-              <span className="font-bold italic">ACCOUNTANTS</span> WHO PROACTIVELY MANAGE YOUR CASH AND GROWTH
+            <h2 className="text-3xl text-[var(--background)] md:text-4xl lg:text-6xl mb-6 anton">
+              ACCOUNTANTS WHO PROACTIVELY MANAGE<br/>YOUR <span className="italic text-[var(--primary-gold)]">CASH & GROWTH</span>
             </h2>
-            <p className="text-base text-[var(--text-primary)] leading-relaxed mb-6 helvetica-neue">
+            </div>
+            <div>
+            <p className="text-base text-[var(--background)] leading-relaxed mb-6 helvetica-neue">
               We don't just record transactions—we provide strategic insights that drive business decisions. Our team becomes an extension of yours, offering proactive financial management and growth-focused advisory.
             </p>
-            <ul className="space-y-3 text-[var(--text-primary)] text-sm helvetica-neue">
+            <ul className="space-y-3 text-[var(--background)] text-sm helvetica-neue">
               <li className="flex items-start gap-2">
                 <span className="font-bold">✓</span>
                 <span>Real-time financial visibility and reporting</span>

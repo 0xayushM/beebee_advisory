@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import LogoLoop from './LogoLoop';
 
 const technologyLogos = [
@@ -30,8 +31,24 @@ const technologyLogos = [
 ];
 
 export function Technology() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const logoHeight = isMobile ? 30 : 50;
+  const gap = isMobile ? 40 : 80;
+
   return (
-    <section className="px-6 py-16 md:px-12 lg:px-20 md:py-24">
+    <section className="px-6 py-12 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-6 anton">
@@ -47,8 +64,8 @@ export function Technology() {
             logos={technologyLogos}
             speed={60}
             direction="left"
-            logoHeight={50}
-            gap={80}
+            logoHeight={logoHeight}
+            gap={gap}
             pauseOnHover={true}
             scaleOnHover={true}
             fadeOut={true}
@@ -56,13 +73,13 @@ export function Technology() {
             ariaLabel="Technology platforms"
           />
         </div>
-        <div className="mb-16">
+        <div className="mb-0">
           <LogoLoop
             logos={technologyLogos}
             speed={60}
             direction="right"
-            logoHeight={50}
-            gap={80}
+            logoHeight={logoHeight}
+            gap={gap}
             pauseOnHover={true}
             scaleOnHover={true}
             fadeOut={true}

@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export function ServicesOverview() {
   return (
-    <section className="min-h-screen px-8 py-20 md:px-12 lg:px-24 md:py-32" style={{ backgroundColor: 'var(--background)' }}>
+    <section className="min-h-screen px-8 py-16 md:px-12 lg:px-24" style={{ backgroundColor: 'var(--background)' }}>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-12">
