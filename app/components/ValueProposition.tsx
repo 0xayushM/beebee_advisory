@@ -50,10 +50,10 @@ export function ValueProposition() {
             </ul>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             <img src="/raghav.png" alt="Raghav" className="w-full h-full object-cover rounded-lg" />
             <img src="/prateek.png" alt="Prateek" className="w-full h-full object-cover rounded-lg" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

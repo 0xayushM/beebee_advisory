@@ -16,10 +16,10 @@ export function FinalCTA() {
           Join <CountUp from={0} to={50} duration={2} className="inline" />+ high-growth companies who've eliminated financial chaos. Book a free consultation to see if we're a fit—no pressure, no commitment.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-          <a href="/contact" className="px-10 py-4 text-black hover:opacity-90 transition-opacity font-bold text-sm helvetica-neue">
+          <a href="/contact" className="px-10 py-4 text-[var(--primary-gold)] border-1 border-[var(--primary-gold)] hover:opacity-90 transition-opacity font-bold text-sm helvetica-neue">
             BOOK YOUR FREE CALL →
           </a>
-          <a href="/pricing" className="px-10 py-4 border border-white text-white hover:bg-white hover:text-black transition-colors font-bold text-sm helvetica-neue">
+          <a href="/pricing" className="px-10 py-4 border-1 border-white text-white hover:bg-white hover:text-black transition-colors font-bold text-sm helvetica-neue">
             VIEW PRICING
           </a>
         </div>

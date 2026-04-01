@@ -148,7 +148,7 @@ export function QualityService() {
                   <div className="block text-[10px] font-medium uppercase tracking-[0.18em] helvetica-neue" style={{ color: 'color-mix(in srgb, var(--text-primary) 28%, transparent)' }}>
                     {plan.number} {plan.tier}
                   </div>
-                  <div className="mt-1 block text-[30px] leading-none tracking-[0.04em] anton text-[var(--text-primary)] md:text-[40px]">
+                  <div className="mt-1 uppercase block text-[30px] leading-none tracking-[0.04em] anton text-[var(--text-primary)] md:text-[40px]">
                     {plan.name}
                   </div>
                   {plan.featured ? (

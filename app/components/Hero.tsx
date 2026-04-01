@@ -13,7 +13,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-8xl mx-4 md:mx-24 flex flex-col min-h-screen h-full justify-center items-start">
+      <div className="relative z-10 max-w-7xl mx-4 md:mx-24 flex flex-col min-h-screen h-full justify-center items-start">
           <div className='flex flex-wrap gap-2'>
             <div className="inline-block px-3 py-1.5 mb-4 sm:mb-6 sm:px-4 sm:py-2 rounded-lg border-[1px] text-[10px] sm:text-xs font-medium helvetica-neue uppercase">
               Accounting

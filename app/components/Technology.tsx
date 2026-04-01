@@ -70,38 +70,6 @@ export function Technology() {
             ariaLabel="Technology platforms"
           />
         </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
-            <div className="text-4xl mb-4">🔄</div>
-            <h3 className="text-xl mb-3 anton">
-              SEAMLESS INTEGRATION
-            </h3>
-            <p className="text-sm leading-relaxed helvetica-neue">
-              Connect with your existing tools and workflows for a unified financial ecosystem.
-            </p>
-          </div>
-
-          <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
-            <div className="text-4xl mb-4">🔒</div>
-            <h3 className="text-xl mb-3 anton">
-              BANK-LEVEL SECURITY
-            </h3>
-            <p className="text-sm leading-relaxed helvetica-neue">
-              Enterprise-grade encryption and compliance with SOC 2, GDPR, and industry standards.
-            </p>
-          </div>
-
-          <div className="p-8 rounded-lg text-center" style={{ backgroundColor: 'var(--light-gray)' }}>
-            <div className="text-4xl mb-4">⚡</div>
-            <h3 className="text-xl mb-3 anton">
-              REAL-TIME SYNC
-            </h3>
-            <p className="text-sm leading-relaxed helvetica-neue">
-              Automated data synchronization across all platforms for up-to-the-minute accuracy.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
