@@ -2,28 +2,14 @@
 
 import { useState } from 'react';
 import CountUp from './CountUp';
+import { InteractiveBackground } from './InteractiveBackground';
 
 export function Hero() {
   return (
-    <section className="relative h-[90vh] px-4 flex flex-col justify-center overflow-hidden">
-      {/* Video Background */}
+    <section className="relative h-[90vh] px-4 flex flex-col justify-center overflow-hidden" style={{ backgroundColor: '#FAF7F0' }}>
+      {/* Interactive Background */}
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
-          style={{
-            filter: 'brightness(0.4) contrast(1.1) saturate(0.8)',
-          }}
-        >
-          <source src="/video/hero_section.mp4" type="video/mp4" />
-        </video>
-        {/* Gradient Overlay */}
-        <div
-          className="absolute inset-0 bg-white"
-        />
+        <InteractiveBackground />
       </div>
 
       {/* Content */}
@@ -49,7 +35,7 @@ export function Hero() {
             <PrimaryButton href="/contact" text="BOOK A FREE CALL →" />
             <SecondaryButton href="/pricing" text="SEE PRICING" />
           </div>
-          <div className="flex items-center gap-9 mt-6">
+          {/* <div className="flex items-center gap-9 mt-6">
             <div>
               <div className="text-[30px] leading-none tracking-[0.04em]" style={{ fontFamily: 'Anton, sans-serif', color: 'var(--primary-gold)' }}>
                 50+
@@ -66,7 +52,7 @@ export function Hero() {
                 Client rating
               </div>
             </div>
-          </div>
+          </div> */}
       </div>
     </section>
   );

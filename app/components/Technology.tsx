@@ -1,47 +1,30 @@
 'use client';
 
 import LogoLoop from './LogoLoop';
-import { ThemedLogo } from './ThemedLogo';
 
 const technologyLogos = [
   { 
-    node: <ThemedLogo 
-      lightSrc="/images/technology/quickbooks_light.png" 
-      darkSrc="/images/technology/quickbooks_dark.png" 
-      alt="QuickBooks" 
-      className="h-[var(--logoloop-logoHeight)] w-auto object-contain"
-    />, 
+    src: "/images/technology/quickbooks.png", 
+    alt: "QuickBooks", 
     title: "QuickBooks" 
   },
   { src: "/images/technology/xero.svg", alt: "Xero", title: "Xero" },
   { 
-    node: <ThemedLogo 
-      lightSrc="/images/technology/netsuite_light.png" 
-      darkSrc="/images/technology/netsuite_dark.png" 
-      alt="NetSuite" 
-      className="h-[var(--logoloop-logoHeight)] w-auto object-contain"
-    />, 
+    src: "/images/technology/netsuite.png", 
+    alt: "NetSuite", 
     title: "NetSuite" 
   },
   { src: "/images/technology/sage50.png", alt: "Sage", title: "Sage" },
   { src: "/images/technology/gusto.png", alt: "Gusto", title: "Gusto" },
   { src: "/images/technology/sap.png", alt: "SAP", title: "SAP" },
   { 
-    node: <ThemedLogo 
-      lightSrc="/images/technology/powerbi_light.png" 
-      darkSrc="/images/technology/powerbi_dark.png" 
-      alt="Power BI" 
-      className="h-[var(--logoloop-logoHeight)] w-auto object-contain"
-    />, 
+    src: "/images/technology/powerbi.png", 
+    alt: "Power BI", 
     title: "Power BI" 
   },
   { 
-    node: <ThemedLogo 
-      lightSrc="/images/technology/zoho_light.png" 
-      darkSrc="/images/technology/zoho_dark.svg" 
-      alt="Zoho" 
-      className="h-[var(--logoloop-logoHeight)] w-auto object-contain"
-    />, 
+    src: "/images/technology/zoho.png", 
+    alt: "Zoho", 
     title: "Zoho" 
   },
 ];

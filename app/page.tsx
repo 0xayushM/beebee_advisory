@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
       <div className="pt-20 md:pt-24">
         <Hero />
-      <TrustBar />
+      {/* <TrustBar /> */}
       {/* <SocialProof /> */}
       <TrustedBy />
       <ServicesOverview />

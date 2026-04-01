@@ -3,27 +3,18 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ThemedLogo } from './ThemedLogo';
 
 const partnerLogos = [
   { 
-    node: <ThemedLogo 
-      lightSrc="/images/partner/carta_light.png" 
-      darkSrc="/images/partner/carta_dark.png" 
-      alt="Carta" 
-      className="h-10 w-auto object-contain"
-    />, 
+    src: "/images/partner/carta.png", 
+    alt: "Carta", 
     title: "Carta",
     slug: "carta-equity-management",
     preview: "How Carta streamlined equity management and reduced reconciliation time by 60% with automated bookkeeping solutions."
   },
   { 
-    node: <ThemedLogo 
-      lightSrc="/images/partner/cone_light.webp" 
-      darkSrc="/images/partner/cone_dark.png" 
-      alt="Cone" 
-      className="h-10 w-auto object-contain"
-    />, 
+    src: "/images/partner/cone.webp", 
+    alt: "Cone", 
     title: "Cone",
     slug: "cone-health-financial-transformation",
     preview: "Cone Health transformed their financial operations, achieving month-end close in 5 days and improving cash flow visibility."
@@ -36,12 +27,8 @@ const partnerLogos = [
     preview: "Gusto optimized payroll processing for 500+ employees, reducing errors by 85% and saving 20 hours per pay cycle."
   },
   { 
-    node: <ThemedLogo 
-      lightSrc="/images/partner/receipt-bank_light.png" 
-      darkSrc="/images/partner/receipt-bank_dark.png" 
-      alt="Receipt Bank" 
-      className="h-10 w-auto object-contain"
-    />, 
+    src: "/images/partner/receipt-bank.png", 
+    alt: "Receipt Bank", 
     title: "Receipt Bank",
     slug: "receipt-bank-automation",
     preview: "Receipt Bank automated expense tracking and reduced manual data entry by 90%, saving 15 hours weekly."
@@ -68,7 +55,7 @@ export function TrustedBy() {
 
   return (
     <section className="px-4 py-4 md:py-12 md:px-12 lg:px-24" style={{ backgroundColor: 'var(--light-gray)' }}>
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         <h2 className="text-2xl md:text-4xl lg:text-5xl mb-16 lg:mb-24 text-center anton">
           TRUSTED BY <span className="text-[var(--primary-gold)] italic font-bold">INNOVATIVE LEADERS</span> ACROSS THE INDUSTRY
         </h2>
@@ -96,17 +83,13 @@ export function TrustedBy() {
                   }
                 }}
               >
-                {logo.node ? (
-                  logo.node
-                ) : (
-                  <Image
-                    src={logo.src!}
-                    alt={logo.alt}
-                    width={120}
-                    height={40}
-                    className="h-10 w-auto object-contain"
-                  />
-                )}
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={120}
+                  height={40}
+                  className="h-10 w-auto object-contain"
+                />
               </div>
               
               <div className="text-[10px] font-medium uppercase tracking-wider helvetica-neue" style={{ color: 'var(--text-secondary)' }}>
