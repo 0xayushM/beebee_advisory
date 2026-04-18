@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "label": "HOW WE WORK",
+    "title": "OUR FOUR-STEP",
+    "titleAccent": "METHODOLOGY",
+    "description": "We don't believe in one-size-fits-all finance. Our structured approach ensures every engagement starts with deep understanding and ends with measurable, lasting results."
+  },
+  "steps": [
+    {
+      "number": "01",
+      "title": "DISCOVER",
+      "subtitle": "Deep Consultation",
+      "description": "We begin every engagement with a thorough discovery process — understanding your business model, current financial state, team structure, and growth ambitions. No assumptions, just insight.",
+      "items": [
+        "Stakeholder interviews & leadership alignment",
+        "Full financial health audit",
+        "Systems & tools assessment",
+        "Compliance gap analysis",
+        "Goal setting & success metrics definition"
+      ],
+      "accentStyle": "dark"
+    },
+    {
+      "number": "02",
+      "title": "DESIGN",
+      "subtitle": "Tailored Architecture",
+      "description": "Using what we learn, we design a financial infrastructure tailored to your exact stage, industry, and goals. Every process, every tool, every report — built for you.",
+      "items": [
+        "Custom chart of accounts & reporting structure",
+        "Technology stack selection & setup",
+        "Workflow design & automation mapping",
+        "Compliance & tax strategy blueprint",
+        "Financial calendar & deliverables plan"
+      ],
+      "accentStyle": "gold"
+    },
+    {
+      "number": "03",
+      "title": "DEPLOY",
+      "subtitle": "Seamless Execution",
+      "description": "We take ownership of implementation and onboarding, ensuring a smooth transition with zero disruption to your operations. From data migration to team training, we handle it all.",
+      "items": [
+        "Historical data migration & clean-up",
+        "Accounting software implementation",
+        "Payroll & HR system integration",
+        "Team onboarding & documentation",
+        "First-month-close sign-off"
+      ],
+      "accentStyle": "default"
+    },
+    {
+      "number": "04",
+      "title": "OPTIMISE",
+      "subtitle": "Continuous Improvement",
+      "description": "Deployment is just the beginning. We continuously monitor performance, refine processes, and adapt to your evolving business — ensuring your financial infrastructure grows with you.",
+      "items": [
+        "Monthly close & reporting cadence",
+        "Quarterly strategic financial reviews",
+        "Process optimisation & automation upgrades",
+        "Proactive tax & compliance management",
+        "CFO-level strategic advisory"
+      ],
+      "accentStyle": "default"
+    }
+  ],
+  "tools": {
+    "label": "TECHNOLOGY STACK",
+    "title": "TOOLS WE",
+    "titleAccent": "MASTER",
+    "description": "We work with the industry's leading financial technology platforms, ensuring your stack is modern, integrated, and built for scale.",
+    "categories": [
+      {
+        "category": "ACCOUNTING",
+        "tools": ["QuickBooks Online", "Xero", "NetSuite", "Sage Intacct"]
+      },
+      {
+        "category": "PAYROLL",
+        "tools": ["Gusto", "ADP", "Rippling", "Deel"]
+      },
+      {
+        "category": "EXPENSE & AP",
+        "tools": ["Bill.com", "Expensify", "Ramp", "Brex"]
+      },
+      {
+        "category": "REPORTING",
+        "tools": ["Jirav", "Mosaic", "Fathom", "Google Looker Studio"]
+      }
+    ]
+  },
+  "differentiators": {
+    "label": "WHY OUR APPROACH WORKS",
+    "title": "WHAT MAKES US",
+    "titleAccent": "DIFFERENT",
+    "items": [
+      {
+        "title": "DEDICATED TEAM MODEL",
+        "description": "You work with the same senior advisors throughout the engagement — no handoffs, no junior staff. Consistent expertise and relationship depth at every interaction."
+      },
+      {
+        "title": "PROACTIVE, NOT REACTIVE",
+        "description": "We don't wait for you to ask. We monitor your financials continuously and flag risks, opportunities, and anomalies before they become problems."
+      },
+      {
+        "title": "TECHNOLOGY-LED DELIVERY",
+        "description": "We automate the routine so our team can focus on the strategic. Modern tools mean faster closes, fewer errors, and real-time visibility for you."
+      },
+      {
+        "title": "INDUSTRY-CALIBRATED EXPERTISE",
+        "description": "We've served companies across SaaS, healthcare, fintech, and e-commerce. We bring sector-specific financial knowledge to every engagement."
+      }
+    ]
+  },
+  "cta": {
+    "title": "READY TO REDESIGN YOUR",
+    "titleAccent": "FINANCIAL ARCHITECTURE?",
+    "description": "Start your journey with a no-obligation discovery session. We'll map out exactly what your financial infrastructure should look like — and how we'll build it together.",
+    "primaryButton": "BOOK A DISCOVERY CALL",
+    "secondaryButton": "VIEW OUR SERVICES"
+  }
+}

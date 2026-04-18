@@ -31,9 +31,9 @@ export function Hero() {
           <p className="text-sm md:text-base mb-6 max-w-xl leading-relaxed helvetica-neue">
             Our dedicated finance team delivers real-time insights so you can make decisions with confidence - not guesswork.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 anton">
+          <div className="flex flex-col sm:flex-row gap-4">
             <PrimaryButton href="/contact" text="BOOK A FREE CALL →" />
-            <SecondaryButton href="/pricing" text="SEE PRICING" />
+            <SecondaryButton href="/services" text="VIEW SERVICES" />
           </div>
           {/* <div className="flex items-center gap-9 mt-6">
             <div>
@@ -64,11 +64,14 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
   return (
     <a
       href={href}
-      className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
+      className="relative inline-block w-full px-6 py-3 sm:w-auto sm:px-10 sm:py-4 rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        fontWeight: '700',
+        fontSize: '12px',
+        letterSpacing: '0.1em',
         backgroundColor: 'var(--primary-gold)',
-        color: 'var(--primary-gold)',
+        color: '#000',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -103,9 +106,12 @@ function SecondaryButton({ href, text }: { href: string; text: string }) {
   return (
     <a
       href={href}
-      className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
+      className="relative inline-block w-full px-6 py-3 sm:w-auto sm:px-10 sm:py-4 rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        fontWeight: '700',
+        fontSize: '12px',
+        letterSpacing: '0.1em',
         backgroundColor: 'transparent',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',

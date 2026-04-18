@@ -1,0 +1,135 @@
+{
+  "hero": {
+    "label": "WHAT WE OFFER",
+    "title": "COMPLETE FINANCIAL",
+    "titleAccent": "INFRASTRUCTURE",
+    "description": "From day-to-day bookkeeping to strategic CFO guidance, we deliver everything your high-growth business needs to scale with precision and confidence."
+  },
+  "services": [
+    {
+      "id": "01",
+      "category": "CORE SERVICE",
+      "title": "BOOKKEEPING & ACCOUNTING",
+      "description": "Accurate, up-to-date books are the foundation of every smart business decision. We handle the full accounting cycle so you never have to worry about clean financials again.",
+      "features": [
+        "Monthly financial statements (P&L, Balance Sheet, Cash Flow)",
+        "Accounts payable & receivable management",
+        "Bank and credit card reconciliation",
+        "Chart of accounts setup & maintenance",
+        "Expense categorization & tracking",
+        "Dedicated senior accountant"
+      ],
+      "accentColor": "gold"
+    },
+    {
+      "id": "02",
+      "category": "COMPLIANCE",
+      "title": "PAYROLL SERVICES",
+      "description": "Full-service payroll processing and compliance management, handled seamlessly so your team gets paid accurately and on time — every time.",
+      "features": [
+        "Payroll processing for salaried & hourly employees",
+        "Multi-state tax filings & compliance",
+        "Employee benefits & deduction administration",
+        "Direct deposit setup & management",
+        "Year-end W-2 and 1099 preparation",
+        "New hire onboarding compliance"
+      ],
+      "accentColor": "default"
+    },
+    {
+      "id": "03",
+      "category": "PREMIUM",
+      "title": "CFO SERVICES",
+      "description": "Fractional CFO support that delivers institutional-grade financial leadership without the full-time cost. Fundraising, board reporting, strategy — we've got it covered.",
+      "features": [
+        "Fundraising preparation & investor materials",
+        "Board-ready financial packages",
+        "Financial modeling & scenario planning",
+        "Capital allocation strategy",
+        "Investor relations support",
+        "Strategic guidance for leadership teams"
+      ],
+      "accentColor": "highlight"
+    },
+    {
+      "id": "04",
+      "category": "ADVISORY",
+      "title": "FP&A & STRATEGIC ADVISORY",
+      "description": "Dynamic financial planning that goes beyond spreadsheets. We build models that stress-test scenarios, identify growth levers, and keep you one step ahead.",
+      "features": [
+        "13-week rolling cash flow forecasts",
+        "Annual budget preparation & management",
+        "KPI dashboards & performance reporting",
+        "Variance analysis & commentary",
+        "Scenario planning & sensitivity analysis",
+        "Growth strategy financial modeling"
+      ],
+      "accentColor": "default"
+    },
+    {
+      "id": "05",
+      "category": "TAX & COMPLIANCE",
+      "title": "TAX STRATEGY & FILING",
+      "description": "Year-round tax planning and multi-jurisdictional compliance designed to minimise your liability, eliminate surprises, and keep you structurally ahead.",
+      "features": [
+        "Corporate tax planning & preparation",
+        "Multi-jurisdictional tax compliance",
+        "Entity structuring & optimisation",
+        "Sales tax registration & filing",
+        "R&D tax credit identification",
+        "International tax advisory"
+      ],
+      "accentColor": "default"
+    },
+    {
+      "id": "06",
+      "category": "REPORTING",
+      "title": "FINANCIAL REPORTING & ANALYTICS",
+      "description": "Executive-grade reporting and live dashboards that transform raw data into clear insights — so every stakeholder has the numbers they need, when they need them.",
+      "features": [
+        "Custom executive dashboards",
+        "Automated management reporting",
+        "GAAP-compliant financial statements",
+        "Industry benchmarking analysis",
+        "Audit-ready financial packages",
+        "Real-time reporting integrations"
+      ],
+      "accentColor": "default"
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "ONBOARDING",
+      "description": "We embed into your systems within days. We audit your existing setup, clean historical data, and establish your financial baseline."
+    },
+    {
+      "step": "02",
+      "title": "SETUP & INTEGRATION",
+      "description": "We connect your accounting software, banking, and payroll platforms into a single, cohesive financial stack."
+    },
+    {
+      "step": "03",
+      "title": "MONTHLY EXECUTION",
+      "description": "We close your books, run payroll, file taxes, and deliver reports on a reliable monthly cadence — no chasing required."
+    },
+    {
+      "step": "04",
+      "title": "STRATEGIC REVIEW",
+      "description": "Regular strategic check-ins where we review performance, flag risks, and advise on the financial decisions ahead."
+    }
+  ],
+  "stats": [
+    { "value": "50+", "label": "Active Clients" },
+    { "value": "99.9%", "label": "Accuracy Rate" },
+    { "value": "8+", "label": "Years of Experience" },
+    { "value": "$4.2B+", "label": "Assets Under Advisory" }
+  ],
+  "cta": {
+    "title": "READY TO BUILD YOUR",
+    "titleAccent": "FINANCE FUNCTION?",
+    "description": "Tell us where you are today and where you want to go. We'll design a finance setup that fits your stage, industry, and ambitions.",
+    "primaryButton": "BOOK A FREE CALL",
+    "secondaryButton": "VIEW CASE STUDIES"
+  }
+}

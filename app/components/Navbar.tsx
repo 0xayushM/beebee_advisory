@@ -20,16 +20,15 @@ export function Navbar() {
               />
             </a>
           </div>
-          
+
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 text-base anton">
-            <a href="/services" className="hover:text-[var(--primary-gold)] transition-colors">SERVICES</a>
-            <a href="/pricing" className="hover:text-[var(--primary-gold)] transition-colors">PRICING</a>
-            <a href="/approach" className="hover:text-[var(--primary-gold)] transition-colors">APPROACH</a>
-            <a href="/about" className="hover:text-[var(--primary-gold)] transition-colors">ABOUT</a>
-            <a href="/insights" className="hover:text-[var(--primary-gold)] transition-colors">INSIGHTS</a>
+          <div className="hidden md:flex items-center gap-8 helvetica-neue-bold" style={{ fontSize: '13px', letterSpacing: '0.09em' }}>
+            <a href="/services" className="hover:text-[var(--primary-gold)] transition-colors uppercase">SERVICES</a>
+            <a href="/approach" className="hover:text-[var(--primary-gold)] transition-colors uppercase">APPROACH</a>
+            <a href="/about" className="hover:text-[var(--primary-gold)] transition-colors uppercase">ABOUT</a>
+            <a href="/insights" className="hover:text-[var(--primary-gold)] transition-colors uppercase">INSIGHTS</a>
           </div>
-          
+
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
             <NavPrimaryButton href="/contact" text="SCHEDULE A CALL" />
@@ -43,23 +42,23 @@ export function Navbar() {
               className="w-10 h-10 flex flex-col items-center justify-center gap-1.5"
               aria-label="Toggle menu"
             >
-              <span 
+              <span
                 className="w-6 h-0.5 transition-all duration-300"
-                style={{ 
+                style={{
                   backgroundColor: 'var(--foreground)',
                   transform: isMenuOpen ? 'rotate(45deg) translateY(8px)' : 'none'
                 }}
               />
-              <span 
+              <span
                 className="w-6 h-0.5 transition-all duration-300"
-                style={{ 
+                style={{
                   backgroundColor: 'var(--foreground)',
                   opacity: isMenuOpen ? 0 : 1
                 }}
               />
-              <span 
+              <span
                 className="w-6 h-0.5 transition-all duration-300"
-                style={{ 
+                style={{
                   backgroundColor: 'var(--foreground)',
                   transform: isMenuOpen ? 'rotate(-45deg) translateY(-8px)' : 'none'
                 }}
@@ -91,23 +90,23 @@ export function Navbar() {
               className="w-10 h-10 flex flex-col items-center justify-center gap-1.5"
               aria-label="Close menu"
             >
-              <span 
+              <span
                 className="w-6 h-0.5 transition-all duration-300"
-                style={{ 
+                style={{
                   backgroundColor: 'var(--foreground)',
                   transform: 'rotate(45deg) translateY(8px)'
                 }}
               />
-              <span 
+              <span
                 className="w-6 h-0.5 transition-all duration-300"
-                style={{ 
+                style={{
                   backgroundColor: 'var(--foreground)',
                   opacity: 0
                 }}
               />
-              <span 
+              <span
                 className="w-6 h-0.5 transition-all duration-300"
-                style={{ 
+                style={{
                   backgroundColor: 'var(--foreground)',
                   transform: 'rotate(-45deg) translateY(-8px)'
                 }}
@@ -117,15 +116,14 @@ export function Navbar() {
         </div>
 
         <div className="px-6 py-12 flex flex-col gap-8">
-          <div className="flex flex-col gap-6 text-xl anton">
-            <a href="/services" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">SERVICES</a>
-            <a href="/pricing" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">PRICING</a>
-            <a href="/approach" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">APPROACH</a>
-            <a href="/about" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">ABOUT</a>
-            <a href="/insights" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity">INSIGHTS</a>
+          <div className="flex flex-col gap-6 helvetica-neue-bold" style={{ fontSize: '20px', letterSpacing: '0.08em' }}>
+            <a href="/services" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity uppercase">SERVICES</a>
+            <a href="/approach" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity uppercase">APPROACH</a>
+            <a href="/about" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity uppercase">ABOUT</a>
+            <a href="/insights" onClick={() => setIsMenuOpen(false)} className="hover:opacity-70 transition-opacity uppercase">INSIGHTS</a>
           </div>
 
-          <div className="flex flex-col gap-4 pt-8 border-t" style={{ borderColor: 'var(--border-gray)' }}>
+          <div className="flex flex-col gap-4 pt-8 border-t" style={{ borderColor: 'var(--border-color)' }}>
             <NavSecondaryButton href="/contact" text="CONTACT US" onClick={() => setIsMenuOpen(false)} fullWidth />
             <NavPrimaryButton href="/contact" text="SCHEDULE A CALL" onClick={() => setIsMenuOpen(false)} fullWidth />
           </div>
@@ -139,12 +137,15 @@ function NavSecondaryButton({ href, text, onClick, fullWidth }: { href: string; 
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <a 
+    <a
       href={href}
       onClick={onClick}
-      className="relative inline-block px-4 py-2 text-base font-medium rounded-lg overflow-hidden"
+      className={`relative inline-block px-5 py-2.5 overflow-hidden rounded-lg ${fullWidth ? 'w-full text-center' : ''}`}
       style={{
-        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        fontWeight: '700',
+        fontSize: '12px',
+        letterSpacing: '0.1em',
         backgroundColor: 'var(--card-bg)',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',
@@ -160,9 +161,9 @@ function NavSecondaryButton({ href, text, onClick, fullWidth }: { href: string; 
           transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
         }}
       />
-      
+
       {/* Button text */}
-      <span 
+      <span
         className="relative z-10 transition-colors duration-300"
         style={{
           color: isHovered ? '#000' : 'var(--primary-gold)',
@@ -178,14 +179,17 @@ function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; te
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <a 
+    <a
       href={href}
       onClick={onClick}
-      className="relative inline-block px-4 py-2 text-base font-medium rounded-lg overflow-hidden"
+      className={`relative inline-block px-5 py-2.5 overflow-hidden rounded-lg ${fullWidth ? 'w-full text-center' : ''}`}
       style={{
-        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        fontWeight: '700',
+        fontSize: '12px',
+        letterSpacing: '0.1em',
         backgroundColor: 'var(--primary-gold)',
-        color: 'var(--primary-gold)',
+        color: '#000',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -199,9 +203,9 @@ function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; te
           transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
         }}
       />
-      
+
       {/* Button text */}
-      <span 
+      <span
         className="relative z-10 transition-colors duration-300"
         style={{
           color: isHovered ? 'var(--primary-gold)' : '#000',

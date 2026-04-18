@@ -18,7 +18,7 @@ export function Footer() {
               />
             </div>
             <p className="text-sm leading-relaxed helvetica-neue mb-6" style={{ color: '#666' }}>
-              <span className="font-bold">Beebee Advisory</span> was founded in 2016 with an aim to deliver high-quality accounting & Financial services across the globe by providing a superior alternative to building and maintaining an in-house finance department.
+              <span className="font-bold">Beebee Advisory</span> was founded in 2016 with an aim to deliver high-quality accounting & financial services across the globe by providing a superior alternative to building and maintaining an in-house finance department.
             </p>
           </div>
 
@@ -34,13 +34,18 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/insights" className="hover:opacity-70 transition-opacity" style={{ color: '#555' }}>
-                  Blog
+                <a href="/services" className="hover:opacity-70 transition-opacity" style={{ color: '#555' }}>
+                  Services
                 </a>
               </li>
               <li>
-                <a href="/pricing" className="hover:opacity-70 transition-opacity" style={{ color: '#555' }}>
-                  Pricing
+                <a href="/approach" className="hover:opacity-70 transition-opacity" style={{ color: '#555' }}>
+                  Approach
+                </a>
+              </li>
+              <li>
+                <a href="/insights" className="hover:opacity-70 transition-opacity" style={{ color: '#555' }}>
+                  Insights
                 </a>
               </li>
               <li>
@@ -108,7 +113,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="py-6 flex flex-col md:flex-row justify-center items-center gap-4" style={{ borderTop: '1px solid var(--border-color)' }}>
           <p className="text-xs helvetica-neue" style={{ color: '#999' }}>
-            Copyright © 2022 BeeBee Advisory. All Rights Reserved.
+            Copyright © 2016 BeeBee Advisory. All Rights Reserved.
           </p>
         </div>
       </div>

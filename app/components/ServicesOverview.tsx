@@ -241,9 +241,12 @@ function CTAButton() {
   return (
     <a
       href="/services"
-      className="relative inline-block w-full px-6 py-3 text-xs sm:w-auto sm:px-10 sm:py-4 sm:text-sm font-medium rounded-lg overflow-hidden text-center"
+      className="relative inline-block w-full px-6 py-3 sm:w-auto sm:px-10 sm:py-4 rounded-lg overflow-hidden text-center"
       style={{
-        fontFamily: 'Anton, sans-serif', fontWeight: '400', letterSpacing: '0.02em',
+        fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+        fontWeight: '700',
+        fontSize: '12px',
+        letterSpacing: '0.1em',
         backgroundColor: 'transparent',
         color: 'var(--primary-gold)',
         border: '1px solid var(--primary-gold)',

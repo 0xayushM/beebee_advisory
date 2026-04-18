@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "label": "REAL RESULTS",
+    "title": "CLIENT SUCCESS",
+    "titleAccent": "STORIES",
+    "description": "See how Beebee Advisory has helped high-growth companies across industries transform their financial operations, close faster, and scale with confidence."
+  },
+  "filters": [
+    { "id": "all", "label": "ALL INDUSTRIES" },
+    { "id": "fintech", "label": "FINANCIAL TECHNOLOGY" },
+    { "id": "healthcare", "label": "HEALTHCARE" },
+    { "id": "hr-tech", "label": "HR TECHNOLOGY" },
+    { "id": "accounting", "label": "ACCOUNTING SOFTWARE" }
+  ],
+  "featuredSlug": "cone-health-financial-transformation",
+  "stats": [
+    { "value": "50+", "label": "COMPANIES TRANSFORMED" },
+    { "value": "67%", "label": "AVG EFFICIENCY GAIN" },
+    { "value": "99.9%", "label": "ACCURACY ACHIEVED" },
+    { "value": "5 Days", "label": "AVG MONTH-END CLOSE" }
+  ],
+  "cta": {
+    "title": "READY TO WRITE YOUR",
+    "titleAccent": "SUCCESS STORY?",
+    "description": "Join 50+ companies that have transformed their financial operations with Beebee Advisory.",
+    "primaryButton": "BOOK A FREE CALL",
+    "secondaryButton": "CONTACT OUR TEAM"
+  }
+}

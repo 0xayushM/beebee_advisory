@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "label": "THE TEAM BEHIND YOUR GROWTH",
+    "title": "PRECISION FINANCE,",
+    "titleAccent": "HUMAN PARTNERSHIP.",
+    "description": "Founded in 2016, Beebee Advisory was built on a simple belief: high-growth companies deserve the same calibre of financial expertise as Fortune 500s — without the overhead of a full in-house team."
+  },
+  "story": {
+    "label": "OUR STORY",
+    "title": "BUILT FOR THE AMBITIONS",
+    "titleAccent": "OF HIGH-GROWTH COMPANIES",
+    "paragraphs": [
+      "Beebee Advisory was founded in 2016 with a clear mission: to give high-growth businesses access to the financial infrastructure they deserve. Too many fast-moving companies were making critical decisions without reliable data, reliable books, or reliable advisors.",
+      "We set out to fix that. Today, we are a dedicated team of accountants, CFOs, and financial strategists serving clients across North America, Europe, and Asia — delivering the precision of institutional finance, with the partnership of a trusted advisor.",
+      "We don't just manage your books. We become your financial backbone — embedded in your operations, accountable to your results, and invested in your success."
+    ]
+  },
+  "stats": [
+    { "value": "50+", "label": "ACTIVE CLIENTS" },
+    { "value": "8+", "label": "YEARS IN OPERATION" },
+    { "value": "$4.2B+", "label": "ASSETS UNDER ADVISORY" },
+    { "value": "3", "label": "CONTINENTS SERVED" }
+  ],
+  "team": {
+    "label": "THE FOUNDERS",
+    "title": "THE PRINCIPAL",
+    "titleAccent": "ARCHITECTS",
+    "members": [
+      {
+        "name": "PRATEEK BATRA",
+        "role": "CHIEF STRATEGIST",
+        "image": "/prateek.png",
+        "bio": "Prateek brings over 15 years of experience in corporate finance, financial planning, and strategic advisory. He has guided companies from seed stage through IPO, building the financial foundations that enable bold growth.",
+        "expertise": ["Corporate Finance", "Strategic Advisory", "Fundraising", "FP&A"],
+        "index": "01"
+      },
+      {
+        "name": "RAGHAV BANSAL",
+        "role": "MANAGING PARTNER",
+        "image": "/raghav.png",
+        "bio": "Raghav leads client relationships and oversees all accounting and compliance operations. His precision-first approach has helped clients across healthcare, fintech, and SaaS achieve flawless financial execution at every stage.",
+        "expertise": ["Bookkeeping", "Tax Strategy", "Compliance", "Client Success"],
+        "index": "02"
+      }
+    ]
+  },
+  "values": {
+    "label": "WHAT WE STAND FOR",
+    "title": "OUR CORE",
+    "titleAccent": "VALUES",
+    "items": [
+      {
+        "number": "01",
+        "title": "PRECISION",
+        "description": "Every number matters. We operate to institutional standards of accuracy because your business decisions depend on data you can trust completely."
+      },
+      {
+        "number": "02",
+        "title": "TRANSPARENCY",
+        "description": "No black boxes. We explain what we're doing, why we're doing it, and what the numbers mean — so you're always in control."
+      },
+      {
+        "number": "03",
+        "title": "PARTNERSHIP",
+        "description": "We embed ourselves in your business as a true financial partner, not just a vendor. Your success is our metric of success."
+      },
+      {
+        "number": "04",
+        "title": "ACCOUNTABILITY",
+        "description": "We own our work. Deadlines, deliverables, and results — we hold ourselves to the same standard we hold your books."
+      }
+    ]
+  },
+  "globalPresence": {
+    "label": "WHERE WE OPERATE",
+    "title": "GLOBAL REACH,",
+    "titleAccent": "LOCAL EXPERTISE",
+    "description": "Our team operates across three continents, giving us the geographic depth to serve companies at every stage of international growth.",
+    "regions": [
+      {
+        "region": "NORTH AMERICA",
+        "locations": ["New York", "San Francisco", "Toronto"]
+      },
+      {
+        "region": "EUROPE",
+        "locations": ["London", "Amsterdam"]
+      },
+      {
+        "region": "ASIA",
+        "locations": ["Delhi (HQ)", "Mumbai"]
+      }
+    ]
+  },
+  "philosophy": {
+    "quote": "PRECISION IS NOT JUST OUR STANDARD — IT IS OUR PROMISE TO EVERY CLIENT.",
+    "attribution": "THE BEEBEE ADVISORY ETHOS"
+  },
+  "cta": {
+    "title": "READY TO WORK WITH A TEAM",
+    "titleAccent": "THAT TRULY CARES?",
+    "description": "Get in touch for a no-obligation discovery call and find out how Beebee Advisory can transform your financial operations.",
+    "primaryButton": "SCHEDULE A CALL",
+    "secondaryButton": "VIEW OUR SERVICES"
+  }
+}

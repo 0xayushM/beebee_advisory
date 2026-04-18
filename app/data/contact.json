@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "label": "GET IN TOUCH",
+    "title": "LET'S BUILD",
+    "titleAccent": "TOGETHER",
+    "description": "Ready to transform your financial operations? Our team is here to discuss how we can architect a solution tailored to your growth trajectory."
+  },
+  "form": {
+    "fields": [
+      { "id": "name", "label": "FULL NAME", "type": "text", "placeholder": "John Doe", "required": true },
+      { "id": "email", "label": "EMAIL ADDRESS", "type": "email", "placeholder": "john@company.com", "required": true },
+      { "id": "company", "label": "COMPANY", "type": "text", "placeholder": "Your Company", "required": false },
+      { "id": "phone", "label": "PHONE NUMBER", "type": "tel", "placeholder": "+1 (555) 000-0000", "required": false }
+    ],
+    "serviceOptions": [
+      "Select a service",
+      "Bookkeeping & Accounting",
+      "Payroll Services",
+      "CFO Services",
+      "FP&A & Strategic Advisory",
+      "Tax Strategy & Filing",
+      "Financial Reporting & Analytics",
+      "Full-Service Package"
+    ],
+    "messagePlaceholder": "Tell us about your business and what you're looking to achieve...",
+    "submitText": "SEND MESSAGE"
+  },
+  "contactInfo": [
+    {
+      "icon": "email",
+      "title": "EMAIL US",
+      "description": "For all inquiries and proposals",
+      "value": "sales@beebeeadvisory.com",
+      "href": "mailto:sales@beebeeadvisory.com"
+    },
+    {
+      "icon": "phone",
+      "title": "CALL US",
+      "description": "Speak directly with our team",
+      "value": "+1-325-440-6547",
+      "href": "tel:+13254406547"
+    },
+    {
+      "icon": "location",
+      "title": "OUR OFFICE",
+      "description": "Spring House Co-working",
+      "value": "B1/639, Azadpur, West Delhi, Delhi, 110058, India",
+      "href": null
+    },
+    {
+      "icon": "clock",
+      "title": "BUSINESS HOURS",
+      "description": "Available to serve you",
+      "value": "Monday – Friday: 9:00 AM – 6:00 PM\nWeekend: By Appointment",
+      "href": null
+    }
+  ],
+  "scheduleSection": {
+    "title": "PREFER TO SCHEDULE",
+    "titleAccent": "A DIRECT CALL?",
+    "description": "Book a 30-minute discovery call with our team. No commitment required — just an honest conversation about your financial needs.",
+    "buttonText": "SCHEDULE ON CALENDLY"
+  }
+}
