@@ -11,7 +11,7 @@ export default function ApproachPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: '#FAF7F0' }}>
+      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2.5 mb-6">
             <div className="w-7 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
@@ -73,7 +73,7 @@ export default function ApproachPage() {
       </section>
 
       {/* Tools Section */}
-      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: '#1a1a1a' }}>
+      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2.5 mb-4">
             <div className="w-7 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
@@ -114,7 +114,7 @@ export default function ApproachPage() {
       {/* CTA */}
       <section className="px-6 py-12 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto">
-          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: '#1a1a1a' }}>
+          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
             <div className="absolute -right-20 top-1/2 -translate-y-1/2 hidden md:block">
               <div className="w-[340px] h-[340px] rounded-full" style={{ border: '1px solid rgba(201,169,76,0.25)' }}>
                 <div className="absolute inset-6 rounded-full" style={{ border: '1px solid rgba(201,169,76,0.15)' }}>
@@ -153,7 +153,7 @@ function StepCard({ step, index }: { step: typeof approachData.steps[0]; index: 
     <div
       className="relative overflow-hidden rounded-[14px] cursor-pointer transition-all duration-300"
       style={{
-        backgroundColor: isGold ? 'var(--primary-gold)' : isDark ? '#1a1a1a' : 'var(--card-bg)',
+        backgroundColor: isGold ? 'var(--primary-gold)' : isDark ? 'var(--section-bg-dark)' : 'var(--card-bg)',
         border: `1px solid ${isGold ? 'transparent' : isDark ? 'rgba(255,255,255,0.08)' : 'var(--border-color)'}`,
       }}
       onClick={() => setIsExpanded(!isExpanded)}
@@ -176,7 +176,7 @@ function StepCard({ step, index }: { step: typeof approachData.steps[0]; index: 
               </div>
               <h3
                 className="text-2xl md:text-3xl mb-3 anton tracking-wide"
-                style={{ color: isGold ? '#0a0a0a' : isDark ? '#fff' : 'var(--text-primary)' }}
+                style={{ color: isGold ? '#0F1B36' : isDark ? '#fff' : 'var(--text-primary)' }}
               >
                 {step.title}
               </h3>
@@ -196,8 +196,8 @@ function StepCard({ step, index }: { step: typeof approachData.steps[0]; index: 
             }}
           >
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <line x1="7" y1="0" x2="7" y2="14" stroke={isGold ? '#0a0a0a' : isDark ? 'rgba(255,255,255,0.6)' : 'var(--primary-gold)'} strokeWidth="1.5" />
-              <line x1="0" y1="7" x2="14" y2="7" stroke={isGold ? '#0a0a0a' : isDark ? 'rgba(255,255,255,0.6)' : 'var(--primary-gold)'} strokeWidth="1.5" />
+              <line x1="7" y1="0" x2="7" y2="14" stroke={isGold ? '#0F1B36' : isDark ? 'rgba(255,255,255,0.6)' : 'var(--primary-gold)'} strokeWidth="1.5" />
+              <line x1="0" y1="7" x2="14" y2="7" stroke={isGold ? '#0F1B36' : isDark ? 'rgba(255,255,255,0.6)' : 'var(--primary-gold)'} strokeWidth="1.5" />
             </svg>
           </div>
         </div>
@@ -209,7 +209,7 @@ function StepCard({ step, index }: { step: typeof approachData.steps[0]; index: 
                 <li key={i} className="flex items-start gap-3 text-sm helvetica-neue"
                   style={{ color: isGold ? 'rgba(0,0,0,0.7)' : isDark ? 'rgba(255,255,255,0.65)' : 'var(--text-secondary)' }}>
                   <svg className="mt-0.5 flex-shrink-0" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3 8l3.5 3.5L13 4.5" stroke={isGold ? '#0a0a0a' : 'var(--primary-gold)'} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M3 8l3.5 3.5L13 4.5" stroke={isGold ? '#0F1B36' : 'var(--primary-gold)'} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                   {item}
                 </li>
@@ -255,9 +255,9 @@ function CTAPrimaryButton({ href, text }: { href: string; text: string }) {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <a href={href} className="relative inline-block px-8 py-4 rounded-lg overflow-hidden text-center"
-      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#000', border: '1px solid var(--primary-gold)' }}
+      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#0F1B36', border: '1px solid var(--primary-gold)' }}
       onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#000', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
+      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#0F1B36', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
       <span className="relative z-10 transition-colors duration-300 uppercase" style={{ color: isHovered ? 'var(--primary-gold)' : '#000' }}>{text}</span>
     </a>
   );

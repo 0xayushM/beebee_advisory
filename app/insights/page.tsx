@@ -30,7 +30,7 @@ export default function InsightsPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: '#FAF7F0' }}>
+      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2.5 mb-6">
             <div className="w-7 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
@@ -49,7 +49,7 @@ export default function InsightsPage() {
       </section>
 
       {/* Stats Strip */}
-      <section className="px-6 py-10 md:px-12 lg:px-20" style={{ backgroundColor: '#1a1a1a' }}>
+      <section className="px-6 py-10 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {insightsData.stats.map((stat, i) => (
             <div key={i} className="text-center">
@@ -105,7 +105,7 @@ export default function InsightsPage() {
       {/* CTA */}
       <section className="px-6 py-12 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto">
-          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: '#1a1a1a' }}>
+          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
             <div className="absolute -right-20 top-1/2 -translate-y-1/2 hidden md:block">
               <div className="w-[340px] h-[340px] rounded-full" style={{ border: '1px solid rgba(201,169,76,0.25)' }}>
                 <div className="absolute inset-6 rounded-full" style={{ border: '1px solid rgba(201,169,76,0.15)' }}>
@@ -230,9 +230,9 @@ function CTAPrimaryButton({ href, text }: { href: string; text: string }) {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <a href={href} className="relative inline-block px-8 py-4 rounded-lg overflow-hidden text-center"
-      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#000', border: '1px solid var(--primary-gold)' }}
+      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#0F1B36', border: '1px solid var(--primary-gold)' }}
       onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#000', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
+      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#0F1B36', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
       <span className="relative z-10 transition-colors duration-300 uppercase" style={{ color: isHovered ? 'var(--primary-gold)' : '#000' }}>{text}</span>
     </a>
   );

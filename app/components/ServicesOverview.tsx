@@ -137,10 +137,10 @@ function ServiceCard3() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.08] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif', color: '#0a0a0a' }}>03</div>
+      <div className="absolute top-5 right-7 text-[72px] leading-none tracking-tight opacity-[0.08] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif', color: '#0F1B36' }}>03</div>
 
       <div className="w-12 h-12 rounded-[10px] flex items-center justify-center mb-7 flex-shrink-0" style={{ backgroundColor: 'rgba(0,0,0,0.15)', border: '1px solid rgba(0,0,0,0.2)' }}>
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0a0a0a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F1B36" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z" />
           <circle cx="12" cy="9" r="2.5" />
         </svg>
@@ -148,7 +148,7 @@ function ServiceCard3() {
 
       <div className="flex-1 flex flex-col justify-end relative z-10">
         <div className="text-sm font-bold tracking-[0.16em] uppercase mb-2.5" style={{ color: 'rgba(0,0,0,0.55)' }}>PREMIUM</div>
-        <div className="text-xl md:text-2xl tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif', color: '#0a0a0a' }}>CFO SERVICES</div>
+        <div className="text-xl md:text-2xl tracking-[0.06em] mb-2.5 leading-tight" style={{ fontFamily: 'Anton, sans-serif', color: '#0F1B36' }}>CFO SERVICES</div>
         <div className="text-sm font-medium opacity-100 leading-relaxed mb-4 helvetica-neue">
           Part-time or fractional CFO support. Fundraising prep, investor relations, and board-ready reporting — without the full-time cost.
         </div>
@@ -267,7 +267,7 @@ function CTAButton() {
       <span
         className="relative z-10 transition-colors duration-300"
         style={{
-          color: isHovered ? '#000' : 'var(--primary-gold)',
+          color: isHovered ? '#0F1B36' : 'var(--primary-gold)',
         }}
       >
         VIEW ALL SERVICES

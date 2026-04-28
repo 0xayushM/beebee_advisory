@@ -219,7 +219,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
             className="inline-block px-10 py-4 rounded-lg text-sm font-medium uppercase tracking-wider transition-all anton"
             style={{
               backgroundColor: 'var(--primary-gold)',
-              color: '#000'
+              color: '#0F1B36'
             }}
           >
             Get Started →

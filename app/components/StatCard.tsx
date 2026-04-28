@@ -52,9 +52,9 @@ export function StatCard({
       {/* Grainient Background */}
       <div className="absolute inset-0 opacity-50">
         <Grainient
-          color1={isPrimary ? "#1a1a1a" : "#C9A961"}
-          color2={isPrimary ? "#1a1a1a" : "#B8941F"}
-          color3={isPrimary ? "#B8941F" : "#B8941F"}
+          color1={isPrimary ? "#0F1B36" : "#C8A86A"}
+          color2={isPrimary ? "#0F1B36" : "#A8884F"}
+          color3={isPrimary ? "#A8884F" : "#A8884F"}
           timeSpeed={0.15}
           warpStrength={0.5}
           warpFrequency={3.0}
@@ -88,10 +88,10 @@ export function StatCard({
           style={{
             color: isPrimary
               ? isHovered
-                ? '#000000'
+                ? '#0F1B36'
                 : 'var(--primary-gold)'
               : isHovered
-              ? '#000000'
+              ? '#0F1B36'
               : 'var(--text-secondary)',
           }}
         >
@@ -108,10 +108,10 @@ export function StatCard({
             fontFamily: 'Anton, sans-serif',
             color: isPrimary
               ? isHovered
-                ? '#000000'
+                ? '#0F1B36'
                 : 'var(--primary-gold)'
               : isHovered
-              ? '#000000'
+              ? '#0F1B36'
               : 'var(--text-primary)',
           }}
         >
@@ -133,10 +133,10 @@ export function StatCard({
             fontFamily: 'system-ui, -apple-system, sans-serif',
             color: isPrimary
               ? isHovered
-                ? '#000000'
+                ? '#0F1B36'
                 : 'var(--primary-gold)'
               : isHovered
-              ? '#000000'
+              ? '#0F1B36'
               : 'var(--text-primary)',
             maxWidth: '180px',
           }}

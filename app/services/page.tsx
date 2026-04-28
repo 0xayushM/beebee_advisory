@@ -11,8 +11,8 @@ export default function ServicesPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: '#FAF7F0' }}>
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] opacity-[0.03] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif', fontSize: '300px', lineHeight: 1, color: '#000' }}>
+      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] opacity-[0.03] pointer-events-none select-none" style={{ fontFamily: 'Anton, sans-serif', fontSize: '300px', lineHeight: 1, color: '#0F1B36' }}>
           $$
         </div>
         <div className="max-w-7xl mx-auto">
@@ -33,7 +33,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Stats Strip */}
-      <section className="px-6 py-10 md:px-12 lg:px-20" style={{ backgroundColor: '#1a1a1a' }}>
+      <section className="px-6 py-10 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {servicesData.stats.map((stat, i) => (
             <div key={i} className="text-center">
@@ -64,7 +64,7 @@ export default function ServicesPage() {
                 letterSpacing: '0.08em',
                 fontWeight: '700',
                 backgroundColor: 'var(--primary-gold)',
-                color: '#000',
+                color: '#0F1B36',
                 border: '1px solid var(--primary-gold)',
               }}
             >
@@ -81,7 +81,7 @@ export default function ServicesPage() {
       </section>
 
       {/* How We Deliver */}
-      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: '#1a1a1a' }}>
+      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2.5 mb-4">
             <div className="w-7 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
@@ -110,7 +110,7 @@ export default function ServicesPage() {
       {/* CTA Section */}
       <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto">
-          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: '#1a1a1a' }}>
+          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
             <div className="absolute -right-20 top-1/2 -translate-y-1/2 hidden md:block">
               <div className="w-[340px] h-[340px] rounded-full" style={{ border: '1px solid rgba(201,169,76,0.25)' }}>
                 <div className="absolute inset-6 rounded-full" style={{ border: '1px solid rgba(201,169,76,0.15)' }}>
@@ -167,7 +167,7 @@ function ServiceCard({ service, index }: { service: typeof servicesData.services
         style={{
           fontFamily: 'Anton, sans-serif',
           opacity: isHighlight ? 0.08 : 0.04,
-          color: isHighlight ? '#0a0a0a' : 'currentColor'
+          color: isHighlight ? '#0F1B36' : 'currentColor'
         }}
       >
         {service.id}
@@ -193,7 +193,7 @@ function ServiceCard({ service, index }: { service: typeof servicesData.services
           </div>
           <div
             className="text-xl md:text-2xl tracking-[0.04em] mb-3 leading-tight anton"
-            style={{ color: isHighlight ? '#0a0a0a' : 'var(--text-primary)' }}
+            style={{ color: isHighlight ? '#0F1B36' : 'var(--text-primary)' }}
           >
             {service.title}
           </div>
@@ -208,7 +208,7 @@ function ServiceCard({ service, index }: { service: typeof servicesData.services
         <ul className="space-y-1.5">
           {service.features.map((feature, i) => (
             <li key={i} className="flex items-start gap-2 text-xs helvetica-neue" style={{ color: isHighlight ? 'rgba(0,0,0,0.65)' : 'var(--text-secondary)' }}>
-              <span className="mt-1 flex-shrink-0 text-[8px]" style={{ color: isHighlight ? '#0a0a0a' : 'var(--primary-gold)' }}>▸</span>
+              <span className="mt-1 flex-shrink-0 text-[8px]" style={{ color: isHighlight ? '#0F1B36' : 'var(--primary-gold)' }}>▸</span>
               {feature}
             </li>
           ))}
@@ -219,7 +219,7 @@ function ServiceCard({ service, index }: { service: typeof servicesData.services
 }
 
 function ServiceIcon({ index, isHighlight }: { index: number; isHighlight: boolean }) {
-  const color = isHighlight ? '#0a0a0a' : 'var(--primary-gold)';
+  const color = isHighlight ? '#0F1B36' : 'var(--primary-gold)';
   const icons = [
     // Bookkeeping
     <svg key={0} width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -255,11 +255,11 @@ function CTAPrimaryButton({ href, text }: { href: string; text: string }) {
     <a
       href={href}
       className="relative inline-block px-8 py-4 rounded-lg overflow-hidden text-center"
-      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#000', border: '1px solid var(--primary-gold)' }}
+      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#0F1B36', border: '1px solid var(--primary-gold)' }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#000', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
+      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#0F1B36', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
       <span className="relative z-10 transition-colors duration-300 uppercase" style={{ color: isHovered ? 'var(--primary-gold)' : '#000' }}>{text}</span>
     </a>
   );

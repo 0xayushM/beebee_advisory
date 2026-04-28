@@ -24,7 +24,7 @@ const technologyLogos = [
     title: "Power BI" 
   },
   { 
-    src: "/images/technology/zoho.png", 
+    src: "/images/technology/zoho.svg", 
     alt: "Zoho", 
     title: "Zoho" 
   },

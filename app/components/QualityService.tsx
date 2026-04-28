@@ -228,7 +228,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
         fontSize: '12px',
         letterSpacing: '0.1em',
         backgroundColor: 'var(--primary-gold)',
-        color: '#000',
+        color: '#0F1B36',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -238,7 +238,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
       <span
         className="absolute inset-0 rounded-lg transition-transform duration-500 ease-out"
         style={{
-          backgroundColor: '#000',
+          backgroundColor: '#0F1B36',
           transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
           border: '1px solid var(--primary-gold)'
         }}
@@ -248,7 +248,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
       <span
         className="relative z-10 transition-colors duration-300"
         style={{
-          color: isHovered ? 'var(--primary-gold)' : '#000',
+          color: isHovered ? 'var(--primary-gold)' : '#0F1B36',
         }}
       >
         {text}
@@ -289,7 +289,7 @@ function SecondaryButton({ href, text }: { href: string; text: string }) {
       <span
         className="relative z-10 transition-colors duration-300"
         style={{
-          color: isHovered ? '#000' : 'var(--primary-gold)',
+          color: isHovered ? '#0F1B36' : 'var(--primary-gold)',
         }}
       >
         {text}

@@ -18,7 +18,7 @@ export function IntelligenceOverData() {
               <div className="text-3xl font-bold mb-2 anton">10 YRS</div>
               <div className="text-xs uppercase tracking-wider helvetica-neue">AVERAGE EXPERIENCE</div>
             </div>
-            <div className="text-white p-6 rounded-lg" style={{ backgroundColor: '#1a1a1a' }}>
+            <div className="text-white p-6 rounded-lg" style={{ backgroundColor: 'var(--card-bg)' }}>
               <div className="text-3xl font-bold mb-2 anton">8.2/10</div>
               <div className="text-xs uppercase tracking-wider helvetica-neue">CLIENT SATISFACTION</div>
             </div>

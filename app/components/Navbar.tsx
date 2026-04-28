@@ -189,7 +189,7 @@ function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; te
         fontSize: '12px',
         letterSpacing: '0.1em',
         backgroundColor: 'var(--primary-gold)',
-        color: '#000',
+        color: '#0F1B36',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -199,7 +199,7 @@ function NavPrimaryButton({ href, text, onClick, fullWidth }: { href: string; te
       <span
         className="absolute inset-0 transition-transform duration-500 ease-out"
         style={{
-          backgroundColor: '#000',
+          backgroundColor: '#0F1B36',
           transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
         }}
       />

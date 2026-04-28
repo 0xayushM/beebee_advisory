@@ -12,8 +12,8 @@ export function InteractiveBackground() {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const GOLD = '234, 181, 17'; // #EAB511
-    const INK = '26, 18, 0';
+    const GOLD = '200, 168, 106'; // #C8A86A
+    const INK = '245, 240, 232'; // #F5F0E8
     let W: number, H: number;
     const mouse = { x: -9999, y: -9999 };
 

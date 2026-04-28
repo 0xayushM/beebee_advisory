@@ -12,7 +12,7 @@ export default function AboutPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: '#FAF7F0' }}>
+      <section className="relative pt-36 pb-20 px-6 md:px-12 lg:px-20 overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2.5 mb-6">
             <div className="w-7 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
@@ -31,7 +31,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Strip */}
-      <section className="px-6 py-10 md:px-12 lg:px-20" style={{ backgroundColor: '#1a1a1a' }}>
+      <section className="px-6 py-10 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {aboutData.stats.map((stat, i) => (
             <div key={i} className="text-center">
@@ -81,7 +81,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team */}
-      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: '#1a1a1a' }}>
+      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2.5 mb-4">
             <div className="w-7 h-px opacity-60" style={{ backgroundColor: 'var(--primary-gold)' }} />
@@ -124,7 +124,7 @@ export default function AboutPage() {
       </section>
 
       {/* Philosophy Pull Quote */}
-      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: '#1a1a1a' }}>
+      <section className="px-6 py-20 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-4xl mx-auto text-center">
           <svg className="h-10 w-10 mx-auto mb-8" fill="var(--primary-gold)" opacity="0.4" viewBox="0 0 24 24">
             <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
@@ -178,7 +178,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="px-6 py-12 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto">
-          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: '#1a1a1a' }}>
+          <div className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
             <div className="absolute -right-20 top-1/2 -translate-y-1/2 hidden md:block">
               <div className="w-[340px] h-[340px] rounded-full" style={{ border: '1px solid rgba(201,169,76,0.25)' }}>
                 <div className="absolute inset-6 rounded-full" style={{ border: '1px solid rgba(201,169,76,0.15)' }}>
@@ -215,7 +215,7 @@ function TeamCard({ member }: { member: typeof aboutData.team.members[0] }) {
     <div
       className="relative overflow-hidden rounded-2xl transition-all duration-500 flex flex-col md:flex-row"
       style={{
-        backgroundColor: '#242424',
+        backgroundColor: '#1A2547',
         border: `1px solid ${isHovered ? 'rgba(201,168,76,0.3)' : 'rgba(255,255,255,0.06)'}`,
         boxShadow: isHovered ? '0 24px 48px rgba(0,0,0,0.35)' : '0 4px 20px rgba(0,0,0,0.2)',
       }}
@@ -354,9 +354,9 @@ function CTAPrimaryButton({ href, text }: { href: string; text: string }) {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <a href={href} className="relative inline-block px-8 py-4 rounded-lg overflow-hidden text-center"
-      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#000', border: '1px solid var(--primary-gold)' }}
+      style={{ fontFamily: "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif", fontWeight: '700', fontSize: '12px', letterSpacing: '0.1em', backgroundColor: 'var(--primary-gold)', color: '#0F1B36', border: '1px solid var(--primary-gold)' }}
       onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#000', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
+      <span className="absolute inset-0 transition-transform duration-500 ease-out" style={{ backgroundColor: '#0F1B36', transform: isHovered ? 'translateX(0)' : 'translateX(-100%)' }} />
       <span className="relative z-10 transition-colors duration-300 uppercase" style={{ color: isHovered ? 'var(--primary-gold)' : '#000' }}>{text}</span>
     </a>
   );

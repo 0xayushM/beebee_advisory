@@ -195,7 +195,7 @@ export default function PricingPage() {
         </div>
       </section>
 
-      <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: '#2b2b2b' }}>
+      <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--section-bg-dark)' }}>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl mb-6 text-white anton">
             READY TO BUILD YOUR <span style={{ color: 'var(--primary-gold)' }}>LEGACY<br />ARCHITECTURE</span>?

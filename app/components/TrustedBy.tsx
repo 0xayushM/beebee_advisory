@@ -13,7 +13,7 @@ const partnerLogos = [
     preview: "How Carta streamlined equity management and reduced reconciliation time by 60% with automated bookkeeping solutions."
   },
   { 
-    src: "/images/partner/cone.webp", 
+    src: "/images/partner/cone.png", 
     alt: "Cone", 
     title: "Cone",
     slug: "cone-health-financial-transformation",

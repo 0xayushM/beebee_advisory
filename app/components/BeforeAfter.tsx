@@ -23,7 +23,7 @@ export function BeforeAfter() {
         {/* Cards */}
         <div className="grid md:grid-cols-2 gap-0 relative mb-16">
           {/* VS Badge */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full flex items-center justify-center text-sm font-bold tracking-[0.18em]" style={{ backgroundColor: 'var(--primary-gold)', color: '#0a0a0a', fontFamily: 'Anton, sans-serif' }}>
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full flex items-center justify-center text-sm font-bold tracking-[0.18em]" style={{ backgroundColor: 'var(--primary-gold)', color: '#0F1B36', fontFamily: 'Anton, sans-serif' }}>
             VS
           </div>
 

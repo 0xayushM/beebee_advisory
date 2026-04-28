@@ -17,7 +17,7 @@ export function FAQ() {
               GOT QUESTIONS
             </p>
           </div>
-          <h2 className="text-4xl md:text-5xl anton uppercase" style={{ color: '#000' }}>
+          <h2 className="text-4xl md:text-5xl anton uppercase" style={{ color: 'var(--text-primary)' }}>
             FREQUENTLY ASKED <span style={{ color: 'var(--primary-gold)' }}>QUESTIONS</span>
           </h2>
         </div>
@@ -26,7 +26,7 @@ export function FAQ() {
           className="rounded-2xl overflow-hidden border-1 border-[var(--primary-gold)]"
         >
           {/* Divider */}
-          <div className="h-px" style={{ backgroundColor: '#e0e0e0' }}></div>
+          <div className="h-px" style={{ backgroundColor: 'var(--border-color)' }}></div>
 
           {/* FAQ Items */}
           {faqsData.map((faq, index) => (
@@ -34,10 +34,10 @@ export function FAQ() {
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full px-8 md:px-12 py-6 md:py-7 flex items-start justify-between text-left cursor-pointer transition-colors duration-200"
-                style={{ backgroundColor: openIndex === index ? '#fafafa' : '#fff' }}
+                style={{ backgroundColor: openIndex === index ? 'var(--card-bg-alt)' : 'var(--card-bg)' }}
               >
                 <div className="flex-1 pr-8">
-                  <h3 className="text-base md:text-lg font-bold tracking-wide anton" style={{ color: '#1a1a1a' }}>
+                  <h3 className="text-base md:text-lg font-bold tracking-wide anton" style={{ color: 'var(--text-primary)' }}>
                     {faq.question}
                   </h3>
 
@@ -52,7 +52,7 @@ export function FAQ() {
                     <div className="md:flex md:justify-end">
                       <p
                         className="text-sm leading-relaxed mt-4 md:mt-6 md:max-w-md md:text-right helvetica-neue"
-                        style={{ color: '#555' }}
+                        style={{ color: 'var(--text-secondary)' }}
                       >
                         {faq.answer}
                       </p>
@@ -62,7 +62,7 @@ export function FAQ() {
 
                 <span
                   className="text-xl md:text-2xl flex-shrink-0 mt-0.5 transition-transform duration-300 select-none"
-                  style={{ color: '#1a1a1a' }}
+                  style={{ color: 'var(--text-primary)' }}
                 >
                   {openIndex === index ? '×' : '+'}
                 </span>
@@ -70,7 +70,7 @@ export function FAQ() {
 
               {/* Divider between items */}
               {index < faqsData.length - 1 && (
-                <div className="h-px mx-8 md:mx-12" style={{ backgroundColor: '#e0e0e0' }}></div>
+                <div className="h-px mx-8 md:mx-12" style={{ backgroundColor: 'var(--border-color)' }}></div>
               )}
             </div>
           ))}

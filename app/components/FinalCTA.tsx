@@ -8,7 +8,7 @@ export function FinalCTA() {
       <div className="max-w-7xl mx-auto">
         <div
           className="relative overflow-hidden rounded-2xl px-8 py-16 md:px-16"
-          style={{ backgroundColor: '#1a1a1a' }}
+          style={{ backgroundColor: 'var(--section-bg-dark)' }}
         >
           {/* Decorative concentric circles */}
           <div className="absolute -right-20 top-1/2 -translate-y-1/2 hidden md:block">
@@ -60,7 +60,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
         fontSize: '12px',
         letterSpacing: '0.1em',
         backgroundColor: 'var(--primary-gold)',
-        color: '#000',
+        color: '#0F1B36',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -69,14 +69,14 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
       <span
         className="absolute inset-0 transition-transform duration-500 ease-out"
         style={{
-          backgroundColor: '#000',
+          backgroundColor: '#0F1B36',
           transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
         }}
       />
       <span
         className="relative z-10 transition-colors duration-300 uppercase"
         style={{
-          color: isHovered ? 'var(--primary-gold)' : '#000',
+          color: isHovered ? 'var(--primary-gold)' : '#0F1B36',
         }}
       >
         {text}

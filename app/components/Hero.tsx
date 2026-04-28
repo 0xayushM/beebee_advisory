@@ -6,7 +6,7 @@ import { InteractiveBackground } from './InteractiveBackground';
 
 export function Hero() {
   return (
-    <section className="relative h-[90vh] px-4 flex flex-col justify-center overflow-hidden" style={{ backgroundColor: '#FAF7F0' }}>
+    <section className="relative h-[90vh] px-4 flex flex-col justify-center overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
       {/* Interactive Background */}
       <div className="absolute inset-0 z-0">
         <InteractiveBackground />
@@ -71,7 +71,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
         fontSize: '12px',
         letterSpacing: '0.1em',
         backgroundColor: 'var(--primary-gold)',
-        color: '#000',
+        color: '#0F1B36',
         border: '1px solid var(--primary-gold)',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -81,7 +81,7 @@ function PrimaryButton({ href, text }: { href: string; text: string }) {
       <span
         className="absolute inset-0 rounded-lg transition-transform duration-500 ease-out"
         style={{
-          backgroundColor: '#000',
+          backgroundColor: '#0F1B36',
           transform: isHovered ? 'translateX(0)' : 'translateX(-100%)',
           border: '1px solid var(--primary-gold)'
         }}

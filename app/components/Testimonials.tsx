@@ -25,18 +25,18 @@ export function Testimonials() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: '#FAF7F0' }}>
+    <section className="px-6 py-16 md:px-12 lg:px-20" style={{ backgroundColor: 'var(--background)' }}>
       <div className="max-w-7xl mx-auto">
         {/* Header with View all button */}
         <div className="flex items-start justify-between mb-12">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="h-px w-12" style={{ backgroundColor: '#EAB511' }}></div>
-              <p className="text-xs uppercase tracking-wider helvetica-neue" style={{ color: '#EAB511' }}>
+              <div className="h-px w-12" style={{ backgroundColor: 'var(--primary-gold)' }}></div>
+              <p className="text-xs uppercase tracking-wider helvetica-neue" style={{ color: 'var(--primary-gold)' }}>
                 CLIENT SUCCESS STORIES
               </p>
             </div>
-            <h2 className="text-4xl md:text-5xl anton uppercase" style={{ color: '#000' }}>
+            <h2 className="text-4xl md:text-5xl anton uppercase" style={{ color: '#0F1B36' }}>
               What Our <span className='italic' style={{ color: 'var(--primary-gold)' }}>Clients</span><br/> Say About Us
             </h2>
           </div>
@@ -61,7 +61,7 @@ export function Testimonials() {
                   <div 
                     className="p-8 rounded-2xl h-full flex flex-col justify-between cursor-pointer transition-all duration-300"
                     style={{
-                      backgroundColor: '#1a1a1a',
+                      backgroundColor: 'var(--card-bg)',
                       transform: hoveredIndex === index ? 'translateY(-8px)' : 'translateY(0)',
                       boxShadow: hoveredIndex === index ? '0 12px 24px rgba(0,0,0,0.15)' : '0 4px 6px rgba(0,0,0,0.1)',
                     }}
@@ -70,8 +70,8 @@ export function Testimonials() {
                   >
                     <div>
                       <svg width="40" height="32" viewBox="0 0 40 32" fill="none" className="mb-8">
-                        <path d="M0 16C0 7.16344 7.16344 0 16 0V8C11.5817 8 8 11.5817 8 16H16V32H0V16Z" fill="#C9A961" />
-                        <path d="M24 16C24 7.16344 31.1634 0 40 0V8C35.5817 8 32 11.5817 32 16H40V32H24V16Z" fill="#C9A961" />
+                        <path d="M0 16C0 7.16344 7.16344 0 16 0V8C11.5817 8 8 11.5817 8 16H16V32H0V16Z" fill="var(--primary-gold)" />
+                        <path d="M24 16C24 7.16344 31.1634 0 40 0V8C35.5817 8 32 11.5817 32 16H40V32H24V16Z" fill="var(--primary-gold)" />
                       </svg>
 
                       <p className="text-white text-sm md:text-base leading-relaxed helvetica-neue-light">
@@ -100,7 +100,7 @@ export function Testimonials() {
           <button
             onClick={scrollPrev}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-16 w-12 h-12 rounded-full flex items-center justify-center transition-all hover:opacity-80 z-10"
-            style={{ backgroundColor: '#EAB511', color: '#000' }}
+            style={{ backgroundColor: 'var(--primary-gold)', color: '#0F1B36' }}
             aria-label="Previous testimonial"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -110,7 +110,7 @@ export function Testimonials() {
           <button
             onClick={scrollNext}
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-16 w-12 h-12 rounded-full flex items-center justify-center transition-all hover:opacity-80 z-10"
-            style={{ backgroundColor: '#EAB511', color: '#000' }}
+            style={{ backgroundColor: 'var(--primary-gold)', color: '#0F1B36' }}
             aria-label="Next testimonial"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
