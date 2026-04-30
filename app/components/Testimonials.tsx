@@ -36,7 +36,7 @@ export function Testimonials() {
                 CLIENT SUCCESS STORIES
               </p>
             </div>
-            <h2 className="text-4xl md:text-5xl anton uppercase" style={{ color: '#0F1B36' }}>
+            <h2 className="text-4xl md:text-5xl anton uppercase" style={{ color: 'var(--text-primary)' }}>
               What Our <span className='italic' style={{ color: 'var(--primary-gold)' }}>Clients</span><br/> Say About Us
             </h2>
           </div>
