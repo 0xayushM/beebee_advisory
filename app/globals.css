@@ -56,9 +56,9 @@
    ============================================ */
 :root {
   /* Main backgrounds — navy blue */
-  --background: #0F1B36;
+  --background: #0c152c;
   --background-rgb: 15, 27, 54;
-  --foreground: #F5F0E8;
+  --foreground: #fff9f0;
 
   /* Card & Component backgrounds */
   --card-bg: #1A2547;
@@ -67,18 +67,18 @@
   --section-bg-dark: #0A132A;
 
   /* Text colors */
-  --text-primary: #F5F0E8;
+  --text-primary: #fff9f0;
   --text-secondary: #B8BFD0;
   --text-muted: #8A93A8;
 
   /* Brand colors — warm gold/tan accents */
-  --primary-gold: #C8A86A;
-  --accent-gold: #A8884F;
-  --value-proposition-bg: #C8A86A;
-
+  --primary-gold: #d2ae67;
+  --accent-gold: #cb9f51;
+  --value-proposition-bg: #d2ae67;
+  
   /* Borders & Dividers */
-  --border-color: rgba(200, 168, 106, 0.25);
-  --border-light: rgba(200, 168, 106, 0.12);
+  --border-color: rgba(210, 174, 103, 0.25);
+  --border-light: rgba(210, 174, 103, 0.12);
 
   /* Utility colors */
   --hover-bg: #1A2547;

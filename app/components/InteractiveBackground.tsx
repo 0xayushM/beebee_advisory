@@ -129,7 +129,7 @@ export function InteractiveBackground() {
       }
     }
 
-    const nodes = Array.from({ length: 120 }, () => new Node());
+    const nodes = Array.from({ length: 50 }, () => new Node());
 
     /* ── Float symbols ── */
     const SYMS = ['%', '$', '↑', '×', '∑', '€', '#'];

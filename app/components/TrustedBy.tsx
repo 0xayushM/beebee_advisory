@@ -54,7 +54,7 @@ export function TrustedBy() {
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
 
   return (
-    <section className="px-4 py-4 md:py-12 md:px-12 lg:px-24" style={{ backgroundColor: 'var(--light-gray)' }}>
+    <section className="px-4 py-4 md:py-12 md:px-12 lg:px-24">
       <div className="max-w-8xl mx-auto">
         <h2 className="text-xl md:text-2xl my-8 md:my-16 text-center helvetica-neue">
           TRUSTED BY <span className="text-[var(--primary-gold)] italic font-bold">INNOVATIVE LEADERS</span> ACROSS THE INDUSTRY
